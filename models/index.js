@@ -6,10 +6,10 @@ const Characters = require('./Characters');
 
 
 
-User.belongsToMany(Characters, {
+Planets.belongsToMany(Characters, {
   // Define the third table needed to store the foreign keys
   through: {
-    model: Favorites,
+    model: Planets,
     unique: false
   },
   // Define an alias for when data is retrieved
