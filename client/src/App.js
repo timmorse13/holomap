@@ -8,15 +8,15 @@ function App() {
 
   useEffect(() => {
     async function getChar() {
-      let res = await fetch('https://swapi.dev/api/people/?page=9');
+      let res = await fetch('https://swapi.dev/api/planets/?page=2');
       let data = await res.json();
       setPeople(data.results);
       console.log(data)
     }
     async function getPlanets() {
-      let res = await fetch('https://swapi.dev/api/planets/?page=3');
+      let res = await fetch('https://swapi.dev/api/planets/?page=2');
       let data = await res.json();
-      // setPlanets(data.results);
+      setPlanets(data.results);
       console.log(data)
 
     }
@@ -36,25 +36,23 @@ function App() {
   
   return(
     <div className="one">
-      {people.map(person => (
+      {planets.map(planets => (
         <div>
           <br />
           pppp <br /><br />
-         "name": "{person.name}", <br />
-         "gender": "{person.gender}", <br />
-         "skin_color": "{person.skin_color}", <br />
-         "hair_color": "{person.hair_color}", <br />
-         "height": "{person.height} cm", <br />
-         "eye_color": "{person.eye_color}", <br />
-         "mass": "{person.mass} kg", <br />
-         "homeworld": "{person.homeworld}", <br />
-         "birth_year": "{person.birth_year}", <br />
-         "starships": "{person.starships}", <br />
-         "species": "{person.species}" <br /><br />
+         "climate": "{planets.climate}", <br />
+         "surface_water": "{planets.surface_water}", <br />
+         "name": "{planets.name}", <br />
+         "diameter": "{planets.diameter}", <br />
+         "rotation_period": "{planets.rotation_period} ", <br />
+         "terrain": "{planets.terrain}", <br />
+         "gravity": "{planets.gravity} ", <br />
+         "orbital_period": "{planets.orbital_period}", <br />
+         "population": "{planets.population}" <br />
          dddd
         </div>
       ))}
-      {/* {JSON.stringify(people)} */}
+      {/* {JSON.stringify(planets)} */}
     </div>
   )
 }

@@ -24,9 +24,191 @@
 
     },
     {
-
-
-    
+        "climate": "polluted",
+        "surface_water": "unknown",
+        "name": "Eriadu",
+        "diameter": "13490",
+        "rotation_period": "24 ",
+        "terrain": "cityscape",
+        "gravity": "1 standard ",
+        "orbital_period": "360",
+        "population": "22000000000"
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "70",
+        "name": "Corellia",
+        "diameter": "11000",
+        "rotation_period": "25 ",
+        "terrain": "plains, urban, hills, forests",
+        "gravity": "1 standard ",
+        "orbital_period": "329",
+        "population": "3000000000"
+    },
+    {
+        "climate": "hot",
+        "surface_water": "60",
+        "name": "Rodia",
+        "diameter": "7549",
+        "rotation_period": "29 ",
+        "terrain": "jungles, oceans, urban, swamps",
+        "gravity": "1 standard ",
+        "orbital_period": "305",
+        "population": "1300000000"
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Nal Hutta",
+        "diameter": "12150",
+        "rotation_period": "87 ",
+        "terrain": "urban, oceans, swamps, bogs",
+        "gravity": "1 standard ",
+        "orbital_period": "413",
+        "population": "7000000000"
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Dantooine",
+        "diameter": "9830",
+        "rotation_period": "25 ",
+        "terrain": "oceans, savannas, mountains, grasslands",
+        "gravity": "1 standard ",
+        "orbital_period": "378",
+        "population": "1000"
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "98",
+        "name": "Bestine IV",
+        "diameter": "6400",
+        "rotation_period": "26 ",
+        "terrain": "rocky islands, oceans",
+        "gravity": "unknown ",
+        "orbital_period": "680",
+        "population": "62000000"
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "10",
+        "name": "Ord Mantell",
+        "diameter": "14050",
+        "rotation_period": "26 ",
+        "terrain": "plains, seas, mesas",
+        "gravity": "1 standard ",
+        "orbital_period": "334",
+        "population": "4000000000" 
+    },
+    {
+        "climate": "temperate, arid",
+        "surface_water": "5",
+        "name": "Geonosis",
+        "diameter": "11370",
+        "rotation_period": "30 ",
+        "terrain": "rock, desert, mountain, barren",
+        "gravity": "0.9 standard ",
+        "orbital_period": "256",
+        "population": "100000000000"
+    },
+    {
+        "climate": "temperate, arid, windy",
+        "surface_water": "0.9",
+        "name": "Utapau",
+        "diameter": "12900",
+        "rotation_period": "27 ",
+        "terrain": "scrublands, savanna, canyons, sinkholes",
+        "gravity": "1 standard ",
+        "orbital_period": "351",
+        "population": "95000000"
+    },
+    {
+        "climate": "hot",
+        "surface_water": "0",
+        "name": "Mustafar",
+        "diameter": "4200",
+        "rotation_period": "36 ",
+        "terrain": "volcanoes, lava rivers, mountains, caves",
+        "gravity": "1 standard ",
+        "orbital_period": "412",
+        "population": "20000"
+    },
+    {
+        "climate": "tropical",
+        "surface_water": "60",
+        "name": "Kashyyyk",
+        "diameter": "12765",
+        "rotation_period": "26 ",
+        "terrain": "jungle, forests, lakes, rivers",
+        "gravity": "1 standard ",
+        "orbital_period": "381",
+        "population": "45000000"
+    },
+    {
+        "climate": "artificial temperate ",
+        "surface_water": "0",
+        "name": "Polis Massa",
+        "diameter": "0",
+        "rotation_period": "24 ",
+        "terrain": "airless asteroid",
+        "gravity": "0.56 standard ",
+        "orbital_period": "590",
+        "population": "1000000"   
+    },
+    {
+        "climate": "frigid",
+        "surface_water": "unknown",
+        "name": "Mygeeto",
+        "diameter": "10088",
+        "rotation_period": "12 ",
+        "terrain": "glaciers, mountains, ice canyons",
+        "gravity": "1 standard ",
+        "orbital_period": "167",
+        "population": "19000000"   
+    },
+    {
+        "climate": "hot, humid",
+        "surface_water": "unknown",
+        "name": "Felucia",
+        "diameter": "9100",
+        "rotation_period": "34 ",
+        "terrain": "fungus forests",
+        "gravity": "0.75 standard ",
+        "orbital_period": "231",
+        "population": "8500000"    
+    },
+    {
+        "climate": "temperate, moist",
+        "surface_water": "unknown",
+        "name": "Cato Neimoidia",
+        "diameter": "0",
+        "rotation_period": "25 ",
+        "terrain": "mountains, fields, forests, rock arches",
+        "gravity": "1 standard ",
+        "orbital_period": "278",
+        "population": "10000000"   
+    },
+    {
+        "climate": "hot",
+        "surface_water": "unknown",
+        "name": "Saleucami",
+        "diameter": "14920",
+        "rotation_period": "26 ",
+        "terrain": "caves, desert, mountains, volcanoes",
+        "gravity": "unknown ",
+        "orbital_period": "392",
+        "population": "1400000000"  
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Stewjon",
+        "diameter": "0",
+        "rotation_period": "unknown ",
+        "terrain": "grass",
+        "gravity": "1 standard ",
+        "orbital_period": "unknown",
+        "population": "unknown"   
     }
 
     
