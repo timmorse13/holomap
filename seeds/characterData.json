@@ -1,34 +1,1337 @@
 [
-    {
-      "name": "Luke Skywalker",
-      "gender": "male",
-      "skin_color": "fair",
-      "hair_color": "blond",
-      "height": "172",
-      "eye_color": "blue",
-      "mass": "77",
-      "homeworld": 1,
-      "birth_year": "19BBY"
-    },
-    {
-      "name": "C-3PO",
-      "gender": "n/a",
-      "skin_color": "gold",
-      "hair_color": "n/a",
-      "height": "167",
-      "eye_color": "yellow",
-      "mass": "75",
-      "homeworld": 1,
-      "birth_year": "112BBY"
 
-    },
-    {
+  {
 
-
-    
-    }
-
-    
-   
-  ]
+  "name": "Luke Skywalker",
+  "gender": "male",
+  "skin_color": "fair",
+  "hair_color": "blond",
+  "height": "172 cm",
+  "eye_color": "blue",
+  "mass": "77 kg",
+  "homeworld": "http://swapi.dev/api/planets/1/",
+  "birth_year": "19BBY",
+  "starships": "http://swapi.dev/api/starships/12/http://swapi.dev/api/starships/22/",
+  "species": ""
   
+  },
+  
+  {
+  
+  "name": "C-3PO",
+  "gender": "n/a",
+  "skin_color": "gold",
+  "hair_color": "n/a",
+  "height": "167 cm",
+  "eye_color": "yellow",
+  "mass": "75 kg",
+  "homeworld": "http://swapi.dev/api/planets/1/",
+  "birth_year": "112BBY",
+  "starships": "",
+  "species": "http://swapi.dev/api/species/2/"
+  
+  },
+  
+  {
+  
+  "name": "R2-D2",
+  "gender": "n/a",
+  "skin_color": "white, blue",
+  "hair_color": "n/a",
+  "height": "96 cm",
+  "eye_color": "red",
+  "mass": "32 kg",
+  "homeworld": "http://swapi.dev/api/planets/8/",
+  "birth_year": "33BBY",
+  "starships": "",
+  "species": "http://swapi.dev/api/species/2/"
+  
+  },
+  
+  {
+  
+  "name": "Darth Vader",
+  "gender": "male",
+  "skin_color": "white",
+  "hair_color": "none",
+  "height": "202 cm",
+  "eye_color": "yellow",
+  "mass": "136 kg",
+  "homeworld": "http://swapi.dev/api/planets/1/",
+  "birth_year": "41.9BBY",
+  "starships": "http://swapi.dev/api/starships/13/",
+  "species": ""
+  
+  },
+  
+  {
+  
+  "name": "Leia Organa",
+  "gender": "female",
+  "skin_color": "light",
+  "hair_color": "brown",
+  "height": "150 cm",
+  "eye_color": "brown",
+  "mass": "49 kg",
+  "homeworld": "http://swapi.dev/api/planets/2/",
+  "birth_year": "19BBY",
+  "starships": "",
+  "species": ""
+  
+  },
+  
+  {
+  
+  "name": "Owen Lars",
+  "gender": "male",
+  "skin_color": "light",
+  "hair_color": "brown, grey",
+  "height": "178 cm",
+  "eye_color": "blue",
+  "mass": "120 kg",
+  "homeworld": "http://swapi.dev/api/planets/1/",
+  "birth_year": "52BBY",
+  "starships": "",
+  "species": ""
+  
+  },
+  
+  {
+  
+  "name": "Beru Whitesun lars",
+  "gender": "female",
+  "skin_color": "light",
+  "hair_color": "brown",
+  "height": "165 cm",
+  "eye_color": "blue",
+  "mass": "75 kg",
+  "homeworld": "http://swapi.dev/api/planets/1/",
+  "birth_year": "47BBY",
+  "starships": "",
+  "species": ""
+  
+  },
+  
+  {
+  
+  "name": "R5-D4",
+  "gender": "n/a",
+  "skin_color": "white, red",
+  "hair_color": "n/a",
+  "height": "97 cm",
+  "eye_color": "red",
+  "mass": "32 kg",
+  "homeworld": "http://swapi.dev/api/planets/1/",
+  "birth_year": "unknown",
+  "starships": "",
+  "species": "http://swapi.dev/api/species/2/"
+  
+  },
+  
+  {
+  
+  "name": "Biggs Darklighter",
+  "gender": "male",
+  "skin_color": "light",
+  "hair_color": "black",
+  "height": "183 cm",
+  "eye_color": "brown",
+  "mass": "84 kg",
+  "homeworld": "http://swapi.dev/api/planets/1/",
+  "birth_year": "24BBY",
+  "starships": "http://swapi.dev/api/starships/12/",
+  "species": ""
+  
+  },
+  
+  {
+  
+  "name": "Obi-Wan Kenobi",
+  "gender": "male",
+  "skin_color": "fair",
+  "hair_color": "auburn, white",
+  "height": "182 cm",
+  "eye_color": "blue-gray",
+  "mass": "77 kg",
+  "homeworld": "http://swapi.dev/api/planets/20/",
+  "birth_year": "57BBY",
+  "starships": "http://swapi.dev/api/starships/48/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/64/http://swapi.dev/api/starships/65/http://swapi.dev/api/starships/74/",
+  "species": ""
+  
+  },
+
+  
+{
+
+"name": "Anakin Skywalker",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "blond",
+"height": "188 cm",
+"eye_color": "blue",
+"mass": "84 kg",
+"homeworld": "http://swapi.dev/api/planets/1/",
+"birth_year": "41.9BBY",
+"starships": "http://swapi.dev/api/starships/39/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/65/",
+"species": ""
+
+},
+
+{
+
+"name": "Wilhuff Tarkin",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "auburn, grey",
+"height": "180 cm",
+"eye_color": "blue",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/21/",
+"birth_year": "64BBY",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Chewbacca",
+"gender": "male",
+"skin_color": "unknown",
+"hair_color": "brown",
+"height": "228 cm",
+"eye_color": "blue",
+"mass": "112 kg",
+"homeworld": "http://swapi.dev/api/planets/14/",
+"birth_year": "200BBY",
+"starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
+"species": "http://swapi.dev/api/species/3/"
+
+},
+
+{
+
+"name": "Han Solo",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "brown",
+"height": "180 cm",
+"eye_color": "brown",
+"mass": "80 kg",
+"homeworld": "http://swapi.dev/api/planets/22/",
+"birth_year": "29BBY",
+"starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
+"species": ""
+
+},
+
+{
+
+"name": "Greedo",
+"gender": "male",
+"skin_color": "green",
+"hair_color": "n/a",
+"height": "173 cm",
+"eye_color": "black",
+"mass": "74 kg",
+"homeworld": "http://swapi.dev/api/planets/23/",
+"birth_year": "44BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/4/"
+
+},
+
+{
+
+"name": "Jabba Desilijic Tiure",
+"gender": "hermaphrodite",
+"skin_color": "green-tan, brown",
+"hair_color": "n/a",
+"height": "175 cm",
+"eye_color": "orange",
+"mass": "1,358 kg",
+"homeworld": "http://swapi.dev/api/planets/24/",
+"birth_year": "600BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/5/"
+
+},
+
+{
+
+"name": "Wedge Antilles",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "brown",
+"height": "170 cm",
+"eye_color": "hazel",
+"mass": "77 kg",
+"homeworld": "http://swapi.dev/api/planets/22/",
+"birth_year": "21BBY",
+"starships": "http://swapi.dev/api/starships/12/",
+"species": ""
+
+},
+
+{
+
+"name": "Jek Tono Porkins",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "brown",
+"height": "180 cm",
+"eye_color": "blue",
+"mass": "110 kg",
+"homeworld": "http://swapi.dev/api/planets/26/",
+"birth_year": "unknown",
+"starships": "http://swapi.dev/api/starships/12/",
+"species": ""
+
+},
+
+{
+
+"name": "Yoda",
+"gender": "male",
+"skin_color": "green",
+"hair_color": "white",
+"height": "66 cm",
+"eye_color": "brown",
+"mass": "17 kg",
+"homeworld": "http://swapi.dev/api/planets/28/",
+"birth_year": "896BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/6/"
+
+},
+
+{
+
+"name": "Palpatine",
+"gender": "male",
+"skin_color": "pale",
+"hair_color": "grey",
+"height": "170 cm",
+"eye_color": "yellow",
+"mass": "75 kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "82BBY",
+"starships": "",
+"species": ""
+
+},
+
+
+{
+
+"name": "Boba Fett",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "black",
+"height": "183 cm",
+"eye_color": "brown",
+"mass": "78.2 kg",
+"homeworld": "http://swapi.dev/api/planets/10/",
+"birth_year": "31.5BBY",
+"starships": "http://swapi.dev/api/starships/21/",
+"species": ""
+
+},
+
+{
+
+"name": "IG-88",
+"gender": "none",
+"skin_color": "metal",
+"hair_color": "none",
+"height": "200 cm",
+"eye_color": "red",
+"mass": "140 kg",
+"homeworld": "http://swapi.dev/api/planets/28/",
+"birth_year": "15BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/2/"
+
+},
+
+{
+
+"name": "Bossk",
+"gender": "male",
+"skin_color": "green",
+"hair_color": "none",
+"height": "190 cm",
+"eye_color": "red",
+"mass": "113 kg",
+"homeworld": "http://swapi.dev/api/planets/29/",
+"birth_year": "53BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/7/"
+
+},
+
+{
+
+"name": "Lando Calrissian",
+"gender": "male",
+"skin_color": "dark",
+"hair_color": "black",
+"height": "177 cm",
+"eye_color": "brown",
+"mass": "79 kg",
+"homeworld": "http://swapi.dev/api/planets/30/",
+"birth_year": "31BBY",
+"starships": "http://swapi.dev/api/starships/10/",
+"species": ""
+
+},
+
+{
+
+"name": "Lobot",
+"gender": "male",
+"skin_color": "light",
+"hair_color": "none",
+"height": "175 cm",
+"eye_color": "blue",
+"mass": "79 kg",
+"homeworld": "http://swapi.dev/api/planets/6/",
+"birth_year": "37BBY",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Ackbar",
+"gender": "male",
+"skin_color": "brown mottle",
+"hair_color": "none",
+"height": "180 cm",
+"eye_color": "orange",
+"mass": "83 kg",
+"homeworld": "http://swapi.dev/api/planets/31/",
+"birth_year": "41BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/8/"
+
+},
+
+{
+
+"name": "Mon Mothma",
+"gender": "female",
+"skin_color": "fair",
+"hair_color": "auburn",
+"height": "150 cm",
+"eye_color": "blue",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/32/",
+"birth_year": "48BBY",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Arvel Crynyd",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "brown",
+"height": "unknown cm",
+"eye_color": "brown",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/28/",
+"birth_year": "unknown",
+"starships": "http://swapi.dev/api/starships/28/",
+"species": ""
+
+},
+
+{
+
+"name": "Wicket Systri Warrick",
+"gender": "male",
+"skin_color": "brown",
+"hair_color": "brown",
+"height": "88 cm",
+"eye_color": "brown",
+"mass": "20 kg",
+"homeworld": "http://swapi.dev/api/planets/7/",
+"birth_year": "8BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/9/"
+
+},
+
+{
+
+"name": "Nien Nunb",
+"gender": "male",
+"skin_color": "grey",
+"hair_color": "none",
+"height": "160 cm",
+"eye_color": "black",
+"mass": "68 kg",
+"homeworld": "http://swapi.dev/api/planets/33/",
+"birth_year": "unknown",
+"starships": "http://swapi.dev/api/starships/10/",
+"species": "http://swapi.dev/api/species/10/"
+
+},
+
+
+{
+
+"name": "Qui-Gon Jinn",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "brown",
+"height": "193 cm",
+"eye_color": "blue",
+"mass": "89 kg",
+"homeworld": "http://swapi.dev/api/planets/28/",
+"birth_year": "92BBY",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Nute Gunray",
+"gender": "male",
+"skin_color": "mottled green",
+"hair_color": "none",
+"height": "191 cm",
+"eye_color": "red",
+"mass": "90 kg",
+"homeworld": "http://swapi.dev/api/planets/18/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/11/"
+
+},
+
+{
+
+"name": "Finis Valorum",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "blond",
+"height": "170 cm",
+"eye_color": "blue",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/9/",
+"birth_year": "91BBY",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Padmé Amidala",
+"gender": "female",
+"skin_color": "light",
+"hair_color": "brown",
+"height": "185 cm",
+"eye_color": "brown",
+"mass": "45 kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "46BBY",
+"starships": "http://swapi.dev/api/starships/39/http://swapi.dev/api/starships/49/http://swapi.dev/api/starships/64/",
+"species": ""
+
+},
+
+{
+
+"name": "Jar Jar Binks",
+"gender": "male",
+"skin_color": "orange",
+"hair_color": "none",
+"height": "196 cm",
+"eye_color": "orange",
+"mass": "66 kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "52BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/12/"
+
+},
+
+{
+
+"name": "Roos Tarpals",
+"gender": "male",
+"skin_color": "grey",
+"hair_color": "none",
+"height": "224 cm",
+"eye_color": "orange",
+"mass": "82 kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/12/"
+
+},
+
+{
+
+"name": "Rugor Nass",
+"gender": "male",
+"skin_color": "green",
+"hair_color": "none",
+"height": "206 cm",
+"eye_color": "orange",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/12/"
+
+},
+
+{
+
+"name": "Ric Olié",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "brown",
+"height": "183 cm",
+"eye_color": "blue",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "unknown",
+"starships": "http://swapi.dev/api/starships/40/",
+"species": ""
+
+},
+
+{
+
+"name": "Watto",
+"gender": "male",
+"skin_color": "blue, grey",
+"hair_color": "black",
+"height": "137 cm",
+"eye_color": "yellow",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/34/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/13/"
+
+},
+
+{
+
+"name": "Sebulba",
+"gender": "male",
+"skin_color": "grey, red",
+"hair_color": "none",
+"height": "112 cm",
+"eye_color": "orange",
+"mass": "40 kg",
+"homeworld": "http://swapi.dev/api/planets/35/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/14/"
+
+},
+
+
+{
+
+"name": "Quarsh Panaka",
+"gender": "male",
+"skin_color": "dark",
+"hair_color": "black",
+"height": "183 cm",
+"eye_color": "brown",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "62BBY",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Shmi Skywalker",
+"gender": "female",
+"skin_color": "fair",
+"hair_color": "black",
+"height": "163 cm",
+"eye_color": "brown",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/1/",
+"birth_year": "72BBY",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Darth Maul",
+"gender": "male",
+"skin_color": "red",
+"hair_color": "none",
+"height": "175 cm",
+"eye_color": "yellow",
+"mass": "80 kg",
+"homeworld": "http://swapi.dev/api/planets/36/",
+"birth_year": "54BBY",
+"starships": "http://swapi.dev/api/starships/41/",
+"species": "http://swapi.dev/api/species/22/"
+
+},
+
+{
+
+"name": "Bib Fortuna",
+"gender": "male",
+"skin_color": "pale",
+"hair_color": "none",
+"height": "180 cm",
+"eye_color": "pink",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/37/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/15/"
+
+},
+
+{
+
+"name": "Ayla Secura",
+"gender": "female",
+"skin_color": "blue",
+"hair_color": "none",
+"height": "178 cm",
+"eye_color": "hazel",
+"mass": "55 kg",
+"homeworld": "http://swapi.dev/api/planets/37/",
+"birth_year": "48BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/15/"
+
+},
+
+{
+
+"name": "Ratts Tyerel",
+"gender": "male",
+"skin_color": "grey, blue",
+"hair_color": "none",
+"height": "79 cm",
+"eye_color": "unknown",
+"mass": "15 kg",
+"homeworld": "http://swapi.dev/api/planets/38/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/16/"
+
+},
+
+{
+
+"name": "Dud Bolt",
+"gender": "male",
+"skin_color": "blue, grey",
+"hair_color": "none",
+"height": "94 cm",
+"eye_color": "yellow",
+"mass": "45 kg",
+"homeworld": "http://swapi.dev/api/planets/39/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/17/"
+
+},
+
+{
+
+"name": "Gasgano",
+"gender": "male",
+"skin_color": "white, blue",
+"hair_color": "none",
+"height": "122 cm",
+"eye_color": "black",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/40/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/18/"
+
+},
+
+{
+
+"name": "Ben Quadinaros",
+"gender": "male",
+"skin_color": "grey, green, yellow",
+"hair_color": "none",
+"height": "163 cm",
+"eye_color": "orange",
+"mass": "65 kg",
+"homeworld": "http://swapi.dev/api/planets/41/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/19/"
+
+},
+
+{
+
+"name": "Mace Windu",
+"gender": "male",
+"skin_color": "dark",
+"hair_color": "none",
+"height": "188 cm",
+"eye_color": "brown",
+"mass": "84 kg",
+"homeworld": "http://swapi.dev/api/planets/42/",
+"birth_year": "72BBY",
+"starships": "",
+"species": ""
+
+},
+
+
+{
+
+"name": "Ki-Adi-Mundi",
+"gender": "male",
+"skin_color": "pale",
+"hair_color": "white",
+"height": "198 cm",
+"eye_color": "yellow",
+"mass": "82 kg",
+"homeworld": "http://swapi.dev/api/planets/43/",
+"birth_year": "92BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/20/"
+
+},
+
+{
+
+"name": "Kit Fisto",
+"gender": "male",
+"skin_color": "green",
+"hair_color": "none",
+"height": "196 cm",
+"eye_color": "black",
+"mass": "87 kg",
+"homeworld": "http://swapi.dev/api/planets/44/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/21/"
+
+},
+
+{
+
+"name": "Eeth Koth",
+"gender": "male",
+"skin_color": "brown",
+"hair_color": "black",
+"height": "171 cm",
+"eye_color": "brown",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/45/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/22/"
+
+},
+
+{
+
+"name": "Adi Gallia",
+"gender": "female",
+"skin_color": "dark",
+"hair_color": "none",
+"height": "184 cm",
+"eye_color": "blue",
+"mass": "50 kg",
+"homeworld": "http://swapi.dev/api/planets/9/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/23/"
+
+},
+
+{
+
+"name": "Saesee Tiin",
+"gender": "male",
+"skin_color": "pale",
+"hair_color": "none",
+"height": "188 cm",
+"eye_color": "orange",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/47/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/24/"
+
+},
+
+{
+
+"name": "Yarael Poof",
+"gender": "male",
+"skin_color": "white",
+"hair_color": "none",
+"height": "264 cm",
+"eye_color": "yellow",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/48/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/25/"
+
+},
+
+{
+
+"name": "Plo Koon",
+"gender": "male",
+"skin_color": "orange",
+"hair_color": "none",
+"height": "188 cm",
+"eye_color": "black",
+"mass": "80 kg",
+"homeworld": "http://swapi.dev/api/planets/49/",
+"birth_year": "22BBY",
+"starships": "http://swapi.dev/api/starships/48/",
+"species": "http://swapi.dev/api/species/26/"
+
+},
+
+{
+
+"name": "Mas Amedda",
+"gender": "male",
+"skin_color": "blue",
+"hair_color": "none",
+"height": "196 cm",
+"eye_color": "blue",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/50/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/27/"
+
+},
+
+{
+
+"name": "Gregar Typho",
+"gender": "male",
+"skin_color": "dark",
+"hair_color": "black",
+"height": "185 cm",
+"eye_color": "brown",
+"mass": "85 kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "unknown",
+"starships": "http://swapi.dev/api/starships/39/",
+"species": ""
+
+},
+
+{
+
+"name": "Cordé",
+"gender": "female",
+"skin_color": "light",
+"hair_color": "brown",
+"height": "157 cm",
+"eye_color": "brown",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "unknown",
+"starships": "",
+"species": ""
+
+},
+
+
+{
+
+"name": "Cliegg Lars",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "brown",
+"height": "183 cm",
+"eye_color": "blue",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/1/",
+"birth_year": "82BBY",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Poggle the Lesser",
+"gender": "male",
+"skin_color": "green",
+"hair_color": "none",
+"height": "183 cm",
+"eye_color": "yellow",
+"mass": "80 kg",
+"homeworld": "http://swapi.dev/api/planets/11/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/28/"
+
+},
+
+{
+
+"name": "Luminara Unduli",
+"gender": "female",
+"skin_color": "yellow",
+"hair_color": "black",
+"height": "170 cm",
+"eye_color": "blue",
+"mass": "56.2 kg",
+"homeworld": "http://swapi.dev/api/planets/51/",
+"birth_year": "58BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/29/"
+
+},
+
+{
+
+"name": "Barriss Offee",
+"gender": "female",
+"skin_color": "yellow",
+"hair_color": "black",
+"height": "166 cm",
+"eye_color": "blue",
+"mass": "50 kg",
+"homeworld": "http://swapi.dev/api/planets/51/",
+"birth_year": "40BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/29/"
+
+},
+
+{
+
+"name": "Dormé",
+"gender": "female",
+"skin_color": "light",
+"hair_color": "brown",
+"height": "165 cm",
+"eye_color": "brown",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/8/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/1/"
+
+},
+
+{
+
+"name": "Dooku",
+"gender": "male",
+"skin_color": "fair",
+"hair_color": "white",
+"height": "193 cm",
+"eye_color": "brown",
+"mass": "80 kg",
+"homeworld": "http://swapi.dev/api/planets/52/",
+"birth_year": "102BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/1/"
+
+},
+
+{
+
+"name": "Bail Prestor Organa",
+"gender": "male",
+"skin_color": "tan",
+"hair_color": "black",
+"height": "191 cm",
+"eye_color": "brown",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/2/",
+"birth_year": "67BBY",
+"starships": "",
+"species": "http://swapi.dev/api/species/1/"
+
+},
+
+{
+
+"name": "Jango Fett",
+"gender": "male",
+"skin_color": "tan",
+"hair_color": "black",
+"height": "183 cm",
+"eye_color": "brown",
+"mass": "79 kg",
+"homeworld": "http://swapi.dev/api/planets/53/",
+"birth_year": "66BBY",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Zam Wesell",
+"gender": "female",
+"skin_color": "fair, green, yellow",
+"hair_color": "blonde",
+"height": "168 cm",
+"eye_color": "yellow",
+"mass": "55 kg",
+"homeworld": "http://swapi.dev/api/planets/54/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/30/"
+
+},
+
+{
+
+"name": "Dexter Jettster",
+"gender": "male",
+"skin_color": "brown",
+"hair_color": "none",
+"height": "198 cm",
+"eye_color": "yellow",
+"mass": "102 kg",
+"homeworld": "http://swapi.dev/api/planets/55/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/31/"
+
+},
+
+
+{
+
+"name": "Lama Su",
+"gender": "male",
+"skin_color": "grey",
+"hair_color": "none",
+"height": "229 cm",
+"eye_color": "black",
+"mass": "88 kg",
+"homeworld": "http://swapi.dev/api/planets/10/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/32/"
+
+},
+
+{
+
+"name": "Taun We",
+"gender": "female",
+"skin_color": "grey",
+"hair_color": "none",
+"height": "213 cm",
+"eye_color": "black",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/10/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/32/"
+
+},
+
+{
+
+"name": "Jocasta Nu",
+"gender": "female",
+"skin_color": "fair",
+"hair_color": "white",
+"height": "167 cm",
+"eye_color": "blue",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/9/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/1/"
+
+},
+
+{
+
+"name": "R4-P17",
+"gender": "female",
+"skin_color": "silver, red",
+"hair_color": "none",
+"height": "96 cm",
+"eye_color": "red, blue",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/28/",
+"birth_year": "unknown",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Wat Tambor",
+"gender": "male",
+"skin_color": "green, grey",
+"hair_color": "none",
+"height": "193 cm",
+"eye_color": "unknown",
+"mass": "48 kg",
+"homeworld": "http://swapi.dev/api/planets/56/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/33/"
+
+},
+
+{
+
+"name": "San Hill",
+"gender": "male",
+"skin_color": "grey",
+"hair_color": "none",
+"height": "191 cm",
+"eye_color": "gold",
+"mass": "unknown kg",
+"homeworld": "http://swapi.dev/api/planets/57/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/34/"
+
+},
+
+{
+
+"name": "Shaak Ti",
+"gender": "female",
+"skin_color": "red, blue, white",
+"hair_color": "none",
+"height": "178 cm",
+"eye_color": "black",
+"mass": "57 kg",
+"homeworld": "http://swapi.dev/api/planets/58/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/35/"
+
+},
+
+{
+
+"name": "Grievous",
+"gender": "male",
+"skin_color": "brown, white",
+"hair_color": "none",
+"height": "216 cm",
+"eye_color": "green, yellow",
+"mass": "159 kg",
+"homeworld": "http://swapi.dev/api/planets/59/",
+"birth_year": "unknown",
+"starships": "http://swapi.dev/api/starships/74/",
+"species": "http://swapi.dev/api/species/36/"
+
+},
+
+{
+
+"name": "Tarfful",
+"gender": "male",
+"skin_color": "brown",
+"hair_color": "brown",
+"height": "234 cm",
+"eye_color": "blue",
+"mass": "136 kg",
+"homeworld": "http://swapi.dev/api/planets/14/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/3/"
+
+},
+
+{
+
+"name": "Raymus Antilles",
+"gender": "male",
+"skin_color": "light",
+"hair_color": "brown",
+"height": "188 cm",
+"eye_color": "brown",
+"mass": "79 kg",
+"homeworld": "http://swapi.dev/api/planets/2/",
+"birth_year": "unknown",
+"starships": "",
+"species": ""
+
+},
+
+
+{
+
+"name": "Sly Moore",
+"gender": "female",
+"skin_color": "pale",
+"hair_color": "none",
+"height": "178 cm",
+"eye_color": "white",
+"mass": "48 kg",
+"homeworld": "http://swapi.dev/api/planets/60/",
+"birth_year": "unknown",
+"starships": "",
+"species": ""
+
+},
+
+{
+
+"name": "Tion Medon",
+"gender": "male",
+"skin_color": "grey",
+"hair_color": "none",
+"height": "206 cm",
+"eye_color": "black",
+"mass": "80 kg",
+"homeworld": "http://swapi.dev/api/planets/12/",
+"birth_year": "unknown",
+"starships": "",
+"species": "http://swapi.dev/api/species/37/"
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
