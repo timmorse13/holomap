@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Luke from "./components/Characters/Luke"
+// import Luke from "./components/Characters/Luke"
 function App() {
   const [people, setPeople] = useState([]);
   const [planets, setPlanets] = useState([]);
@@ -22,12 +22,14 @@ function App() {
   }, []);
   console.log('data', people)
   console.log('data', planets)
-  return (
-    <div className="App">
-Sup
-<Luke />
+  
+  return( 
+    <div className="one">
+      Ayyy
     </div>
-  );
+  )
 }
+
+
 
 export default App;
