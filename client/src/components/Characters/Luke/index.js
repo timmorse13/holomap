@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 
 // function Luke() {
 //     const  [luke, setLuke] = useState([]);
@@ -19,9 +19,9 @@ import React, { useState, useEffect } from 'react';
 //     );
 // }
 
-function Luke() {
-    fetch('https://swapi.dev/api/people/1', (req, res) => {
-        console.log(res.json());
-    })
-}
-export default Luke;
+// function Luke() {
+//     fetch('https://swapi.dev/api/people/1', (req, res) => {
+//         console.log(res.json());
+//     })
+// }
+// export default Luke;
