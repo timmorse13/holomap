@@ -1,12 +1,26 @@
 [
     {
-
-
+        "climate": "arid",
+        "surface_water": "1",
+        "name": "Tatooine",
+        "diameter": "10465",
+        "rotation_period": "23",
+        "terrain": "desert",
+        "gravity": "1 standard",
+        "orbital_period": "304",
+        "population": "200000"
 
     },
     {
-
-
+        "climate": "temperate, tropical",
+        "surface_water": "8",
+        "name": "Yavin IV",
+        "diameter": "10200",
+        "rotation_period": "24",
+        "terrain": "jungle, rainforests",
+        "gravity": "1 standard",
+        "orbital_period": "4818",
+        "population": "1000"
 
     },
     {
@@ -19,3 +33,4 @@
    
   ]
   
+
