@@ -244,10 +244,152 @@
         "population": "1300000000"   
     },
     {
-        
+
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Nal Hutta",
+        "diameter": "12150",
+        "rotation_period": "87 ",
+        "terrain": "urban, oceans, swamps, bogs",
+        "gravity": "1 standard ",
+        "orbital_period": "413",
+        "population": "7000000000"    
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Dantooine",
+        "diameter": "9830",
+        "rotation_period": "25 ",
+        "terrain": "oceans, savannas, mountains, grasslands",
+        "gravity": "1 standard ",
+        "orbital_period": "378",
+        "population": "1000"   
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "98",
+        "name": "Bestine IV",
+        "diameter": "6400",
+        "rotation_period": "26 ",
+        "terrain": "rocky islands, oceans",
+        "gravity": "unknown ",
+        "orbital_period": "680",
+        "population": "62000000"   
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "10",
+        "name": "Ord Mantell",
+        "diameter": "14050",
+        "rotation_period": "26 ",
+        "terrain": "plains, seas, mesas",
+        "gravity": "1 standard ",
+        "orbital_period": "334",
+        "population": "4000000000"    
+    },
+    {
+        "climate": "arid",
+        "surface_water": "unknown",
+        "name": "Trandosha",
+        "diameter": "0",
+        "rotation_period": "25 ",
+        "terrain": "mountains, seas, grasslands, deserts",
+        "gravity": "0.62 standard ",
+        "orbital_period": "371",
+        "population": "42000000"   
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "100",
+        "name": "Mon Cala",
+        "diameter": "11030",
+        "rotation_period": "21 ",
+        "terrain": "oceans, reefs, islands",
+        "gravity": "1 ",
+        "orbital_period": "398",
+        "population": "27000000000"   
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "40",
+        "name": "Chandrila",
+        "diameter": "13500",
+        "rotation_period": "20 ",
+        "terrain": "plains, forests",
+        "gravity": "1 ",
+        "orbital_period": "368",
+        "population": "1200000000"   
+    },
+    {
+        "climate": "superheated",
+        "surface_water": "5",
+        "name": "Sullust",
+        "diameter": "12780",
+        "rotation_period": "20 ",
+        "terrain": "mountains, volcanoes, rocky deserts",
+        "gravity": "1 ",
+        "orbital_period": "263",
+        "population": "18500000000"   
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Toydaria",
+        "diameter": "7900",
+        "rotation_period": "21 ",
+        "terrain": "swamps, lakes",
+        "gravity": "1 ",
+        "orbital_period": "184",
+        "population": "11000000"    
+    },
+    {
+        "climate": "arid, temperate, tropical",
+        "surface_water": "unknown",
+        "name": "Malastare",
+        "diameter": "18880",
+        "rotation_period": "26 ",
+        "terrain": "swamps, deserts, jungles, mountains",
+        "gravity": "1.56 ",
+        "orbital_period": "201",
+        "population": "2000000000"   
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "unknown",
+        "name": "Dathomir",
+        "diameter": "10480",
+        "rotation_period": "24 ",
+        "terrain": "forests, deserts, savannas",
+        "gravity": "0.9 ",
+        "orbital_period": "491",
+        "population": "5200"   
+    },
+    {
+        "climate": "temperate, arid, subartic",
+        "surface_water": "5",
+        "name": "Ryloth",
+        "diameter": "10600",
+        "rotation_period": "30 ",
+        "terrain": "mountains, valleys, deserts, tundra",
+        "gravity": "1 ",
+        "orbital_period": "305",
+        "population": "1500000000"   
+    },
+    {
+        "climate": "temperate, artic",
+        "surface_water": "unknown",
+        "name": "Vulpter",
+        "diameter": "14900",
+        "rotation_period": "22 ",
+        "terrain": "urban, barren",
+        "gravity": "1 ",
+        "orbital_period": "391",
+        "population": "421000000"    
     }
 
-    
+
+
    
   ]
   
