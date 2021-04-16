@@ -14,7 +14,7 @@ function App() {
       console.log(data)
     }
     async function getPlanets() {
-      let res = await fetch('https://swapi.dev/api/planets/?page=3');
+      let res = await fetch('https://swapi.dev/api/planets/?page=5');
       let data = await res.json();
       setPlanets(data.results);
       console.log(data)
