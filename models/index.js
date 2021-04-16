@@ -1,31 +1,17 @@
 const Planets = require('./Planets');
 
-const User = require('./User');
-
 const Characters = require('./Characters');
 
 
 
-Planets.belongsToMany(Characters, {
-  // Define the third table needed to store the foreign keys
-  through: {
-    model: Planets,
-    unique: false
-  },
-  // Define an alias for when data is retrieved
-  as: 'user_favorites',
-  foreignKey: 'user_id',
+Planets.hasMany(Characters, {
+  foreignKey: 'homeworld',
+  onDelete: 'Cascade',
 });
 
-Characters.belongsToMany(User, {
-  // Define the third table needed to store the foreign keys
-  through: {
-    model: Favorites,
-    unique: false
-  },
-  // Define an alias for when data is retrieved
-  as: 'favorited_games',
-  foreignKey: 'games_id'
+
+Characters.belongsTo(Planets, {
+  foreignKey: 'homeworld',
 });
 
-module.exports = { User, Characters, Planets };
+module.exports = { Characters, Planets };

@@ -21,7 +21,7 @@ Characters.init(
 
       type: DataTypes.STRING(2000),
 
-      allowNull: false,
+      allowNull: true,
 
     },
     gender: {
@@ -70,6 +70,15 @@ Characters.init(
         type: DataTypes.STRING,
 
         allowNull: true,
+
+        references: {
+
+          model: 'planets',
+
+          key: 'name',
+
+
+        }
     },
     birth_year: {
 

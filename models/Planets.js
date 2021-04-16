@@ -6,17 +6,17 @@ class Planets extends Model {}
 
 Planets.init(
   {
-    id: {
+    // id: {
 
-      type: DataTypes.INTEGER,
+    //   type: DataTypes.INTEGER,
 
-      allowNull: false,
+    //   allowNull: false,
 
-      primaryKey: true,
+    //   primaryKey: true,
 
-      autoIncrement: true,
+    //   autoIncrement: true,
 
-    },
+    // },
     climate: {
 
       type: DataTypes.STRING(2000),
@@ -33,9 +33,11 @@ Planets.init(
     },
     name: {
 
-      type: DataTypes.STRING(2000),
+      type: DataTypes.STRING,
       
       allowNull: false,
+
+      primaryKey: true,
 
     },
     diameter: {
