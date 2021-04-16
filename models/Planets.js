@@ -80,20 +80,6 @@ Planets.init(
       allowNull: true,
 
     },
-    characters_id: {
-
-        type: DataTypes.INTEGER,
-
-        references: {
-
-          model: 'characters',
-
-          key: 'id',
-
-          unique: false
-
-        }
-      },
   },
   {
     sequelize,
