@@ -209,6 +209,42 @@
         "gravity": "1 standard ",
         "orbital_period": "unknown",
         "population": "unknown"   
+    },
+    {
+        "climate": "polluted",
+        "surface_water": "unknown",
+        "name": "Eriadu",
+        "diameter": "13490",
+        "rotation_period": "24 ",
+        "terrain": "cityscape",
+        "gravity": "1 standard ",
+        "orbital_period": "360",
+        "population": "22000000000"   
+    },
+    {
+        "climate": "temperate",
+        "surface_water": "70",
+        "name": "Corellia",
+        "diameter": "11000",
+        "rotation_period": "25 ",
+        "terrain": "plains, urban, hills, forests",
+        "gravity": "1 standard ",
+        "orbital_period": "329",
+        "population": "3000000000"  
+    },
+    {
+        "climate": "hot",
+        "surface_water": "60",
+        "name": "Rodia",
+        "diameter": "7549",
+        "rotation_period": "29 ",
+        "terrain": "jungles, oceans, urban, swamps",
+        "gravity": "1 standard ",
+        "orbital_period": "305",
+        "population": "1300000000"   
+    },
+    {
+        
     }
 
     
