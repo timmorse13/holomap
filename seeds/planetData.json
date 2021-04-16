@@ -244,6 +244,7 @@
         "population": "1300000000"   
     },
     {
+
         "climate": "temperate",
         "surface_water": "unknown",
         "name": "Nal Hutta",
@@ -384,7 +385,7 @@
         "terrain": "urban, barren",
         "gravity": "1 ",
         "orbital_period": "391",
-        "population": "421000000"   
+        "population": "421000000"    
     }
 
 
