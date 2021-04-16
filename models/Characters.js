@@ -28,6 +28,8 @@ Characters.init(
 
       type: DataTypes.STRING(2000),
 
+      allowNull: true,
+
 
     },
     skin_color: {
@@ -74,8 +76,19 @@ Characters.init(
         type: DataTypes.STRING,
 
         allowNull: true,
-    }
+    },
+    starships: {
 
+        type: DataTypes.STRING,
+
+        allowNull: true,
+    },
+    species: {
+
+        type: DataTypes.STRING,
+
+        allowNull: true,
+    },
 
   },
   {
@@ -87,7 +100,7 @@ Characters.init(
 
     underscored: true,
 
-    modelName: 'Characters',
+    modelName: 'characters',
 
   }
 );
