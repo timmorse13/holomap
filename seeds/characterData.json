@@ -1,7 +1,5 @@
 [
-
   {
-
   "name": "Luke Skywalker",
   "gender": "male",
   "skin_color": "fair",
@@ -9,15 +7,12 @@
   "height": "172 cm",
   "eye_color": "blue",
   "mass": "77 kg",
-  "homeworld": "http://swapi.dev/api/planets/1/",
+  "homeworld": "Tatooine",
   "birth_year": "19BBY",
   "starships": "http://swapi.dev/api/starships/12/http://swapi.dev/api/starships/22/",
-  "species": ""
-  
-  },
-  
-  {
-  
+  "species": ""  
+  },  
+  {  
   "name": "C-3PO",
   "gender": "n/a",
   "skin_color": "gold",
@@ -25,15 +20,12 @@
   "height": "167 cm",
   "eye_color": "yellow",
   "mass": "75 kg",
-  "homeworld": "http://swapi.dev/api/planets/1/",
+  "homeworld": "Tatooine",
   "birth_year": "112BBY",
   "starships": "",
-  "species": "http://swapi.dev/api/species/2/"
-  
-  },
-  
-  {
-  
+  "species": "http://swapi.dev/api/species/2/" 
+  }, 
+  { 
   "name": "R2-D2",
   "gender": "n/a",
   "skin_color": "white, blue",
@@ -41,7 +33,7 @@
   "height": "96 cm",
   "eye_color": "red",
   "mass": "32 kg",
-  "homeworld": "http://swapi.dev/api/planets/8/",
+  "homeworld": "Naboo",
   "birth_year": "33BBY",
   "starships": "",
   "species": "http://swapi.dev/api/species/2/"
@@ -57,7 +49,7 @@
   "height": "202 cm",
   "eye_color": "yellow",
   "mass": "136 kg",
-  "homeworld": "http://swapi.dev/api/planets/1/",
+  "homeworld": "Tatooine",
   "birth_year": "41.9BBY",
   "starships": "http://swapi.dev/api/starships/13/",
   "species": ""
@@ -73,7 +65,7 @@
   "height": "150 cm",
   "eye_color": "brown",
   "mass": "49 kg",
-  "homeworld": "http://swapi.dev/api/planets/2/",
+  "homeworld": "Alderaan",
   "birth_year": "19BBY",
   "starships": "",
   "species": ""
@@ -89,7 +81,7 @@
   "height": "178 cm",
   "eye_color": "blue",
   "mass": "120 kg",
-  "homeworld": "http://swapi.dev/api/planets/1/",
+  "homeworld": "Tatooine",
   "birth_year": "52BBY",
   "starships": "",
   "species": ""
@@ -105,7 +97,7 @@
   "height": "165 cm",
   "eye_color": "blue",
   "mass": "75 kg",
-  "homeworld": "http://swapi.dev/api/planets/1/",
+  "homeworld": "Tatooine",
   "birth_year": "47BBY",
   "starships": "",
   "species": ""
@@ -121,7 +113,7 @@
   "height": "97 cm",
   "eye_color": "red",
   "mass": "32 kg",
-  "homeworld": "http://swapi.dev/api/planets/1/",
+  "homeworld": "Tatooine",
   "birth_year": "unknown",
   "starships": "",
   "species": "http://swapi.dev/api/species/2/"
@@ -137,7 +129,7 @@
   "height": "183 cm",
   "eye_color": "brown",
   "mass": "84 kg",
-  "homeworld": "http://swapi.dev/api/planets/1/",
+  "homeworld": "Tatooine",
   "birth_year": "24BBY",
   "starships": "http://swapi.dev/api/starships/12/",
   "species": ""
@@ -153,7 +145,7 @@
   "height": "182 cm",
   "eye_color": "blue-gray",
   "mass": "77 kg",
-  "homeworld": "http://swapi.dev/api/planets/20/",
+  "homeworld": "Stewjon",
   "birth_year": "57BBY",
   "starships": "http://swapi.dev/api/starships/48/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/64/http://swapi.dev/api/starships/65/http://swapi.dev/api/starships/74/",
   "species": ""
@@ -170,7 +162,7 @@
 "height": "188 cm",
 "eye_color": "blue",
 "mass": "84 kg",
-"homeworld": "http://swapi.dev/api/planets/1/",
+"homeworld": "Tatooine",
 "birth_year": "41.9BBY",
 "starships": "http://swapi.dev/api/starships/39/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/65/",
 "species": ""
@@ -186,7 +178,7 @@
 "height": "180 cm",
 "eye_color": "blue",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/21/",
+"homeworld": "Eriadu",
 "birth_year": "64BBY",
 "starships": "",
 "species": ""
@@ -202,7 +194,7 @@
 "height": "228 cm",
 "eye_color": "blue",
 "mass": "112 kg",
-"homeworld": "http://swapi.dev/api/planets/14/",
+"homeworld": "Kashyyk",
 "birth_year": "200BBY",
 "starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
 "species": "http://swapi.dev/api/species/3/"
@@ -218,7 +210,7 @@
 "height": "180 cm",
 "eye_color": "brown",
 "mass": "80 kg",
-"homeworld": "http://swapi.dev/api/planets/22/",
+"homeworld": "Corellia",
 "birth_year": "29BBY",
 "starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
 "species": ""
@@ -234,7 +226,7 @@
 "height": "173 cm",
 "eye_color": "black",
 "mass": "74 kg",
-"homeworld": "http://swapi.dev/api/planets/23/",
+"homeworld": "Rodia",
 "birth_year": "44BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/4/"
@@ -250,7 +242,7 @@
 "height": "175 cm",
 "eye_color": "orange",
 "mass": "1,358 kg",
-"homeworld": "http://swapi.dev/api/planets/24/",
+"homeworld": "Nal Hutta",
 "birth_year": "600BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/5/"
@@ -266,7 +258,7 @@
 "height": "170 cm",
 "eye_color": "hazel",
 "mass": "77 kg",
-"homeworld": "http://swapi.dev/api/planets/22/",
+"homeworld": "Corellia",
 "birth_year": "21BBY",
 "starships": "http://swapi.dev/api/starships/12/",
 "species": ""
@@ -282,7 +274,7 @@
 "height": "180 cm",
 "eye_color": "blue",
 "mass": "110 kg",
-"homeworld": "http://swapi.dev/api/planets/26/",
+"homeworld": "Bestine IV",
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/12/",
 "species": ""
@@ -298,7 +290,7 @@
 "height": "66 cm",
 "eye_color": "brown",
 "mass": "17 kg",
-"homeworld": "http://swapi.dev/api/planets/28/",
+"homeworld": "Dagobah",
 "birth_year": "896BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/6/"
@@ -314,7 +306,7 @@
 "height": "170 cm",
 "eye_color": "yellow",
 "mass": "75 kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "82BBY",
 "starships": "",
 "species": ""
@@ -331,7 +323,7 @@
 "height": "183 cm",
 "eye_color": "brown",
 "mass": "78.2 kg",
-"homeworld": "http://swapi.dev/api/planets/10/",
+"homeworld": "Kamino",
 "birth_year": "31.5BBY",
 "starships": "http://swapi.dev/api/starships/21/",
 "species": ""
@@ -347,7 +339,7 @@
 "height": "200 cm",
 "eye_color": "red",
 "mass": "140 kg",
-"homeworld": "http://swapi.dev/api/planets/28/",
+"homeworld": "Dagobah",
 "birth_year": "15BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/2/"
@@ -363,7 +355,7 @@
 "height": "190 cm",
 "eye_color": "red",
 "mass": "113 kg",
-"homeworld": "http://swapi.dev/api/planets/29/",
+"homeworld": "Trandosha",
 "birth_year": "53BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/7/"
@@ -379,7 +371,7 @@
 "height": "177 cm",
 "eye_color": "brown",
 "mass": "79 kg",
-"homeworld": "http://swapi.dev/api/planets/30/",
+"homeworld": "Socorro",
 "birth_year": "31BBY",
 "starships": "http://swapi.dev/api/starships/10/",
 "species": ""
@@ -395,7 +387,7 @@
 "height": "175 cm",
 "eye_color": "blue",
 "mass": "79 kg",
-"homeworld": "http://swapi.dev/api/planets/6/",
+"homeworld": "Bespin",
 "birth_year": "37BBY",
 "starships": "",
 "species": ""
@@ -411,7 +403,7 @@
 "height": "180 cm",
 "eye_color": "orange",
 "mass": "83 kg",
-"homeworld": "http://swapi.dev/api/planets/31/",
+"homeworld": "Mon Cala",
 "birth_year": "41BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/8/"
@@ -427,7 +419,7 @@
 "height": "150 cm",
 "eye_color": "blue",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/32/",
+"homeworld": "Chandrila",
 "birth_year": "48BBY",
 "starships": "",
 "species": ""
@@ -443,7 +435,7 @@
 "height": "unknown cm",
 "eye_color": "brown",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/28/",
+"homeworld": "Dagobah",
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/28/",
 "species": ""
@@ -459,7 +451,7 @@
 "height": "88 cm",
 "eye_color": "brown",
 "mass": "20 kg",
-"homeworld": "http://swapi.dev/api/planets/7/",
+"homeworld": "Endor",
 "birth_year": "8BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/9/"
@@ -475,7 +467,7 @@
 "height": "160 cm",
 "eye_color": "black",
 "mass": "68 kg",
-"homeworld": "http://swapi.dev/api/planets/33/",
+"homeworld": "Sullust",
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/10/",
 "species": "http://swapi.dev/api/species/10/"
@@ -492,7 +484,7 @@
 "height": "193 cm",
 "eye_color": "blue",
 "mass": "89 kg",
-"homeworld": "http://swapi.dev/api/planets/28/",
+"homeworld": "Dagobah",
 "birth_year": "92BBY",
 "starships": "",
 "species": ""
@@ -508,7 +500,7 @@
 "height": "191 cm",
 "eye_color": "red",
 "mass": "90 kg",
-"homeworld": "http://swapi.dev/api/planets/18/",
+"homeworld": "Cato Neimoidia",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/11/"
@@ -524,7 +516,7 @@
 "height": "170 cm",
 "eye_color": "blue",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/9/",
+"homeworld": "Coruscant",
 "birth_year": "91BBY",
 "starships": "",
 "species": ""
@@ -540,7 +532,7 @@
 "height": "185 cm",
 "eye_color": "brown",
 "mass": "45 kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "46BBY",
 "starships": "http://swapi.dev/api/starships/39/http://swapi.dev/api/starships/49/http://swapi.dev/api/starships/64/",
 "species": ""
@@ -556,7 +548,7 @@
 "height": "196 cm",
 "eye_color": "orange",
 "mass": "66 kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "52BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/12/"
@@ -572,7 +564,7 @@
 "height": "224 cm",
 "eye_color": "orange",
 "mass": "82 kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/12/"
@@ -588,7 +580,7 @@
 "height": "206 cm",
 "eye_color": "orange",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/12/"
@@ -604,7 +596,7 @@
 "height": "183 cm",
 "eye_color": "blue",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/40/",
 "species": ""
@@ -620,7 +612,7 @@
 "height": "137 cm",
 "eye_color": "yellow",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/34/",
+"homeworld": "Toydaria",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/13/"
@@ -636,7 +628,7 @@
 "height": "112 cm",
 "eye_color": "orange",
 "mass": "40 kg",
-"homeworld": "http://swapi.dev/api/planets/35/",
+"homeworld": "Malastare",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/14/"
@@ -653,7 +645,7 @@
 "height": "183 cm",
 "eye_color": "brown",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "62BBY",
 "starships": "",
 "species": ""
@@ -669,7 +661,7 @@
 "height": "163 cm",
 "eye_color": "brown",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/1/",
+"homeworld": "Tatooine",
 "birth_year": "72BBY",
 "starships": "",
 "species": ""
@@ -685,7 +677,7 @@
 "height": "175 cm",
 "eye_color": "yellow",
 "mass": "80 kg",
-"homeworld": "http://swapi.dev/api/planets/36/",
+"homeworld": "Dathomir",
 "birth_year": "54BBY",
 "starships": "http://swapi.dev/api/starships/41/",
 "species": "http://swapi.dev/api/species/22/"
@@ -701,7 +693,7 @@
 "height": "180 cm",
 "eye_color": "pink",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/37/",
+"homeworld": "Ryloth",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/15/"
@@ -717,7 +709,7 @@
 "height": "178 cm",
 "eye_color": "hazel",
 "mass": "55 kg",
-"homeworld": "http://swapi.dev/api/planets/37/",
+"homeworld": "Ryloth",
 "birth_year": "48BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/15/"
@@ -733,7 +725,7 @@
 "height": "79 cm",
 "eye_color": "unknown",
 "mass": "15 kg",
-"homeworld": "http://swapi.dev/api/planets/38/",
+"homeworld": "Aleen Minor",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/16/"
@@ -749,7 +741,7 @@
 "height": "94 cm",
 "eye_color": "yellow",
 "mass": "45 kg",
-"homeworld": "http://swapi.dev/api/planets/39/",
+"homeworld": "Vulpter",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/17/"
@@ -765,7 +757,7 @@
 "height": "122 cm",
 "eye_color": "black",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/40/",
+"homeworld": "Troiken",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/18/"
@@ -781,7 +773,7 @@
 "height": "163 cm",
 "eye_color": "orange",
 "mass": "65 kg",
-"homeworld": "http://swapi.dev/api/planets/41/",
+"homeworld": "Tund",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/19/"
@@ -797,7 +789,7 @@
 "height": "188 cm",
 "eye_color": "brown",
 "mass": "84 kg",
-"homeworld": "http://swapi.dev/api/planets/42/",
+"homeworld": "Haruun Kal",
 "birth_year": "72BBY",
 "starships": "",
 "species": ""
@@ -814,7 +806,7 @@
 "height": "198 cm",
 "eye_color": "yellow",
 "mass": "82 kg",
-"homeworld": "http://swapi.dev/api/planets/43/",
+"homeworld": "Cerea",
 "birth_year": "92BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/20/"
@@ -830,7 +822,7 @@
 "height": "196 cm",
 "eye_color": "black",
 "mass": "87 kg",
-"homeworld": "http://swapi.dev/api/planets/44/",
+"homeworld": "Glee Anselm",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/21/"
@@ -846,7 +838,7 @@
 "height": "171 cm",
 "eye_color": "brown",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/45/",
+"homeworld": "Iridonia",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/22/"
@@ -862,7 +854,7 @@
 "height": "184 cm",
 "eye_color": "blue",
 "mass": "50 kg",
-"homeworld": "http://swapi.dev/api/planets/9/",
+"homeworld": "Coruscant",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/23/"
@@ -878,7 +870,7 @@
 "height": "188 cm",
 "eye_color": "orange",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/47/",
+"homeworld": "Iktotch",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/24/"
@@ -894,7 +886,7 @@
 "height": "264 cm",
 "eye_color": "yellow",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/48/",
+"homeworld": "Quermia",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/25/"
@@ -910,7 +902,7 @@
 "height": "188 cm",
 "eye_color": "black",
 "mass": "80 kg",
-"homeworld": "http://swapi.dev/api/planets/49/",
+"homeworld": "Dorin",
 "birth_year": "22BBY",
 "starships": "http://swapi.dev/api/starships/48/",
 "species": "http://swapi.dev/api/species/26/"
@@ -926,7 +918,7 @@
 "height": "196 cm",
 "eye_color": "blue",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/50/",
+"homeworld": "Champala",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/27/"
@@ -942,7 +934,7 @@
 "height": "185 cm",
 "eye_color": "brown",
 "mass": "85 kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/39/",
 "species": ""
@@ -958,7 +950,7 @@
 "height": "157 cm",
 "eye_color": "brown",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "unknown",
 "starships": "",
 "species": ""
@@ -975,7 +967,7 @@
 "height": "183 cm",
 "eye_color": "blue",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/1/",
+"homeworld": "Tatooine",
 "birth_year": "82BBY",
 "starships": "",
 "species": ""
@@ -991,7 +983,7 @@
 "height": "183 cm",
 "eye_color": "yellow",
 "mass": "80 kg",
-"homeworld": "http://swapi.dev/api/planets/11/",
+"homeworld": "Geonosis",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/28/"
@@ -1007,7 +999,7 @@
 "height": "170 cm",
 "eye_color": "blue",
 "mass": "56.2 kg",
-"homeworld": "http://swapi.dev/api/planets/51/",
+"homeworld": "Mirial",
 "birth_year": "58BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/29/"
@@ -1023,7 +1015,7 @@
 "height": "166 cm",
 "eye_color": "blue",
 "mass": "50 kg",
-"homeworld": "http://swapi.dev/api/planets/51/",
+"homeworld": "Mirial",
 "birth_year": "40BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/29/"
@@ -1039,7 +1031,7 @@
 "height": "165 cm",
 "eye_color": "brown",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/8/",
+"homeworld": "Naboo",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/1/"
@@ -1055,7 +1047,7 @@
 "height": "193 cm",
 "eye_color": "brown",
 "mass": "80 kg",
-"homeworld": "http://swapi.dev/api/planets/52/",
+"homeworld": "Serenno",
 "birth_year": "102BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/1/"
@@ -1071,7 +1063,7 @@
 "height": "191 cm",
 "eye_color": "brown",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/2/",
+"homeworld": "Alderaan",
 "birth_year": "67BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/1/"
@@ -1087,7 +1079,7 @@
 "height": "183 cm",
 "eye_color": "brown",
 "mass": "79 kg",
-"homeworld": "http://swapi.dev/api/planets/53/",
+"homeworld": "Concord Dawn",
 "birth_year": "66BBY",
 "starships": "",
 "species": ""
@@ -1103,7 +1095,7 @@
 "height": "168 cm",
 "eye_color": "yellow",
 "mass": "55 kg",
-"homeworld": "http://swapi.dev/api/planets/54/",
+"homeworld": "Zolan",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/30/"
@@ -1119,7 +1111,7 @@
 "height": "198 cm",
 "eye_color": "yellow",
 "mass": "102 kg",
-"homeworld": "http://swapi.dev/api/planets/55/",
+"homeworld": "Ojom",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/31/"
@@ -1136,7 +1128,7 @@
 "height": "229 cm",
 "eye_color": "black",
 "mass": "88 kg",
-"homeworld": "http://swapi.dev/api/planets/10/",
+"homeworld": "Kamino",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/32/"
@@ -1152,7 +1144,7 @@
 "height": "213 cm",
 "eye_color": "black",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/10/",
+"homeworld": "Kamino",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/32/"
@@ -1168,7 +1160,7 @@
 "height": "167 cm",
 "eye_color": "blue",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/9/",
+"homeworld": "Coruscant",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/1/"
@@ -1184,7 +1176,7 @@
 "height": "96 cm",
 "eye_color": "red, blue",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/28/",
+"homeworld": "Dagobah",
 "birth_year": "unknown",
 "starships": "",
 "species": ""
@@ -1200,7 +1192,7 @@
 "height": "193 cm",
 "eye_color": "unknown",
 "mass": "48 kg",
-"homeworld": "http://swapi.dev/api/planets/56/",
+"homeworld": "Skako",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/33/"
@@ -1216,7 +1208,7 @@
 "height": "191 cm",
 "eye_color": "gold",
 "mass": "unknown kg",
-"homeworld": "http://swapi.dev/api/planets/57/",
+"homeworld": "Muunilinst",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/34/"
@@ -1232,7 +1224,7 @@
 "height": "178 cm",
 "eye_color": "black",
 "mass": "57 kg",
-"homeworld": "http://swapi.dev/api/planets/58/",
+"homeworld": "Shili",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/35/"
@@ -1248,7 +1240,7 @@
 "height": "216 cm",
 "eye_color": "green, yellow",
 "mass": "159 kg",
-"homeworld": "http://swapi.dev/api/planets/59/",
+"homeworld": "Kalee",
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/74/",
 "species": "http://swapi.dev/api/species/36/"
@@ -1264,7 +1256,7 @@
 "height": "234 cm",
 "eye_color": "blue",
 "mass": "136 kg",
-"homeworld": "http://swapi.dev/api/planets/14/",
+"homeworld": "Kashyyk",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/3/"
@@ -1280,7 +1272,7 @@
 "height": "188 cm",
 "eye_color": "brown",
 "mass": "79 kg",
-"homeworld": "http://swapi.dev/api/planets/2/",
+"homeworld": "Alderaan",
 "birth_year": "unknown",
 "starships": "",
 "species": ""
@@ -1297,7 +1289,7 @@
 "height": "178 cm",
 "eye_color": "white",
 "mass": "48 kg",
-"homeworld": "http://swapi.dev/api/planets/60/",
+"homeworld": "Umbara",
 "birth_year": "unknown",
 "starships": "",
 "species": ""
@@ -1313,25 +1305,10 @@
 "height": "206 cm",
 "eye_color": "black",
 "mass": "80 kg",
-"homeworld": "http://swapi.dev/api/planets/12/",
+"homeworld": "Utapau",
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/37/"
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

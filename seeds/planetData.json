@@ -24,83 +24,6 @@
 
     },
     {
-        "climate": "polluted",
-        "surface_water": "unknown",
-        "name": "Eriadu",
-        "diameter": "13490",
-        "rotation_period": "24 ",
-        "terrain": "cityscape",
-        "gravity": "1 standard ",
-        "orbital_period": "360",
-        "population": "22000000000"
-    },
-    {
-        "climate": "temperate",
-        "surface_water": "70",
-        "name": "Corellia",
-        "diameter": "11000",
-        "rotation_period": "25 ",
-        "terrain": "plains, urban, hills, forests",
-        "gravity": "1 standard ",
-        "orbital_period": "329",
-        "population": "3000000000"
-    },
-    {
-        "climate": "hot",
-        "surface_water": "60",
-        "name": "Rodia",
-        "diameter": "7549",
-        "rotation_period": "29 ",
-        "terrain": "jungles, oceans, urban, swamps",
-        "gravity": "1 standard ",
-        "orbital_period": "305",
-        "population": "1300000000"
-    },
-    {
-        "climate": "temperate",
-        "surface_water": "unknown",
-        "name": "Nal Hutta",
-        "diameter": "12150",
-        "rotation_period": "87 ",
-        "terrain": "urban, oceans, swamps, bogs",
-        "gravity": "1 standard ",
-        "orbital_period": "413",
-        "population": "7000000000"
-    },
-    {
-        "climate": "temperate",
-        "surface_water": "unknown",
-        "name": "Dantooine",
-        "diameter": "9830",
-        "rotation_period": "25 ",
-        "terrain": "oceans, savannas, mountains, grasslands",
-        "gravity": "1 standard ",
-        "orbital_period": "378",
-        "population": "1000"
-    },
-    {
-        "climate": "temperate",
-        "surface_water": "98",
-        "name": "Bestine IV",
-        "diameter": "6400",
-        "rotation_period": "26 ",
-        "terrain": "rocky islands, oceans",
-        "gravity": "unknown ",
-        "orbital_period": "680",
-        "population": "62000000"
-    },
-    {
-        "climate": "temperate",
-        "surface_water": "10",
-        "name": "Ord Mantell",
-        "diameter": "14050",
-        "rotation_period": "26 ",
-        "terrain": "plains, seas, mesas",
-        "gravity": "1 standard ",
-        "orbital_period": "334",
-        "population": "4000000000" 
-    },
-    {
         "climate": "temperate, arid",
         "surface_water": "5",
         "name": "Geonosis",
@@ -387,8 +310,11 @@
         "orbital_period": "391",
         "population": "421000000"    
     }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 3cd3461160186a7d0fc89f4aa96de6e7c3e05953
   ]
   
 
