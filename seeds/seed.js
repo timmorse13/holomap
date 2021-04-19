@@ -22,7 +22,7 @@ const seedDatabase = async () => {
 //   });
 
 
-    // const planets = await Planets.bulkCreate(planetData);
+    const planets = await Planets.bulkCreate(planetData);
 
     const characters = await Characters.bulkCreate(characterData);
 
