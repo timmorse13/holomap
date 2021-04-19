@@ -420,7 +420,250 @@
         "terrain": "deserts, mountains",
         "surface_water": "unknown",
         "population": "300000000"   
+    },
+    {
+        "name": "Aleen Minor", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "unknown", 
+        "surface_water": "unknown", 
+        "population": "unknown"   
+    },
+    {
+        "name": "Troiken", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "desert, tundra, rainforests, mountains", 
+        "surface_water": "unknown", 
+        "population": "unknown"   
+    },
+    {
+        "name": "Tund", 
+        "rotation_period": "48", 
+        "orbital_period": "1770", 
+        "diameter": "12190", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "barren, ash", 
+        "surface_water": "unknown", 
+        "population": "0"   
+    },
+    {
+        "name": "Haruun Kal", 
+        "rotation_period": "25", 
+        "orbital_period": "383", 
+        "diameter": "10120", 
+        "climate": "temperate", 
+        "gravity": "0.98", 
+        "terrain": "toxic cloudsea, plateaus, volcanoes", 
+        "surface_water": "unknown", 
+        "population": "705300"   
+    },
+    {
+        "name": "Cerea", 
+        "rotation_period": "27", 
+        "orbital_period": "386", 
+        "diameter": "unknown", 
+        "climate": "temperate", 
+        "gravity": "1", 
+        "terrain": "verdant", 
+        "surface_water": "20", 
+        "population": "450000000"   
+    },
+    {
+        "name": "Glee Anselm", 
+        "rotation_period": "33", 
+        "orbital_period": "206", 
+        "diameter": "15600", 
+        "climate": "tropical, temperate", 
+        "gravity": "1", 
+        "terrain": "lakes, islands, swamps, seas", 
+        "surface_water": "80", 
+        "population": "500000000"   
+    },
+    {
+        "name": "Iridonia", 
+        "rotation_period": "29", 
+        "orbital_period": "413", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "rocky canyons, acid pools", 
+        "surface_water": "unknown", 
+        "population": "unknown"   
+    },
+    {
+        "name": "Tholoth", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "unknown", 
+        "surface_water": "unknown", 
+        "population": "unknown"   
+    },
+    {
+        "name": "Iktotch", 
+        "rotation_period": "22", 
+        "orbital_period": "481", 
+        "diameter": "unknown", 
+        "climate": "arid, rocky, windy", 
+        "gravity": "1", 
+        "terrain": "rocky", 
+        "surface_water": "unknown", 
+        "population": "unknown"   
+    },
+    {
+        "name": "Quermia", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "unknown", 
+        "surface_water": "unknown", 
+        "population": "unknown"    
+    },
+    {
+        "name": "Dorin", 
+        "rotation_period": "22", 
+        "orbital_period": "409", 
+        "diameter": "13400", 
+        "climate": "temperate", 
+        "gravity": "1", 
+        "terrain": "unknown", 
+        "surface_water": "unknown", 
+        "population": "unknown"    
+    },
+    {
+        "name": "Champala", 
+        "rotation_period": "27", 
+        "orbital_period": "318", 
+        "diameter": "unknown", 
+        "climate": "temperate", 
+        "gravity": "1", 
+        "terrain": "oceans, rainforests, plateaus", 
+        "surface_water": "unknown", 
+        "population": "3500000000"   
+    },
+    {
+        "name": "Mirial", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "deserts", 
+        "surface_water": "unknown", 
+        "population": "unknown"    
+    },
+    {
+        "name": "Serenno", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "rainforests, rivers, mountains", 
+        "surface_water": "unknown", 
+        "population": "unknown"   
+    },
+    {
+        "name": "Concord Dawn", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "jungles, forests, deserts", 
+        "surface_water": "unknown", 
+        "population": "unknown"   
+    },
+    {
+        "name": "Zolan", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "unknown", 
+        "surface_water": "unknown", 
+        "population": "unknown"   
+    },
+    {
+        "name": "Ojom", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "frigid", 
+        "gravity": "unknown", 
+        "terrain": "oceans, glaciers", 
+        "surface_water": "100", 
+        "population": "500000000"    
+    },
+    {
+        "name": "Skako", 
+        "rotation_period": "27", 
+        "orbital_period": "384", 
+        "diameter": "unknown", 
+        "climate": "temperate", 
+        "gravity": "1", 
+        "terrain": "urban, vines", 
+        "surface_water": "unknown", 
+        "population": "500000000000"   
+    },
+    {
+        "name": "Muunilinst", 
+        "rotation_period": "28", 
+        "orbital_period": "412", 
+        "diameter": "13800", 
+        "climate": "temperate", 
+        "gravity": "1", 
+        "terrain": "plains, forests, hills, mountains", 
+        "surface_water": "25", 
+        "population": "5000000000"    
+    },
+    {
+        "name": "Shili", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "temperate", 
+        "gravity": "1", 
+        "terrain": "cities, savannahs, seas, plains", 
+        "surface_water": "unknown", 
+        "population": "unknown"   
+    },
+    {
+        "name": "Kalee", 
+        "rotation_period": "23", 
+        "orbital_period": "378", 
+        "diameter": "13850", 
+        "climate": "arid, temperate, tropical", 
+        "gravity": "1", 
+        "terrain": "rainforests, cliffs, canyons, seas", 
+        "surface_water": "unknown", 
+        "population": "4000000000",    
+    },
+    {
+        "name": "Umbara", 
+        "rotation_period": "unknown", 
+        "orbital_period": "unknown", 
+        "diameter": "unknown", 
+        "climate": "unknown", 
+        "gravity": "unknown", 
+        "terrain": "unknown", 
+        "surface_water": "unknown", 
+        "population": "unknown"    
     }
+
     
   ]
   
