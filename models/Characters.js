@@ -92,7 +92,7 @@ Characters.init(
 
         allowNull: true,
     },
-    species: {
+    description: {
 
         type: DataTypes.STRING,
 
