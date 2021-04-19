@@ -39,12 +39,9 @@
   "birth_year": "33BBY",
   "starships": "",
   "description": "R2-D2, pronounced Artoo-Deetoo and often referred to as R2 (Artoo), was an R2-series astromech droid manufactured by Industrial Automaton with masculine programming. A smart, spunky droid who would serve a multitude of masters over his lifetime, R2-D2 was never given a full memory wipe (apart from a partial wipe of select information by Cad Bane during the senate hostage crisis) nor did he ever receive new programming, with these factors resulting in an adventurous and independent attitude. Often finding himself in pivotal moments in galactic history, his bravery and ingenuity saved the galaxy on numerous occasions. Beginning his service in the employ of Queen Amidala of Naboo, R2-D2 wound up serving Jedi Knight Anakin Skywalker during the waning years of the Galactic Republic, often accompanied by the protocol droid C-3PO in many adventures throughout the Clone Wars. After Skywalker turned to the dark side of the Force, the droid served Senator Bail Organa for a time in the Imperial Senate. Nineteen years following the purge of the Galactic Republic, R2-D2 played a pivotal role in helping the Rebel Alliance destroy the Empire's Death Star superweapon. He carried technical readouts vital to its destruction. Serving Jedi Knight Luke Skywalker, the son of his two former masters throughout the Galactic Civil War, he participated in both the Battles of Hoth and Endor, and witnessed the successful destruction of the Empire's second Death Star four years after the first one was demolished. In the subsequent thirty years, R2 accompanied Luke Skywalker until the undoing of his attempted resurrection of the Jedi Order in 28 ABY. Following Luke's disappearance, R2 entered a self-imposed low power mode as newer droid models started to out-compute the aging astromech. Despite this, his celebrated role in the Rebellion protected him from the usual recycling procedure of many old droids, allowing him a semi-retirement in the Resistance as he pored over several decades of uninterrupted data, and dreamed of his greatest adventures. Following his reawakening after the Battle of Starkiller Base, R2 went on to accompany the Force-sensitive scavenger Rey on her journey to train under Luke Skywalker on Ahch-To, where the droid was reunited with his old master. R2-D2 continued to aid the Resistance alongside his longtime counterpart C-3PO throughout the First Order/Resistance War, culminating a decisive in victory at the Battle of Exegol, in which he was an active participant.",
-  "image": "images/character_img/R2-D2.png"
-  
+  "image": "client/public/images/character_img/R2-D2.png"
   },
-  
-  {
-  
+  {  
   "name": "Darth Vader",
   "gender": "male",
   "skin_color": "white",
@@ -56,12 +53,9 @@
   "birth_year": "41.9BBY",
   "starships": "http://swapi.dev/api/starships/13/",
   "description": "",
-  "image": "images/character_img/Darth_Vader.png"
-  
-  },
-  
-  {
-  
+  "image": "client/public/images/character_img/Darth_Vader.png"  
+  },  
+  {  
   "name": "Leia Organa",
   "gender": "female",
   "skin_color": "light",
@@ -73,12 +67,9 @@
   "birth_year": "19BBY",
   "starships": "",
   "species": "",
-  "image": "images/character_img/Leia.png"
-  
-  },
-  
-  {
-  
+  "image": "client/public/images/character_img/Leia.png"  
+  },  
+  {  
   "name": "Owen Lars",
   "gender": "male",
   "skin_color": "light",
@@ -89,12 +80,9 @@
   "homeworld": "Tatooine",
   "birth_year": "52BBY",
   "starships": "",
-  "species": ""
-  
-  },
-  
-  {
-  
+  "species": ""  
+  },  
+  {  
   "name": "Beru Whitesun lars",
   "gender": "female",
   "skin_color": "light",
@@ -105,12 +93,9 @@
   "homeworld": "Tatooine",
   "birth_year": "47BBY",
   "starships": "",
-  "species": ""
-  
-  },
-  
-  {
-  
+  "species": ""  
+  },  
+  {  
   "name": "R5-D4",
   "gender": "n/a",
   "skin_color": "white, red",
@@ -121,12 +106,9 @@
   "homeworld": "Tatooine",
   "birth_year": "unknown",
   "starships": "",
-  "species": "http://swapi.dev/api/species/2/"
-  
-  },
-  
-  {
-  
+  "species": "http://swapi.dev/api/species/2/"  
+  },  
+  {  
   "name": "Biggs Darklighter",
   "gender": "male",
   "skin_color": "light",
@@ -137,12 +119,9 @@
   "homeworld": "Tatooine",
   "birth_year": "24BBY",
   "starships": "http://swapi.dev/api/starships/12/",
-  "species": ""
-  
-  },
-  
-  {
-  
+  "species": ""  
+  },  
+  {  
   "name": "Obi-Wan Kenobi",
   "gender": "male",
   "skin_color": "fair",
@@ -154,13 +133,9 @@
   "birth_year": "57BBY",
   "starships": "http://swapi.dev/api/starships/48/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/64/http://swapi.dev/api/starships/65/http://swapi.dev/api/starships/74/",
   "species": "",
-  "image": "images/character_img/Obi-Wan_Robe.png"
-  
-  },
-
-  
+  "image": "client/public/images/character_img/Obi-Wan_Robe.png"  
+  },  
 {
-
 "name": "Anakin Skywalker",
 "gender": "male",
 "skin_color": "fair",
@@ -172,12 +147,9 @@
 "birth_year": "41.9BBY",
 "starships": "http://swapi.dev/api/starships/39/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/65/",
 "species": "",
-"image": "images/character_img/Anakin.png"
-
+"image": "client/public/images/character_img/Anakin.png"
 },
-
 {
-
 "name": "Wilhuff Tarkin",
 "gender": "male",
 "skin_color": "fair",
@@ -189,11 +161,8 @@
 "birth_year": "64BBY",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Chewbacca",
 "gender": "male",
 "skin_color": "unknown",
@@ -205,12 +174,9 @@
 "birth_year": "200BBY",
 "starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
 "species": "http://swapi.dev/api/species/3/",
-"image": "images/character_img/Chewbacca.png"
-
+"image": "client/public/images/character_img/Chewbacca.png"
 },
-
 {
-
 "name": "Han Solo",
 "gender": "male",
 "skin_color": "fair",
@@ -222,12 +188,9 @@
 "birth_year": "29BBY",
 "starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
 "species": "",
-"image": "images/character_img/Han_Solo.png"
-
+"image": "client/public/images/character_img/Han_Solo.png"
 },
-
 {
-
 "name": "Greedo",
 "gender": "male",
 "skin_color": "green",
@@ -239,12 +202,9 @@
 "birth_year": "44BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/4/",
-"image": "images/character_img/Greedo.png"
-
+"image": "client/public/images/character_img/Greedo.png"
 },
-
 {
-
 "name": "Jabba Desilijic Tiure",
 "gender": "hermaphrodite",
 "skin_color": "green-tan, brown",
@@ -255,13 +215,9 @@
 "homeworld": "Nal Hutta",
 "birth_year": "600BBY",
 "starships": "",
-"species": "http://swapi.dev/api/species/5/",
-"image": "images/character_img/Jabba.png"
-
+"species": "http://swapi.dev/api/species/5/"
 },
-
 {
-
 "name": "Wedge Antilles",
 "gender": "male",
 "skin_color": "fair",
@@ -273,11 +229,8 @@
 "birth_year": "21BBY",
 "starships": "http://swapi.dev/api/starships/12/",
 "species": ""
-
 },
-
 {
-
 "name": "Jek Tono Porkins",
 "gender": "male",
 "skin_color": "fair",
@@ -289,11 +242,8 @@
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/12/",
 "species": ""
-
 },
-
 {
-
 "name": "Yoda",
 "gender": "male",
 "skin_color": "green",
@@ -305,12 +255,9 @@
 "birth_year": "896BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/6/",
-"image": "images/character_img/Yoda.png"
-
+"image": "client/public/images/character_img/Yoda.png"
 },
-
 {
-
 "name": "Palpatine",
 "gender": "male",
 "skin_color": "pale",
@@ -322,13 +269,9 @@
 "birth_year": "82BBY",
 "starships": "",
 "species": "",
-"image": "images/character_img/Palpatine.png"
-
+"image": "client/public/images/character_img/Palpatine.png"
 },
-
-
 {
-
 "name": "Boba Fett",
 "gender": "male",
 "skin_color": "fair",
@@ -340,12 +283,9 @@
 "birth_year": "31.5BBY",
 "starships": "http://swapi.dev/api/starships/21/",
 "species": "",
-"image": "images/character_img/Boba_Fett.png"
-
+"image": "client/public/images/character_img/Boba_Fett.png"
 },
-
 {
-
 "name": "IG-88",
 "gender": "none",
 "skin_color": "metal",
@@ -357,11 +297,8 @@
 "birth_year": "15BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/2/"
-
 },
-
 {
-
 "name": "Bossk",
 "gender": "male",
 "skin_color": "green",
@@ -373,12 +310,9 @@
 "birth_year": "53BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/7/",
-"image": "images/character_img/Bossk.png"
-
+"image": "client/public/images/character_img/Bossk.png"
 },
-
 {
-
 "name": "Lando Calrissian",
 "gender": "male",
 "skin_color": "dark",
@@ -390,12 +324,9 @@
 "birth_year": "31BBY",
 "starships": "http://swapi.dev/api/starships/10/",
 "species": "",
-"image": "images/character_img/Lando.png"
-
+"image": "client/public/images/character_img/Lando.png"
 },
-
 {
-
 "name": "Lobot",
 "gender": "male",
 "skin_color": "light",
@@ -407,11 +338,8 @@
 "birth_year": "37BBY",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Ackbar",
 "gender": "male",
 "skin_color": "brown mottle",
@@ -423,11 +351,8 @@
 "birth_year": "41BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/8/"
-
 },
-
 {
-
 "name": "Mon Mothma",
 "gender": "female",
 "skin_color": "fair",
@@ -439,11 +364,8 @@
 "birth_year": "48BBY",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Arvel Crynyd",
 "gender": "male",
 "skin_color": "fair",
@@ -455,11 +377,8 @@
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/28/",
 "species": ""
-
 },
-
 {
-
 "name": "Wicket Systri Warrick",
 "gender": "male",
 "skin_color": "brown",
@@ -470,13 +389,9 @@
 "homeworld": "Endor",
 "birth_year": "8BBY",
 "starships": "",
-"species": "http://swapi.dev/api/species/9/",
-"image": "images/character_img/Wicket.png"
-
+"species": "http://swapi.dev/api/species/9/"
 },
-
 {
-
 "name": "Nien Nunb",
 "gender": "male",
 "skin_color": "grey",
@@ -488,13 +403,9 @@
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/10/",
 "species": "http://swapi.dev/api/species/10/",
-"image": "images/character_img/Nien_Nunb.png"
-
+"image": "client/public/images/character_img/Nien_Nunb.png"
 },
-
-
 {
-
 "name": "Qui-Gon Jinn",
 "gender": "male",
 "skin_color": "fair",
@@ -505,13 +416,9 @@
 "homeworld": "Dagobah",
 "birth_year": "92BBY",
 "starships": "",
-"species": "",
-"image": "images/character_img/Qui-Gonn_Jinn.png"
-
+"species": ""
 },
-
 {
-
 "name": "Nute Gunray",
 "gender": "male",
 "skin_color": "mottled green",
@@ -523,11 +430,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/11/"
-
 },
-
 {
-
 "name": "Finis Valorum",
 "gender": "male",
 "skin_color": "fair",
@@ -539,11 +443,8 @@
 "birth_year": "91BBY",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Padmé Amidala",
 "gender": "female",
 "skin_color": "light",
@@ -555,11 +456,8 @@
 "birth_year": "46BBY",
 "starships": "http://swapi.dev/api/starships/39/http://swapi.dev/api/starships/49/http://swapi.dev/api/starships/64/",
 "species": ""
-
 },
-
 {
-
 "name": "Jar Jar Binks",
 "gender": "male",
 "skin_color": "orange",
@@ -571,11 +469,8 @@
 "birth_year": "52BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/12/"
-
 },
-
 {
-
 "name": "Roos Tarpals",
 "gender": "male",
 "skin_color": "grey",
@@ -587,11 +482,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/12/"
-
 },
-
 {
-
 "name": "Rugor Nass",
 "gender": "male",
 "skin_color": "green",
@@ -603,11 +495,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/12/"
-
 },
-
 {
-
 "name": "Ric Olié",
 "gender": "male",
 "skin_color": "fair",
@@ -619,11 +508,8 @@
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/40/",
 "species": ""
-
 },
-
 {
-
 "name": "Watto",
 "gender": "male",
 "skin_color": "blue, grey",
@@ -635,11 +521,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/13/"
-
 },
-
 {
-
 "name": "Sebulba",
 "gender": "male",
 "skin_color": "grey, red",
@@ -651,12 +534,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/14/"
-
 },
-
-
 {
-
 "name": "Quarsh Panaka",
 "gender": "male",
 "skin_color": "dark",
@@ -668,11 +547,8 @@
 "birth_year": "62BBY",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Shmi Skywalker",
 "gender": "female",
 "skin_color": "fair",
@@ -684,11 +560,8 @@
 "birth_year": "72BBY",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Darth Maul",
 "gender": "male",
 "skin_color": "red",
@@ -700,12 +573,9 @@
 "birth_year": "54BBY",
 "starships": "http://swapi.dev/api/starships/41/",
 "species": "http://swapi.dev/api/species/22/",
-"image": "images/character_img/Darth_Maul.png"
-
+"image": "client/public/images/character_img/Darth_Maul.png"
 },
-
 {
-
 "name": "Bib Fortuna",
 "gender": "male",
 "skin_color": "pale",
@@ -717,11 +587,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/15/"
-
 },
-
 {
-
 "name": "Ayla Secura",
 "gender": "female",
 "skin_color": "blue",
@@ -733,11 +600,8 @@
 "birth_year": "48BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/15/"
-
 },
-
 {
-
 "name": "Ratts Tyerel",
 "gender": "male",
 "skin_color": "grey, blue",
@@ -749,11 +613,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/16/"
-
 },
-
 {
-
 "name": "Dud Bolt",
 "gender": "male",
 "skin_color": "blue, grey",
@@ -765,11 +626,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/17/"
-
 },
-
 {
-
 "name": "Gasgano",
 "gender": "male",
 "skin_color": "white, blue",
@@ -781,11 +639,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/18/"
-
 },
-
 {
-
 "name": "Ben Quadinaros",
 "gender": "male",
 "skin_color": "grey, green, yellow",
@@ -797,11 +652,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/19/"
-
 },
-
 {
-
 "name": "Mace Windu",
 "gender": "male",
 "skin_color": "dark",
@@ -812,14 +664,9 @@
 "homeworld": "Haruun Kal",
 "birth_year": "72BBY",
 "starships": "",
-"species": "",
-"image": "images/character_img/Mace_Windu.png"
-
+"species": ""
 },
-
-
 {
-
 "name": "Ki-Adi-Mundi",
 "gender": "male",
 "skin_color": "pale",
@@ -831,11 +678,8 @@
 "birth_year": "92BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/20/"
-
 },
-
 {
-
 "name": "Kit Fisto",
 "gender": "male",
 "skin_color": "green",
@@ -847,11 +691,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/21/"
-
 },
-
 {
-
 "name": "Eeth Koth",
 "gender": "male",
 "skin_color": "brown",
@@ -863,11 +704,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/22/"
-
 },
-
 {
-
 "name": "Adi Gallia",
 "gender": "female",
 "skin_color": "dark",
@@ -879,11 +717,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/23/"
-
 },
-
 {
-
 "name": "Saesee Tiin",
 "gender": "male",
 "skin_color": "pale",
@@ -895,11 +730,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/24/"
-
 },
-
 {
-
 "name": "Yarael Poof",
 "gender": "male",
 "skin_color": "white",
@@ -911,11 +743,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/25/"
-
 },
-
 {
-
 "name": "Plo Koon",
 "gender": "male",
 "skin_color": "orange",
@@ -927,11 +756,8 @@
 "birth_year": "22BBY",
 "starships": "http://swapi.dev/api/starships/48/",
 "species": "http://swapi.dev/api/species/26/"
-
 },
-
 {
-
 "name": "Mas Amedda",
 "gender": "male",
 "skin_color": "blue",
@@ -943,11 +769,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/27/"
-
 },
-
 {
-
 "name": "Gregar Typho",
 "gender": "male",
 "skin_color": "dark",
@@ -959,11 +782,8 @@
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/39/",
 "species": ""
-
 },
-
 {
-
 "name": "Cordé",
 "gender": "female",
 "skin_color": "light",
@@ -975,12 +795,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": ""
-
 },
-
-
 {
-
 "name": "Cliegg Lars",
 "gender": "male",
 "skin_color": "fair",
@@ -992,11 +808,8 @@
 "birth_year": "82BBY",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Poggle the Lesser",
 "gender": "male",
 "skin_color": "green",
@@ -1008,11 +821,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/28/"
-
 },
-
 {
-
 "name": "Luminara Unduli",
 "gender": "female",
 "skin_color": "yellow",
@@ -1024,11 +834,8 @@
 "birth_year": "58BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/29/"
-
 },
-
 {
-
 "name": "Barriss Offee",
 "gender": "female",
 "skin_color": "yellow",
@@ -1040,11 +847,8 @@
 "birth_year": "40BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/29/"
-
 },
-
 {
-
 "name": "Dormé",
 "gender": "female",
 "skin_color": "light",
@@ -1056,11 +860,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/1/"
-
 },
-
 {
-
 "name": "Dooku",
 "gender": "male",
 "skin_color": "fair",
@@ -1072,12 +873,9 @@
 "birth_year": "102BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/1/",
-"image": "images/character_img/Dooku.png"
-
+"image": "client/public/images/character_img/Dooku.png"
 },
-
 {
-
 "name": "Bail Prestor Organa",
 "gender": "male",
 "skin_color": "tan",
@@ -1089,11 +887,8 @@
 "birth_year": "67BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/1/"
-
 },
-
 {
-
 "name": "Jango Fett",
 "gender": "male",
 "skin_color": "tan",
@@ -1105,11 +900,8 @@
 "birth_year": "66BBY",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Zam Wesell",
 "gender": "female",
 "skin_color": "fair, green, yellow",
@@ -1121,11 +913,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/30/"
-
 },
-
 {
-
 "name": "Dexter Jettster",
 "gender": "male",
 "skin_color": "brown",
@@ -1137,12 +926,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/31/"
-
 },
-
-
 {
-
 "name": "Lama Su",
 "gender": "male",
 "skin_color": "grey",
@@ -1154,11 +939,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/32/"
-
 },
-
 {
-
 "name": "Taun We",
 "gender": "female",
 "skin_color": "grey",
@@ -1170,11 +952,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/32/"
-
 },
-
 {
-
 "name": "Jocasta Nu",
 "gender": "female",
 "skin_color": "fair",
@@ -1186,11 +965,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/1/"
-
 },
-
 {
-
 "name": "R4-P17",
 "gender": "female",
 "skin_color": "silver, red",
@@ -1202,11 +978,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Wat Tambor",
 "gender": "male",
 "skin_color": "green, grey",
@@ -1218,11 +991,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/33/"
-
 },
-
 {
-
 "name": "San Hill",
 "gender": "male",
 "skin_color": "grey",
@@ -1234,11 +1004,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/34/"
-
 },
-
 {
-
 "name": "Shaak Ti",
 "gender": "female",
 "skin_color": "red, blue, white",
@@ -1250,11 +1017,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/35/"
-
 },
-
 {
-
 "name": "Grievous",
 "gender": "male",
 "skin_color": "brown, white",
@@ -1266,11 +1030,8 @@
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/74/",
 "species": "http://swapi.dev/api/species/36/"
-
 },
-
 {
-
 "name": "Tarfful",
 "gender": "male",
 "skin_color": "brown",
@@ -1282,11 +1043,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/3/"
-
 },
-
 {
-
 "name": "Raymus Antilles",
 "gender": "male",
 "skin_color": "light",
@@ -1298,12 +1056,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": ""
-
 },
-
-
 {
-
 "name": "Sly Moore",
 "gender": "female",
 "skin_color": "pale",
@@ -1315,11 +1069,8 @@
 "birth_year": "unknown",
 "starships": "",
 "species": ""
-
 },
-
 {
-
 "name": "Tion Medon",
 "gender": "male",
 "skin_color": "grey",
@@ -1331,6 +1082,5 @@
 "birth_year": "unknown",
 "starships": "",
 "species": "http://swapi.dev/api/species/37/"
-
 }
 ]

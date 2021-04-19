@@ -16,3 +16,6 @@ router.use(function(req, res) {
 });
 
 module.exports = router;
+
+
+// PLANET TABLE HAS NO UNIQUE ID #!!!
