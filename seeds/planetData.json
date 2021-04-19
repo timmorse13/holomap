@@ -10,7 +10,7 @@
         "orbital_period": "304",
         "population": "200000",
         "description": "Tatooine was a sparsely inhabited circumbinary desert planet located in the galaxy's Outer Rim Territories. It was the homeworld of Anakin and Luke Skywalker, who would go on to shape galactic history. Part of a binary star system, the planet was oppressed by scorching suns, resulting in the world lacking the necessary surface water to sustain large populations. As a result, many residents of the planet instead drew water from the atmosphere via moisture farms. The planet also had little surface vegetation. Initially inhabited by native Jawa and Tusken Raider species, it saw a population explosion following the search for valuable mining deposits on the planet's silicate surface. Finding the ore to have unwanted metallurgic properties, mining firms left the planet en masse, leaving behind valuable equipment, most notably large sandcrawlers, which were later used by the Jawa population. The Hutt Clan also maintained a presence on Tatooine, with Jabba the Hutt owning a palace in the desert at least by the time of the Clone Wars until his death shortly before the Battle of Endor. Generally ignored by the galaxy at large, Tatooine gained the notice of the Empire during the Galactic Civil War when an escape pod carrying two droids in possession of top-secret information launched from the starship Tantive IV and landed on the sandy Outer Rim world.",
-        "planet_info": "Tatooine was a planet located in the Outer Rim, a region of the galaxy far removed from its core. It had three moons, Ghomrassen, Guermessa and Chenini. Long ago, Tatooine was covered in oceans and rainforests, but for unknown reasons, it became a hot desert world. Tatooine orbited twin suns, Tatoo I and Tatoo II. The whole planet was covered in harsh deserts, and only a small part of its northern hemisphere could sustain intelligent life. The landscape was covered with sand dunes, mountains, and canyons, which made traversing the planet very difficult. Due to the absence of surface water, those who lived on Tatooine had to draw moisture through the dry air. Inhabiting the planet were many native species, the largest of which were the carnivorous krayt dragons. The common krayt dragon, while more plentiful, was shadowed by the greater krayt dragon, which submerged itself under the shifting sands and used its powerful limbs to swim through the dunes. In addition, the common bantha and eopie species also found a home on the world, along with dewbacks, rontos, womp rats, massiffs and scurriers. The cities of Tatooine were frequently blasted by sandstorms and the inhabitants always seemed to know when one was coming. Not much distinguished the towns as the poor standard of living was common. The cities were separated from each other by large expanses of deserts. Rural life, on the other hand, was mostly small moisture farms that sold water and food for a meager living."
+        "planet_info": "Tatooine was a planet located in the Outer Rim, a region of the galaxy far removed from its core. It had three moons, Ghomrassen, Guermessa and Chenini. Long ago, Tatooine was covered in oceans and rainforests, but for unknown reasons, it became a hot desert world. Tatooine orbited twin suns, Tatoo I and Tatoo II. The whole planet was covered in harsh deserts, and only a small part of its northern hemisphere could sustain intelligent life. The landscape was covered with sand dunes, mountains, and canyons, which made traversing the planet very difficult. Due to the absence of surface water, those who lived on Tatooine had to draw moisture through the dry air. Inhabiting the planet were many native species, the largest of which were the carnivorous krayt dragons. The common krayt dragon, while more plentiful, was shadowed by the greater krayt dragon, which submerged itself under the shifting sands and used its powerful limbs to swim through the dunes. In addition, the common bantha and eopie species also found a home on the world, along with dewbacks, rontos, womp rats, massiffs and scurriers. The cities of Tatooine were frequently blasted by sandstorms and the inhabitants always seemed to know when one was coming. Not much distinguished the towns as the poor standard of living was common. The cities were separated from each other by large expanses of deserts. Rural life, on the other hand, was mostly small moisture farms that sold water and food for a meager living.",
         "img": "client/public/images/planet_img/Tatooine_COLOR.png"
        
     },
@@ -312,6 +312,48 @@
         "gravity": "1 ",
         "orbital_period": "391",
         "population": "421000000"    
+    },
+    {
+        "name": "Hoth",
+        "rotation_period": "23",
+        "orbital_period": "549",
+        "diameter": "7200",
+        "climate": "frozen",
+        "gravity": "1.1 standard",
+        "terrain": "tundra, ice caves, mountain ranges",
+        "surface_water": "100",
+        "population": "unknown",
+        "description": "Hoth was a remote, icy planet that was the sixth planet in the star system of the same name. It notably hosted Echo Base, the temporary headquarters of the Alliance to Restore the Republic, until the Galactic Empire located the Rebels, initiating a major confrontation known as the Battle of Hoth.",
+        "planet_info": "From space, the planet of Hoth looked like a pale blue orb due to its dense snow and ice covering. Five planets existed between Hoth and its sun, while an asteroid belt surrounded the planet with meteors occasionally striking the surface. Most of its surface was covered with glaciers and frozen ice plains. Another third of the planet was covered by oceans. The temperature, although always frigid, was known to drop to -60°C come nightfall. Although devoid of intelligent life, Hoth was home to fifteen species of large gray snow lizards called tauntauns, which was commonly used by Rebels as a means of transport, and which Han Solo cut open to use as shelter to keep Luke Skywalker and himself warm during a snowstorm. It was also home to a species of towering predators known as wampas. During his stay on Hoth, Skywalker was captured by a wampa and was hung upside down in the wampa's cave, waiting to be eaten. Using the power of the Force, Skywalker managed to get his hands on his lightsaber and cut himself down from the roof and sever the wampa's right arm. The planet also had a number of crystalline geysers.",
+        "img":"client/public/images/planet_img/Hoth_COLOR.png"   
+    },
+    {
+        "name": "Endor",
+        "rotation_period": "18",
+        "orbital_period": "402",
+        "diameter": "4900",
+        "climate": "temperate",
+        "gravity": "0.85 standard",
+        "terrain": "forests, mountains, lakes",
+        "surface_water": "8",
+        "population": "30000000",
+        "description": "Endor, designated IX3244-A, also known as the Forest Moon of Endor or the Sanctuary Moon, was a small forested moon that orbited the Outer Rim planet of the same name and was the homeworld of the sentient Dulok, Ewok, and Yuzzum species, as well as the semi-sentient Gorax and Wistie races.",
+        "planet_info": "The moon was covered in dense woodlands, tall mountains, and savannas, and home to the sentient Ewok, Dulok, and Yuzzum species. Some of Endor's trees reached more than 1,000 meters in height. It contained a breathable atmosphere to humans and 8% surface water. It also had two suns: Endor I and Endor II.",
+        "img":"client/public/images/planet_img/Endor_COLOR.png"   
+    },
+    {
+        "name": "Coruscant",
+        "rotation_period": "24",
+        "orbital_period": "368",
+        "diameter": "12240",
+        "climate": "temperate",
+        "gravity": "1 standard",
+        "terrain": "cityscape, mountains",
+        "surface_water": "unknown",
+        "population": "1000000000000",
+        "description": "Coruscant (pronounced /'kɔɹəsɑnt/), also known as Imperial Center during the rule of the Galactic Empire, was an ecumenopolis—a city-covered planet, collectively known as Imperial City— in the Coruscant system of the Core Worlds. Though debated by historians, it was generally believed that Coruscant was the original homeworld of humanity. Noted for its cosmopolitan culture and towering skyscrapers, Coruscant's population consisted of approximately one trillion citizens hailing from a vast array of both humanoid and alien species. In addition, Coruscant's strategic location at the end of several major trade routes enabled it to grow in power and influence, causing the city-planet to surpass its early rivals and become the hub of galactic culture, education, finance, fine arts, politics and technology. It was the location of several major landmarks, including the Jedi Temple, Monument Plaza and the Senate Building.",
+        "planet_info": "Located in the Coruscant subsector of the Corusca sector within the Core Worlds region, Coruscant was a planet covered in a dense ecumenopolis. 12,240 kilometers in diameter, Coruscant orbited relatively far from its small sun, varying from 207 to 251 million kilometers, and thus did not have a climate that suited any one particular species (although this inconvenience was rectified by technological means and the vast heat generated by the multi-level cityscape). From space, Coruscant's luminosity was slightly dimmed by the planet's hazy cloud cover. The planet's weather patterns were affected by the troposphere-piercing buildings that covered the planet's surface. Inside the tallest buildings, enormous differences of temperature and air pressure from top to bottom produced unusual and unpredictable microclimates. As such, Coruscant had its own weather-control system. Thousands of years of development destroyed the planet's ancient mountains and seas. Monument Plaza housed the top of Coruscant's last remaining mountain peak. There were 24 hours in a Coruscant day, and 365 days in a Coruscant year. Owing to its importance in galactic history, the galaxy used a dating system standardized on Coruscant, and the planet's galactic coordinates were 0-0-0 despite it not being the exact geographical center of the galaxy.",
+        "img": "client/public/images/planet_img/Coruscant_COLOR.png"   
     }
   ]
   
