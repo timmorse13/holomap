@@ -5,3 +5,6 @@ const postRoutes = require("./posts");
 router.use("/posts", postRoutes);
 
 module.exports = router;
+
+
+// PLANET TABLE HAS NO UNIQUE ID #!!!
