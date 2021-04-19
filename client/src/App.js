@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 // import Luke from "./components/Characters/Luke"
 function App() {
   const [people, setPeople] = useState([]);
-  const [planets, setPlanets] = useState([]);
+  const [starships, setStarShips] = useState([]);
 
   useEffect(() => {
     async function getChar() {
@@ -13,6 +13,8 @@ function App() {
       setPeople(data.results);
       console.log(data)
     }
+    async function getStarShips() {
+      let res = await fetch('https://swapi.dev/api/starships/?page=1');
     async function getPlanets() {
 
       let res = await fetch('https://swapi.dev/api/planets/?page=5');
@@ -20,15 +22,15 @@ function App() {
       let res = await fetch('https://swapi.dev/api/planets/?page=3');
 
       let data = await res.json();
-      setPlanets(data.results);
+      setStarShips(data.results);
       console.log(data)
 
     }
     getChar();
-    getPlanets();
+    getStarShips();
   }, []);
   console.log('data', people)
-  console.log('data', planets)
+  console.log('data', starships)
 
   // fetch('https://swapi.dev/api/planets/')
   // .then(response => response.json())
@@ -40,7 +42,7 @@ function App() {
   
   return(
     <div className="one">
-      {planets.map(planets => (
+      {starships.map(starships => (
         <div>
           <br />
           pppp <br /><br />
