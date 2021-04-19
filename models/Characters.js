@@ -94,7 +94,7 @@ Characters.init(
     },
     description: {
 
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(4096),
 
         allowNull: true,
     },
