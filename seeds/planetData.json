@@ -653,7 +653,7 @@
         "gravity": "1", 
         "terrain": "rainforests, cliffs, canyons, seas", 
         "surface_water": "unknown", 
-        "population": "4000000000",    
+        "population": "4000000000"    
     },
     {
         "name": "Umbara", 
