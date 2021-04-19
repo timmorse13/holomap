@@ -39,12 +39,7 @@
   "birth_year": "33BBY",
   "starships": "",
   "description": "R2-D2, pronounced Artoo-Deetoo and often referred to as R2 (Artoo), was an R2-series astromech droid manufactured by Industrial Automaton with masculine programming. A smart, spunky droid who would serve a multitude of masters over his lifetime, R2-D2 was never given a full memory wipe (apart from a partial wipe of select information by Cad Bane during the senate hostage crisis) nor did he ever receive new programming, with these factors resulting in an adventurous and independent attitude. Often finding himself in pivotal moments in galactic history, his bravery and ingenuity saved the galaxy on numerous occasions. Beginning his service in the employ of Queen Amidala of Naboo, R2-D2 wound up serving Jedi Knight Anakin Skywalker during the waning years of the Galactic Republic, often accompanied by the protocol droid C-3PO in many adventures throughout the Clone Wars. After Skywalker turned to the dark side of the Force, the droid served Senator Bail Organa for a time in the Imperial Senate. Nineteen years following the purge of the Galactic Republic, R2-D2 played a pivotal role in helping the Rebel Alliance destroy the Empire's Death Star superweapon. He carried technical readouts vital to its destruction. Serving Jedi Knight Luke Skywalker, the son of his two former masters throughout the Galactic Civil War, he participated in both the Battles of Hoth and Endor, and witnessed the successful destruction of the Empire's second Death Star four years after the first one was demolished. In the subsequent thirty years, R2 accompanied Luke Skywalker until the undoing of his attempted resurrection of the Jedi Order in 28 ABY. Following Luke's disappearance, R2 entered a self-imposed low power mode as newer droid models started to out-compute the aging astromech. Despite this, his celebrated role in the Rebellion protected him from the usual recycling procedure of many old droids, allowing him a semi-retirement in the Resistance as he pored over several decades of uninterrupted data, and dreamed of his greatest adventures. Following his reawakening after the Battle of Starkiller Base, R2 went on to accompany the Force-sensitive scavenger Rey on her journey to train under Luke Skywalker on Ahch-To, where the droid was reunited with his old master. R2-D2 continued to aid the Resistance alongside his longtime counterpart C-3PO throughout the First Order/Resistance War, culminating a decisive in victory at the Battle of Exegol, in which he was an active participant.",
-<<<<<<< HEAD
   "image": "client/public/images/character_img/R2-D2.png"
-=======
-  "image": "images/character_img/R2-D2.png"
-  
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
   },
   {  
   "name": "Darth Vader",
@@ -58,18 +53,9 @@
   "birth_year": "41.9BBY",
   "starships": "http://swapi.dev/api/starships/13/",
   "description": "",
-<<<<<<< HEAD
   "image": "client/public/images/character_img/Darth_Vader.png"  
   },  
   {  
-=======
-  "image": "images/character_img/Darth_Vader.png"
-  
-  },
-  
-  {
-  
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
   "name": "Leia Organa",
   "gender": "female",
   "skin_color": "light",
@@ -81,18 +67,9 @@
   "birth_year": "19BBY",
   "starships": "",
   "species": "",
-<<<<<<< HEAD
   "image": "client/public/images/character_img/Leia.png"  
   },  
   {  
-=======
-  "image": "images/character_img/Leia.png"
-  
-  },
-  
-  {
-  
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
   "name": "Owen Lars",
   "gender": "male",
   "skin_color": "light",
@@ -156,16 +133,8 @@
   "birth_year": "57BBY",
   "starships": "http://swapi.dev/api/starships/48/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/64/http://swapi.dev/api/starships/65/http://swapi.dev/api/starships/74/",
   "species": "",
-<<<<<<< HEAD
   "image": "client/public/images/character_img/Obi-Wan_Robe.png"  
   },  
-=======
-  "image": "images/character_img/Obi-Wan_Robe.png"
-  
-  },
-
-  
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 {
 "name": "Anakin Skywalker",
 "gender": "male",
@@ -178,12 +147,7 @@
 "birth_year": "41.9BBY",
 "starships": "http://swapi.dev/api/starships/39/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/65/",
 "species": "",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Anakin.png"
-=======
-"image": "images/character_img/Anakin.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Wilhuff Tarkin",
@@ -210,12 +174,7 @@
 "birth_year": "200BBY",
 "starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
 "species": "http://swapi.dev/api/species/3/",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Chewbacca.png"
-=======
-"image": "images/character_img/Chewbacca.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Han Solo",
@@ -229,12 +188,7 @@
 "birth_year": "29BBY",
 "starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
 "species": "",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Han_Solo.png"
-=======
-"image": "images/character_img/Han_Solo.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Greedo",
@@ -248,12 +202,7 @@
 "birth_year": "44BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/4/",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Greedo.png"
-=======
-"image": "images/character_img/Greedo.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Jabba Desilijic Tiure",
@@ -266,13 +215,7 @@
 "homeworld": "Nal Hutta",
 "birth_year": "600BBY",
 "starships": "",
-<<<<<<< HEAD
 "species": "http://swapi.dev/api/species/5/"
-=======
-"species": "http://swapi.dev/api/species/5/",
-"image": "images/character_img/Jabba.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Wedge Antilles",
@@ -312,12 +255,7 @@
 "birth_year": "896BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/6/",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Yoda.png"
-=======
-"image": "images/character_img/Yoda.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Palpatine",
@@ -331,12 +269,7 @@
 "birth_year": "82BBY",
 "starships": "",
 "species": "",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Palpatine.png"
-=======
-"image": "images/character_img/Palpatine.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Boba Fett",
@@ -350,12 +283,7 @@
 "birth_year": "31.5BBY",
 "starships": "http://swapi.dev/api/starships/21/",
 "species": "",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Boba_Fett.png"
-=======
-"image": "images/character_img/Boba_Fett.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "IG-88",
@@ -382,12 +310,7 @@
 "birth_year": "53BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/7/",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Bossk.png"
-=======
-"image": "images/character_img/Bossk.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Lando Calrissian",
@@ -401,12 +324,7 @@
 "birth_year": "31BBY",
 "starships": "http://swapi.dev/api/starships/10/",
 "species": "",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Lando.png"
-=======
-"image": "images/character_img/Lando.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Lobot",
@@ -471,13 +389,7 @@
 "homeworld": "Endor",
 "birth_year": "8BBY",
 "starships": "",
-<<<<<<< HEAD
 "species": "http://swapi.dev/api/species/9/"
-=======
-"species": "http://swapi.dev/api/species/9/",
-"image": "images/character_img/Wicket.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Nien Nunb",
@@ -491,12 +403,7 @@
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/10/",
 "species": "http://swapi.dev/api/species/10/",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Nien_Nunb.png"
-=======
-"image": "images/character_img/Nien_Nunb.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Qui-Gon Jinn",
@@ -509,13 +416,7 @@
 "homeworld": "Dagobah",
 "birth_year": "92BBY",
 "starships": "",
-<<<<<<< HEAD
 "species": ""
-=======
-"species": "",
-"image": "images/character_img/Qui-Gonn_Jinn.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Nute Gunray",
@@ -672,12 +573,7 @@
 "birth_year": "54BBY",
 "starships": "http://swapi.dev/api/starships/41/",
 "species": "http://swapi.dev/api/species/22/",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Darth_Maul.png"
-=======
-"image": "images/character_img/Darth_Maul.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Bib Fortuna",
@@ -768,13 +664,7 @@
 "homeworld": "Haruun Kal",
 "birth_year": "72BBY",
 "starships": "",
-<<<<<<< HEAD
 "species": ""
-=======
-"species": "",
-"image": "images/character_img/Mace_Windu.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Ki-Adi-Mundi",
@@ -983,12 +873,7 @@
 "birth_year": "102BBY",
 "starships": "",
 "species": "http://swapi.dev/api/species/1/",
-<<<<<<< HEAD
 "image": "client/public/images/character_img/Dooku.png"
-=======
-"image": "images/character_img/Dooku.png"
-
->>>>>>> 70cf895e9f77ee3050921650e8f9a76f369adeb3
 },
 {
 "name": "Bail Prestor Organa",
