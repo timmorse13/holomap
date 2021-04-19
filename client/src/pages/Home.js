@@ -1,18 +1,24 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Home() {
-  return (
-    <Container fluid>
-      <Row>
-        <Col size="md-6">
-          <CreatePostForm />
-        </Col>
-        <Col size="md-6 sm-12">
-          <PostsList />
-        </Col>
-      </Row>
-    </Container>
-  );
+class Home extends Component {
+  state = {
+    char: [],
+    message: "This works"
+  };
+
+  render() {
+    return (
+      <div>
+
+      {this.state.message}
+      
+      
+      </div>
+    )
+  }
+
+
+
 }
 
 export default Home;
