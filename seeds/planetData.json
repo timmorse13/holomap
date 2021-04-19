@@ -398,6 +398,17 @@
         "terrain": "grassy hills, swamps, forests, mountains",
         "surface_water": "12",
         "population": "4500000000"   
+    },
+    {
+        "name": "Kamino",
+        "rotation_period": "27",
+        "orbital_period": "463",
+        "diameter": "19720",
+        "climate": "temperate",
+        "gravity": "1 standard",
+        "terrain": "ocean",
+        "surface_water": "100",
+        "population": "1000000000"   
     }
     
   ]
