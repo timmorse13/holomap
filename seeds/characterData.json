@@ -10,7 +10,8 @@
   "homeworld": "Tatooine",
   "birth_year": "19BBY",
   "starships": "http://swapi.dev/api/starships/12/http://swapi.dev/api/starships/22/",
-  "species": ""  
+  "species": "", 
+  "image": "client/public/images/character_img/Luke_Skywalker.png" 
   },  
   {  
   "name": "C-3PO",
@@ -23,7 +24,8 @@
   "homeworld": "Tatooine",
   "birth_year": "112BBY",
   "starships": "",
-  "species": "http://swapi.dev/api/species/2/" 
+  "species": "http://swapi.dev/api/species/2/",
+  "image": "client/public/images/character_img/C-3PO.png" 
   }, 
   { 
   "name": "R2-D2",
@@ -36,7 +38,8 @@
   "homeworld": "Naboo",
   "birth_year": "33BBY",
   "starships": "",
-  "species": "http://swapi.dev/api/species/2/"
+  "species": "http://swapi.dev/api/species/2/",
+  "image": "client/public/images/character_img/R2-D2.png"
   
   },
   
@@ -52,7 +55,8 @@
   "homeworld": "Tatooine",
   "birth_year": "41.9BBY",
   "starships": "http://swapi.dev/api/starships/13/",
-  "species": ""
+  "species": "",
+  "image": "client/public/images/character_img/Darth_Vader.png"
   
   },
   
@@ -68,7 +72,8 @@
   "homeworld": "Alderaan",
   "birth_year": "19BBY",
   "starships": "",
-  "species": ""
+  "species": "",
+  "image": "client/public/images/character_img/Leia.png"
   
   },
   
@@ -148,7 +153,8 @@
   "homeworld": "Stewjon",
   "birth_year": "57BBY",
   "starships": "http://swapi.dev/api/starships/48/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/64/http://swapi.dev/api/starships/65/http://swapi.dev/api/starships/74/",
-  "species": ""
+  "species": "",
+  "image": "client/public/images/character_img/Obi-Wan_Robe.png"
   
   },
 
@@ -165,7 +171,8 @@
 "homeworld": "Tatooine",
 "birth_year": "41.9BBY",
 "starships": "http://swapi.dev/api/starships/39/http://swapi.dev/api/starships/59/http://swapi.dev/api/starships/65/",
-"species": ""
+"species": "",
+"image": "client/public/images/character_img/Anakin.png"
 
 },
 
@@ -197,7 +204,8 @@
 "homeworld": "Kashyyk",
 "birth_year": "200BBY",
 "starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
-"species": "http://swapi.dev/api/species/3/"
+"species": "http://swapi.dev/api/species/3/",
+"image": "client/public/images/character_img/Chewbacca.png"
 
 },
 
@@ -213,7 +221,8 @@
 "homeworld": "Corellia",
 "birth_year": "29BBY",
 "starships": "http://swapi.dev/api/starships/10/http://swapi.dev/api/starships/22/",
-"species": ""
+"species": "",
+"image": "client/public/images/character_img/Han_Solo.png"
 
 },
 
@@ -229,7 +238,8 @@
 "homeworld": "Rodia",
 "birth_year": "44BBY",
 "starships": "",
-"species": "http://swapi.dev/api/species/4/"
+"species": "http://swapi.dev/api/species/4/",
+"image": "client/public/images/character_img/Greedo.png"
 
 },
 
@@ -293,7 +303,8 @@
 "homeworld": "Dagobah",
 "birth_year": "896BBY",
 "starships": "",
-"species": "http://swapi.dev/api/species/6/"
+"species": "http://swapi.dev/api/species/6/",
+"image": "client/public/images/character_img/Yoda.png"
 
 },
 
@@ -309,7 +320,8 @@
 "homeworld": "Naboo",
 "birth_year": "82BBY",
 "starships": "",
-"species": ""
+"species": "",
+"image": "client/public/images/character_img/Palpatine.png"
 
 },
 
@@ -326,7 +338,8 @@
 "homeworld": "Kamino",
 "birth_year": "31.5BBY",
 "starships": "http://swapi.dev/api/starships/21/",
-"species": ""
+"species": "",
+"image": "client/public/images/character_img/Boba_Fett.png"
 
 },
 
@@ -358,7 +371,8 @@
 "homeworld": "Trandosha",
 "birth_year": "53BBY",
 "starships": "",
-"species": "http://swapi.dev/api/species/7/"
+"species": "http://swapi.dev/api/species/7/",
+"image": "client/public/images/character_img/Bossk.png"
 
 },
 
@@ -374,7 +388,8 @@
 "homeworld": "Socorro",
 "birth_year": "31BBY",
 "starships": "http://swapi.dev/api/starships/10/",
-"species": ""
+"species": "",
+"image": "client/public/images/character_img/Lando.png"
 
 },
 
@@ -470,7 +485,8 @@
 "homeworld": "Sullust",
 "birth_year": "unknown",
 "starships": "http://swapi.dev/api/starships/10/",
-"species": "http://swapi.dev/api/species/10/"
+"species": "http://swapi.dev/api/species/10/",
+"image": "client/public/images/character_img/Nien_Nunb.png"
 
 },
 
@@ -680,7 +696,8 @@
 "homeworld": "Dathomir",
 "birth_year": "54BBY",
 "starships": "http://swapi.dev/api/starships/41/",
-"species": "http://swapi.dev/api/species/22/"
+"species": "http://swapi.dev/api/species/22/",
+"image": "client/public/images/character_img/Darth_Maul.png"
 
 },
 
@@ -1050,7 +1067,8 @@
 "homeworld": "Serenno",
 "birth_year": "102BBY",
 "starships": "",
-"species": "http://swapi.dev/api/species/1/"
+"species": "http://swapi.dev/api/species/1/",
+"image": "client/public/images/character_img/Dooku.png"
 
 },
 

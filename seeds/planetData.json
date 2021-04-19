@@ -8,7 +8,9 @@
         "terrain": "desert",
         "gravity": "1 standard",
         "orbital_period": "304",
-        "population": "200000"
+        "population": "200000",
+        "img": "client/public/images/planet_img/Tatooine_COLOR.png"
+        
 
     },
     {
