@@ -409,6 +409,17 @@
         "terrain": "ocean",
         "surface_water": "100",
         "population": "1000000000"   
+    },
+    {
+        "name": "Socorro",
+        "rotation_period": "20",
+        "orbital_period": "326",
+        "diameter": "0",
+        "climate": "arid",
+        "gravity": "1 standard",
+        "terrain": "deserts, mountains",
+        "surface_water": "unknown",
+        "population": "300000000"   
     }
     
   ]
