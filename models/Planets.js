@@ -82,6 +82,10 @@ Planets.init(
       allowNull: true,
 
     },
+    img: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
   },
   {
     sequelize,

@@ -10,7 +10,7 @@ const { Planets } = require("../models")
 
 module.exports = {
     findAll: function(req, res) {
-        Planets.find(req.query)
+        Planets.findAll(req.query)
         .then(dbPlanets => res.json(dbPlanets))
         .catch(err => res.status(422).json(err));
     },
