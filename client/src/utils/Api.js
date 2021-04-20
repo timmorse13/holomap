@@ -1,6 +1,13 @@
 import axios from "axios";
 
 export default {
+
+  getCharacters: function() {
+    return axios.get("/api/character");
+  },
+  getCharacter: function(id) {
+    return axios.get("/api/character/" + id);
+  },
   // Gets all posts
   getPosts: function() {
     return axios.get("/api/posts");

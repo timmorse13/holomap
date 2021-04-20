@@ -2,7 +2,7 @@ const { Characters } = require("../models");
 
 module.exports = {
     findAll: function(req, res) {
-        Characters.find(req.query)
+        Characters.findAll(req.query)
         .then(dbCharacters => res.json(dbCharacters))
         .catch(err => res.status(422).json(err));
     },
