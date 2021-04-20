@@ -1,13 +1,20 @@
 import axios from "axios";
 
 export default {
+
+  getCharacters: function() {
+    return axios.get("/api/character");
+  },
+  getCharacter: function(id) {
+    return axios.get("/api/character/" + id);
+  },
   // Gets all posts
-  getPosts: function() {
-    return axios.get("/api/posts");
+  getPlanets: function() {
+    return axios.get("/api/planet");
   },
   // Gets the post with the given id
-  getPost: function(id) {
-    return axios.get("/api/posts/" + id);
+  getPlanet: function(name) {
+    return axios.get("/api/planet/" + name);
   },
   // Deletes the post with the given id
   deletePost: function(id) {
