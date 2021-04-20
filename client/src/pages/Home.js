@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import API from "../utils/Api"
 import Characters from "../components/Characters";
+import Planets from "../components/Planets";
 
 class Home extends Component {
   state = {
     char: [],
+    plan: [],
     charID: "",
     message: "This works"
   };
   
   componentDidMount() {
-    console.log("Tim")
     this.getCharacters()
+    this.getPlanets()
   };
 
   getCharacters = () => {
@@ -28,6 +30,21 @@ class Home extends Component {
         message: "No work"
       })
       );
+  };
+
+  getPlanets = () => {
+    API.getPlanets()
+    .then(res => {
+      this.setState({
+        plan: res.data
+      })
+    })
+    .catch(() => 
+    this.setState({
+      plan: [],
+      message: "No planet"
+    })
+    );
   };
 
 
@@ -47,11 +64,29 @@ class Home extends Component {
           />
           
         })}
-          
-      {this.state.message}
-      
-      
+        <p>
+          {this.state.plan.map(planet => {
+            return <Planets 
+            name={planet.name} 
+            climate={planet.climate} 
+            surface_water={planet.surface_water} 
+            diameter={planet.diameter} 
+            rotation_period={planet.rotation_period} 
+            terrain={planet.terrain} 
+            gravity={planet.gravity} 
+            orbital_period={planet.orbital_period} 
+            population={planet.population} 
+            description={planet.description}
+            planet_info={planet.planet_info} 
+            img={planet.img}
+            
+            />
+          })}
+        </p>
+
       </div>
+                
+      
     )
   }
 
