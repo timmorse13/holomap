@@ -60,6 +60,7 @@ class Home extends Component {
           eye_color={character.eye_color}
           hair_color={character.chair_color}
           description={character.description}
+          image={character.image}
         
           />
           

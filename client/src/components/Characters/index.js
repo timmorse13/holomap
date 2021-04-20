@@ -1,6 +1,6 @@
 import React from "react";
 
-function Characters({ name, gender, skin_color, eye_color, hair_color, description }) {
+function Characters({ name, gender, skin_color, eye_color, hair_color, description, image }) {
     return (
         <div>
             {name} <br />
@@ -9,6 +9,7 @@ function Characters({ name, gender, skin_color, eye_color, hair_color, descripti
             {eye_color}<br />
             {hair_color}<br />
             {description}<br />
+            {image ? (<img src={`/${image}`} />) : (<div />) }
         </div>
     )
 }
