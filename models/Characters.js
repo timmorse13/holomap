@@ -65,7 +65,7 @@ Characters.init(
       allowNull: true,
 
     },
-    homeworld: {
+    planet_name: {
 
         type: DataTypes.STRING,
 
