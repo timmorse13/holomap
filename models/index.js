@@ -5,13 +5,13 @@ const Characters = require('./Characters');
 
 
 Planets.hasMany(Characters, {
-  foreignKey: 'homeworld',
+  foreignKey: 'planet_name',
   onDelete: 'Cascade',
 });
 
 
 Characters.belongsTo(Planets, {
-  foreignKey: 'homeworld',
+  foreignKey: 'planet_name',
 });
 
 module.exports = { Characters, Planets };
