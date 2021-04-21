@@ -33,7 +33,7 @@ Planets.init(
     },
     name: {
 
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(25),
       
       allowNull: false,
 
@@ -77,14 +77,31 @@ Planets.init(
     },
     population: {
 
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(50),
+
+      allowNull: true,
+
+    },
+    description: {
+
+      type: DataTypes.TEXT,
+
+      allowNull: true,
+
+    },
+    planet_info: {
+
+      type: DataTypes.TEXT,
 
       allowNull: true,
 
     },
     img: {
+
       type: DataTypes.STRING,
+      
       allowNull: true,
+
     },
   },
   {
