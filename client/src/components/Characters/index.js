@@ -9,7 +9,7 @@ function Characters({ name, gender, skin_color, eye_color, hair_color, descripti
             {eye_color}<br />
             {hair_color}<br />
             {description}<br />
-            {image ? (<img src={`/${image}`} />) : (<div />) }
+            {image ? (<img src={`/${image}`} alt=""/>) : (<div />) }
         </div>
     )
 }
