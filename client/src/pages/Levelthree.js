@@ -13,7 +13,6 @@ function Levelthree() {
 
     useEffect(() => {
         getPlanet()
-        console.log('where u at')
     },[])
     
     
