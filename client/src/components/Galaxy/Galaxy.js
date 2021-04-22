@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Galaxy/Galaxy.css'
 
+
 // const props = {
 	
 // }
@@ -14,7 +15,7 @@ function Galaxy(props) {
 				<div className= 'bespin circle' data-name='Bespin' onClick ={props.handlePlanetClick}></div>
 			</div>
 		
-	);
-};
+
+
 
 export default Galaxy;
