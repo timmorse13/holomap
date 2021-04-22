@@ -8,8 +8,9 @@ function LevelThree({ name, image }) {
         <div>
         
         {name} 
+        {/* {image} */}
 
-        <image src= {`/${image}`} alt='' />
+        <img src= {`/${image}`} alt='' />
         
         </div>
         ): (<div></div>)}
