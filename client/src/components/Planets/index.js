@@ -13,7 +13,7 @@ function Planets({ climate, surface_water, name, diameter, rotation_period, terr
             {population} <br />
             {description}<br />
             {planet_info} <br />
-            {img ? (<img src={`/${img}`} />) : (<div />) }
+            {img ? (<img src={`/${img}`} alt=''/>) : (<div />) }
 
         </div>
     )
