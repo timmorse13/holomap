@@ -1,4 +1,5 @@
-const { Planets } = require("../models")
+const { Planets, Characters } = require("../models")
+
 
 // create
 
@@ -15,7 +16,11 @@ module.exports = {
         .catch(err => res.status(422).json(err));
     },
     findbyPk: function(req, res) {
-        Planets.findByPk(req.params.name)
+        Planets.findByPk(req.params.name, {
+            include: [{
+                model: Characters,
+                attributes: ['name', 'gender', 'skin_color', 'hair_color', 'height', 'eye_color', 'mass', 'planet_name', 'birth_year', 'starships', 'description', 'image']
+            }]})
         .then(dbPlanets => res.json(dbPlanets))
         .catch(err => res.status(422).json(err));
     }
