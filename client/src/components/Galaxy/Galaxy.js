@@ -1,16 +1,19 @@
 import React from 'react';
 import '../Galaxy/Galaxy.css'
 
-const Galaxy = () => {
+// const props = {
+	
+// }
+
+function Galaxy(props) {
 	return (
-		<div>
-			<div cla='solar-system grid'>
-				<div className= 'tatooine circle glow-yell' data-name='Tatooine' ></div>
-				<div className= 'coruscant circle' data-name='Coruscant'></div>
-				<div className= 'endor circle' data-name='Endor'></div>
-				<div className= 'bespin circle' data-name='Bespin'></div>
+			<div>
+				<div className= 'tatooine circle glow-yell' data-name='Tatooine' onClick ={props.handlePlanetClick}></div>
+				<div className= 'coruscant circle' data-name='Coruscant' onClick ={props.handlePlanetClick}></div>
+				<div className= 'endor circle' data-name='Endor' onClick ={props.handlePlanetClick}></div>
+				<div className= 'bespin circle' data-name='Bespin' onClick ={props.handlePlanetClick}></div>
 			</div>
-		</div>
+		
 	);
 };
 
