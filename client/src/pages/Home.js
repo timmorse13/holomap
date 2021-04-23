@@ -36,6 +36,15 @@ function Home() {
 			.catch(() => setPlanets([]));
 	};
 
+  const getCharacters = () => {
+    API.getPlanet(planet)
+    .then(res => {
+      setCharacters(res.data.characters)
+    })
+    .catch(()=> setCharacters([])
+    );
+  }
+
   // if(loading) {
   //   return <p>Data is loading...</p>
   // }
