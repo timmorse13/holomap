@@ -22,10 +22,11 @@ function LevelTwo({ name, characters, diameter, rotation_period, orbital_period,
             characters={characters}
             
             
-            /> </div>: <div />}
+            /> </div>: <div></div>}
 
         </div>
     )
 }
+
 
 export default LevelTwo;
