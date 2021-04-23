@@ -70,7 +70,7 @@ Planets.init(
     },
     orbital_period: {
 
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(10),
 
       allowNull: true,
 
@@ -103,6 +103,13 @@ Planets.init(
       allowNull: true,
 
     },
+    surface_img: {
+
+      type: DataTypes.STRING,
+
+      allowNull: true,
+      
+    }
   },
   {
     sequelize,
