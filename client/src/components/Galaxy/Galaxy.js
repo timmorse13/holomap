@@ -2,9 +2,6 @@ import React from 'react';
 import '../Galaxy/Galaxy.css'
 
 
-// const props = {
-	
-// }
 
 function Galaxy(props) {
 	return (
