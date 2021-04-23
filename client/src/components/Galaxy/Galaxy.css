@@ -1,60 +1,22 @@
-/* body {
-	
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-} */
 
-/* .container {
-    height: 100%;
-} */
-
-.grid {
-    background-image: url(../../assets/images/planet_img/GRID.png);
-    z-index: 1;
-    height: 100vh;
-}
 
 .galaxy {
-	
-}
-
-.solar-system {
-	/* padding-top: 10em; */
-	/* background-image: url(../img/planet_img/rebel_base.png); */
-	/* background-repeat: no-repeat; */
-	/* background-attachment: fixed; */
-	/* background-position: center; */
-	/* height: 100vh; */
-	/* display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-	overflow: hidden; */
-}
-
-.circle {
-	/* border-radius: 100%; */
-	/* position: absolute; */
+	/* position: relative; */
+	/* width: 100%; */
+	/* margin: 0 auto; */
 }
 
 .tatooine {
-	background: url('../../assets/images/planet_img/Tatooine_display.png') no-repeat;
-	width: 75px;
-	height: 75px;
-    z-index: 2;
+	background: url('../../assets/images/planet_img/Tatooine_display.png')
+		no-repeat;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	right: 3;
+	top: 2;
+	/* z-index: 2; */
 	background-size: 100% 100%;
-	animation: tatooine-rotate 800s infinite linear,
-		tatooine-glow 4000ms infinite;
-}
-
-@keyframes tatooine-rotate {
-	0% {
-		transform: rotateZ(20deg) translateX(200%);
-	}
-	to {
-		transform: rotateZ(380deg) translateX(200%);
-	}
+	animation: tatooine-glow 4000ms infinite;
 }
 
 @keyframes tatooine-glow {
@@ -76,24 +38,10 @@
 	background: url('../../assets/images/planet_img/Coruscant_display.png');
 	background-size: 100% 100%;
 	background-position: center center;
-	width: 77px;
-	height: 77px;
-    z-index: 3;
-	animation: coruscant-rotate 80s infinite linear,
-		coruscant-glow 4000ms infinite;
-}
-
-@keyframes coruscant-rotate {
-	0% {
-		transform: rotateZ(0deg) translateX(-85px);
-	}
-	50% {
-		background-position: 55% 40%;
-	}
-	to {
-		transform: rotateZ(385deg) translateX(-60px);
-		background-position: center center;
-	}
+	width: 200px;
+	height: 200px;
+	z-index: 3;
+	animation: coruscant-glow 4000ms infinite;
 }
 
 @keyframes coruscant-glow {
@@ -111,33 +59,14 @@
 	}
 }
 
-
-@keyframes saturn-rotate {
-	0% {
-		transform: rotateZ(60deg) translateX(-30px);
-	}
-	to {
-		transform: rotateZ(420deg) translateX(-30px);
-	}
-}
-
 .endor {
 	background: url('../../assets/images/planet_img/Endor_display.png');
 	background-size: 100% 100%;
 	background-position: center center;
-	width: 60px;
-	height: 60px;
-    z-index: 4;
-	animation: endor-rotate 800s infinite linear, endor-glow 4000ms infinite;
-}
-
-@keyframes endor-rotate {
-	0% {
-		transform: rotateZ(50deg) translateX(-80px);
-	}
-	to {
-		transform: rotateZ(200deg) translateX(-80px);
-	}
+	width: 80px;
+	height: 80px;
+	z-index: -4;
+	animation: endor-glow 3500ms infinite;
 }
 
 @keyframes endor-glow {
@@ -161,17 +90,11 @@
 	background-position: center center;
 	width: 50px;
 	height: 50px;
-    z-index: 5;
-	animation: death_star-rotate 800s infinite linear, death_star-glow 4000ms infinite;
-}
-
-@keyframes death_star-rotate {
-	0% {
-		transform: rotateZ(90deg) translateX(-35px);
-	}
-	to {
-		transform: rotateZ(400deg) translateX(-35px);
-	}
+	position: absolute;
+	right: 0;
+	
+	z-index: 5;
+	animation: death_star-glow 4000ms infinite;
 }
 
 @keyframes death_star-glow {
@@ -188,4 +111,3 @@
 		filter: drop-shadow(0 0 -10px #0f9ece);
 	}
 }
-

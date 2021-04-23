@@ -7,24 +7,24 @@ import '../Galaxy/Galaxy.css';
 
 function Galaxy(props) {
 	return (
-		<div className='galaxy col-5'>
+		<div className='galaxy'>
 			<div
-				className='tatooine circle glow-yell'
+				className='tatooine glow-yell'
 				data-name='Tatooine'
 				onClick={props.handlePlanetClick}
 			></div>
 			<div
-				className='coruscant circle'
+				className='coruscant'
 				data-name='Coruscant'
 				onClick={props.handlePlanetClick}
 			></div>
 			<div
-				className='endor circle'
+				className='endor'
 				data-name='Endor'
 				onClick={props.handlePlanetClick}
 			></div>
 			<div
-				className='bespin circle'
+				className='bespin'
 				data-name='Bespin'
 				onClick={props.handlePlanetClick}
 			></div>
