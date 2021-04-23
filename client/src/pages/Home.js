@@ -27,6 +27,7 @@ function Home() {
 		const planetName = e.target.getAttribute('data-name');
 		console.log(planetName);
 		setPlanet(planetName);
+    setSurface(null)
 	};
 	const getPlanet = () => {
 		// console.log(name)
@@ -77,7 +78,6 @@ function Home() {
 					<Galaxy
 						handlePlanetClick={handlePlanetClick}
 						handleSurfaceClick={handleSurfaceClick}
-            handlePlanetClick={handlePlanetClick}
 					/>
 				</div>
 				<div className='Three border border-info overflow-auto col-5 '>
