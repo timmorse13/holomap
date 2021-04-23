@@ -14,7 +14,7 @@ function LevelTwo({ name, characters, diameter, rotation_period, orbital_period,
             {planet_info} <br /> 
             </div>
             ): (<div />)}
-            {img && !surface ? (<img src={`/${img}`} alt=''/>) : (<img src={`/${surface}`} alt='' style={{backgroundImage: `/${surface}`, zIndex: -1}}/>) }
+            {img && !surface ? (<img src={`/${img}`} style={{width: '600px', margin: '0 auto', textAlign: 'center', display: 'flex' }} alt=''/>) : (<img src={`/${surface}`} alt='' style={{backgroundImage: `/${surface}`, zIndex: -1}}/>) }
 
             {/* <Orbit/> */}
             {surface ? <div style={{position: "relative"}}>
