@@ -21,23 +21,23 @@
 	/* background-repeat: no-repeat; */
 	/* background-attachment: fixed; */
 	/* background-position: center; */
-	height: 100vh;
-	display: flex;
+	/* height: 100vh; */
+	/* display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	overflow: hidden;
+	overflow: hidden; */
 }
 
 .circle {
-	border-radius: 100%;
-	position: absolute;
+	/* border-radius: 100%; */
+	/* position: absolute; */
 }
 
 .tatooine {
 	background: url('../../assets/images/planet_img/Tatooine_display.png') no-repeat;
-	width: 150px;
-	height: 150px;
+	width: 75px;
+	height: 75px;
     z-index: 2;
 	background-size: 100% 100%;
 	animation: tatooine-rotate 800s infinite linear,
@@ -46,10 +46,10 @@
 
 @keyframes tatooine-rotate {
 	0% {
-		transform: rotateZ(20deg) translateX(-100px);
+		transform: rotateZ(20deg) translateX(-50px);
 	}
 	to {
-		transform: rotateZ(380deg) translateX(-100px);
+		transform: rotateZ(380deg) translateX(-50px);
 	}
 }
 
@@ -72,22 +72,22 @@
 	background: url('../../assets/images/planet_img/Coruscant_display.png');
 	background-size: 100% 100%;
 	background-position: center center;
-	width: 155px;
-	height: 155px;
+	width: 77px;
+	height: 77px;
     z-index: 3;
-	animation: coruscant-rotate 800s infinite linear,
+	animation: coruscant-rotate 80s infinite linear,
 		coruscant-glow 4000ms infinite;
 }
 
 @keyframes coruscant-rotate {
 	0% {
-		transform: rotateZ(0deg) translateX(-260px);
+		transform: rotateZ(0deg) translateX(-85px);
 	}
 	50% {
 		background-position: 55% 40%;
 	}
 	to {
-		transform: rotateZ(360deg) translateX(-260px);
+		transform: rotateZ(385deg) translateX(-60px);
 		background-position: center center;
 	}
 }
@@ -110,10 +110,10 @@
 
 @keyframes saturn-rotate {
 	0% {
-		transform: rotateZ(60deg) translateX(-310px);
+		transform: rotateZ(60deg) translateX(-30px);
 	}
 	to {
-		transform: rotateZ(420deg) translateX(-310px);
+		transform: rotateZ(420deg) translateX(-30px);
 	}
 }
 
@@ -121,18 +121,18 @@
 	background: url('../../assets/images/planet_img/Endor_display.png');
 	background-size: 100% 100%;
 	background-position: center center;
-	width: 120px;
-	height: 120px;
+	width: 60px;
+	height: 60px;
     z-index: 4;
 	animation: endor-rotate 800s infinite linear, endor-glow 4000ms infinite;
 }
 
 @keyframes endor-rotate {
 	0% {
-		transform: rotateZ(50deg) translateX(-250px);
+		transform: rotateZ(50deg) translateX(-80px);
 	}
 	to {
-		transform: rotateZ(200deg) translateX(-250px);
+		transform: rotateZ(200deg) translateX(-80px);
 	}
 }
 
@@ -155,18 +155,18 @@
 	background: url('../../assets/images/planet_img/Bespin_display.png');
 	background-size: 100% 100%;
 	background-position: center center;
-	width: 120px;
-	height: 120px;
+	width: 50px;
+	height: 50px;
     z-index: 5;
 	animation: bespin-rotate 800s infinite linear, bespin-glow 4000ms infinite;
 }
 
 @keyframes bespin-rotate {
 	0% {
-		transform: rotateZ(90deg) translateX(-210px);
+		transform: rotateZ(90deg) translateX(-70px);
 	}
 	to {
-		transform: rotateZ(400deg) translateX(-210px);
+		transform: rotateZ(400deg) translateX(-70px);
 	}
 }
 
