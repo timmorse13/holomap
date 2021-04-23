@@ -16,6 +16,14 @@ export default {
   getPlanet: function(name) {
     return axios.get("/api/planet/" + name);
   },
+
+  getUsers: function() {
+    return axios.get("/api/users");
+  },
+
+  getUser: function(id) {
+    return axios.get("/api/users/" + id);
+  },
   // Deletes the post with the given id
   deletePost: function(id) {
     return axios.delete("/api/posts/" + id);
