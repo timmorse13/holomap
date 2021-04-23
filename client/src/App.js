@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Leveltwo from "./pages/Leveltwo";
 import openApp from "./pages/Open"
+import Levelthree from "./pages/Levelthree"
+import './App.css'
 
 function App() {
   return(
@@ -13,10 +15,17 @@ function App() {
           <Route exact path="/open" component={openApp} />
           {/* <Route exact path="/planet/levelone/:name" component={Levelone} /> */}
           <Route exact path="/planet/leveltwo/:name" component={Leveltwo} />
-          {/* <Route exact path="/planet/levelthree/:name" component={Levelone} /> */}
+          <Route exact path="/planet/levelthree/:name" component={Levelthree} />
 
         </Switch>
       </div>
+      <div>
+
+      </div>
+      <div>
+
+      </div>
+
     </Router>
   );
 }

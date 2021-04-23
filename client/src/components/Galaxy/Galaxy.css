@@ -1,0 +1,187 @@
+/* body {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} */
+
+/* .container {
+    height: 100%;
+} */
+
+.grid {
+    background-image: url(../../assets/images/planet_img/GRID.png);
+    z-index: 1;
+    height: 100vh;
+}
+
+.solar-system {
+	/* padding-top: 10em; */
+	/* background-image: url(../img/planet_img/rebel_base.png); */
+	/* background-repeat: no-repeat; */
+	/* background-attachment: fixed; */
+	/* background-position: center; */
+	/* height: 100vh; */
+	/* display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	overflow: hidden; */
+}
+
+.circle {
+	/* border-radius: 100%; */
+	/* position: absolute; */
+}
+
+.tatooine {
+	background: url('../../assets/images/planet_img/Tatooine_display.png') no-repeat;
+	width: 75px;
+	height: 75px;
+    z-index: 2;
+	background-size: 100% 100%;
+	animation: tatooine-rotate 800s infinite linear,
+		tatooine-glow 4000ms infinite;
+}
+
+@keyframes tatooine-rotate {
+	0% {
+		transform: rotateZ(20deg) translateX(-50px);
+	}
+	to {
+		transform: rotateZ(380deg) translateX(-50px);
+	}
+}
+
+@keyframes tatooine-glow {
+	0% {
+		filter: drop-shadow(0 0 -10px #97dcf4);
+	}
+	40% {
+		filter: drop-shadow(0 0 20px #66cff2);
+	}
+	60% {
+		filter: drop-shadow(0 0 20px #39c5f4);
+	}
+	100% {
+		filter: drop-shadow(0 0 -10px #0f9ece);
+	}
+}
+
+.coruscant {
+	background: url('../../assets/images/planet_img/Coruscant_display.png');
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 77px;
+	height: 77px;
+    z-index: 3;
+	animation: coruscant-rotate 80s infinite linear,
+		coruscant-glow 4000ms infinite;
+}
+
+@keyframes coruscant-rotate {
+	0% {
+		transform: rotateZ(0deg) translateX(-85px);
+	}
+	50% {
+		background-position: 55% 40%;
+	}
+	to {
+		transform: rotateZ(385deg) translateX(-60px);
+		background-position: center center;
+	}
+}
+
+@keyframes coruscant-glow {
+	0% {
+		filter: drop-shadow(0 0 -10px #97dcf4);
+	}
+	40% {
+		filter: drop-shadow(0 0 20px #66cff2);
+	}
+	60% {
+		filter: drop-shadow(0 0 20px #39c5f4);
+	}
+	100% {
+		filter: drop-shadow(0 0 -10px #0f9ece);
+	}
+}
+
+
+@keyframes saturn-rotate {
+	0% {
+		transform: rotateZ(60deg) translateX(-30px);
+	}
+	to {
+		transform: rotateZ(420deg) translateX(-30px);
+	}
+}
+
+.endor {
+	background: url('../../assets/images/planet_img/Endor_display.png');
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 60px;
+	height: 60px;
+    z-index: 4;
+	animation: endor-rotate 800s infinite linear, endor-glow 4000ms infinite;
+}
+
+@keyframes endor-rotate {
+	0% {
+		transform: rotateZ(50deg) translateX(-80px);
+	}
+	to {
+		transform: rotateZ(200deg) translateX(-80px);
+	}
+}
+
+@keyframes endor-glow {
+	0% {
+		filter: drop-shadow(0 0 -10px #97dcf4);
+	}
+	40% {
+		filter: drop-shadow(0 0 20px #66cff2);
+	}
+	60% {
+		filter: drop-shadow(0 0 20px #39c5f4);
+	}
+	100% {
+		filter: drop-shadow(0 0 -10px #0f9ece);
+	}
+}
+
+.bespin {
+	background: url('../../assets/images/planet_img/Bespin_display.png');
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 50px;
+	height: 50px;
+    z-index: 5;
+	animation: bespin-rotate 800s infinite linear, bespin-glow 4000ms infinite;
+}
+
+@keyframes bespin-rotate {
+	0% {
+		transform: rotateZ(90deg) translateX(-70px);
+	}
+	to {
+		transform: rotateZ(400deg) translateX(-70px);
+	}
+}
+
+@keyframes bespin-glow {
+	0% {
+		filter: drop-shadow(0 0 -10px #97dcf4);
+	}
+	40% {
+		filter: drop-shadow(0 0 20px #66cff2);
+	}
+	60% {
+		filter: drop-shadow(0 0 20px #39c5f4);
+	}
+	100% {
+		filter: drop-shadow(0 0 -10px #0f9ece);
+	}
+}
+

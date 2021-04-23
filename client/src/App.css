@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+
+body {
+  /* star wars crawl font */
+	/* font-family: news-gothic-std, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  font-size: 2rem;
+  color: #66cff2;
+  text-shadow: 1px 1px rgb(66, 75, 84); */
+  /* color: #e5b13a; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.viewport {
+  max-height: 800px;
+  max-width: 800px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.One{
+  max-height: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Two {
+  max-height: 300px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.Three {
+  max-height: 300px;
+  border: 5px;
+  font-family: news-gothic-std, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  font-size: 1rem;
+  color: #66cff2;
+  text-shadow: 1px 1px rgb(66, 75, 84);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* FONT IMPORTS */
+
+/* The StarWars title font, might come in handy */
+@font-face {
+  font-family: "StarJedi";
+  src: local("StarJedi"),
+    url("./fonts/Starjedi.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* SPECIAL CHARACTERS --- INTENDED TO DECORATE THE BEZEL OF THE VIEWPORT... (It doesn't work at the moment so I may have to import as a graphic later) */
+@font-face {
+  font-family: "AurekBesh";
+  src: local("AurekBesh"),
+    url("./fonts/AurekBeshNarrow-xxlK.ttf") format("truetype");
+  font-weight: normal;
 }

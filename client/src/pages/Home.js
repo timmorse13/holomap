@@ -1,98 +1,114 @@
-import React, { Component } from "react";
+
+import React, { useState, useEffect, Component } from "react";
 import API from "../utils/Api"
 import Characters from "../components/Characters";
 import Planets from "../components/Planets";
-
-class Home extends Component {
-  state = {
-    char: [],
-    plan: [],
-    charID: "",
-    message: "This works"
-  };
-  
-  componentDidMount() {
-    this.getCharacters()
-    this.getPlanets()
-  };
-
-  getCharacters = () => {
-    API.getCharacters()
-    .then(res => {
-      console.log(res)
-      this.setState({
-        char: res.data
-      })
-    })
-      .catch(() => 
-      this.setState({
-        char: [],
-        message: "No work"
-      })
-      );
-  };
-
-  getPlanets = () => {
-    API.getPlanets()
-    .then(res => {
-      this.setState({
-        plan: res.data
-      })
-    })
-    .catch(() => 
-    this.setState({
-      plan: [],
-      message: "No planet"
-    })
-    );
-  };
+import LevelTwo from "../components/Planet/Leveltwo"
+import Planet from "../components/Planet";
+import Galaxy from "../components/Galaxy/Galaxy"
+import LevelThree from "../components/Planet/Levelthree";
 
 
+function Home() {
+  const [planet, setPlanet] = useState([])
+  const [planets, setPlanets] = useState([])
+  const [characters, setCharacters] = useState([])
 
-  render() {
-    return (
-      <div>
-        {this.state.char.map(character => {
-          return <Characters 
-          name={character.name}
-          gender={character.gender}
-          skin_color={character.skin_color}
-          eye_color={character.eye_color}
-          hair_color={character.chair_color}
-          description={character.description}
-          image={character.image}
-        
-          />
-          
-        })}
-        <p>
-          {this.state.plan.map(planet => {
-            return <Planets 
-            name={planet.name} 
-            climate={planet.climate} 
-            surface_water={planet.surface_water} 
-            diameter={planet.diameter} 
-            rotation_period={planet.rotation_period} 
-            terrain={planet.terrain} 
-            gravity={planet.gravity} 
-            orbital_period={planet.orbital_period} 
-            population={planet.population} 
-            description={planet.description}
-            planet_info={planet.planet_info} 
-            img={planet.img}
-            
-            />
-          })}
-        </p>
+  useEffect(() => {
+    getPlanet()
+    getCharacters()
+    // loadPlanets()
+  }, [planet])
 
-      </div>
-                
+  const handlePlanetClick = (e) => {
+    const planetName = e.target.getAttribute("data-name")
+    console.log(planetName)
+    setPlanet(planetName)
+
+  }
+  const getPlanet = () => {
+    API.getPlanet(planet)
+    .then(res =>  {
+      setPlanets(res.data)
       
-    )
+    })
+    .catch(() => setPlanets([])
+
+    );
+  }
+
+  const getCharacters = () => {
+    API.getPlanet(planet)
+    .then(res => {
+      setCharacters(res.data.characters)
+    })
   }
 
 
+    // const loadPlanets = () => {
+    //   API.getPlanets()
+    //   .then(res => {
+    //     setPlanets(res.data)
+    //   })
+    //   .catch(() => setPlanets([]))
+    // }
 
-}
+
+
+
+
+return (
+  <div className ="viewport">
+        <main className = "One">
+          <LevelTwo
+  
+  img={planets.img}
+  
+  />
+
+
+            </main>
+          <div className = "Two">
+            look at dis
+            <Galaxy 
+            
+            handlePlanetClick = {handlePlanetClick}
+            // name={planet.handlePlanetClick}
+            />
+                        
+          </div>
+          <div className ="Three">
+            <h3>HI ANTHONY</h3>
+            <LevelTwo
+            
+            name={planets.name}
+            diameter={planets.diameter}
+            rotation_period={planets.rotation_period} 
+            orbital_period={planets.orbital_period} 
+            planet_info={planets.planet_info}
+
+            />
+
+          </div>
+          <div>
+            {characters.map(character => {
+              return <LevelThree key={character.name}
+              name={character.name}
+              image={character.image}
+              />
+            })}
+          </div>
+          </div>                
+        
+      )
+
+
+
+
+};
+
+
+
+
 
 export default Home;
