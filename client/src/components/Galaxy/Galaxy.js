@@ -9,7 +9,7 @@ function Galaxy(props) {
 	return (
 		<div className='galaxy'>
 			<div
-				className='tatooine glow-yell'
+				className='tatooine'
 				data-name='Tatooine'
 				onClick={props.handlePlanetClick}
 			></div>
@@ -28,6 +28,7 @@ function Galaxy(props) {
 				data-name='Bespin'
 				onClick={props.handlePlanetClick}
 			></div>
+			<button onClick={props.handleSurfaceClick}>Visit Planet</button>
 		</div>
 	);
 } 
