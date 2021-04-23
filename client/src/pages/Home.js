@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from "react";
+import React, { useState, useEffect } from "react";
 import API from "../utils/Api"
 import Characters from "../components/Characters";
 import Planets from "../components/Planets";
@@ -88,8 +88,6 @@ return (
 
             />
 
-          </div>
-          <div>
             {characters.map(character => {
               return <LevelThree key={character.name}
               name={character.name}
@@ -97,6 +95,7 @@ return (
               />
             })}
           </div>
+
           </div>                
         
       )
