@@ -47,6 +47,9 @@ function Home() {
   }
 
   const handleSurfaceClick = () => {
+    setSurface(planets.surface_img);
+
+
     
   }
 
@@ -66,12 +69,15 @@ function Home() {
 		<div className='viewport container mt-5'>
 			<div className='row'>
 				<main className='One border border-info rounded col-12'>
-					<LevelTwo img={planets.img} />
+					<LevelTwo img={planets.img}
+            surface={surface}
+          />
 				</main>
-				<div className='Two border border-info col-7 d-flex justify-content-center'>
+				<div className='Two border border-info col-7'>
 					<Galaxy
 						handlePlanetClick={handlePlanetClick}
-						// name={planet.handlePlanetClick}
+						handleSurfaceClick={handleSurfaceClick}
+            handlePlanetClick={handlePlanetClick}
 					/>
 				</div>
 				<div className='Three border border-info overflow-auto col-5 '>
