@@ -28,6 +28,7 @@ function Galaxy(props) {
 				data-name='Bespin'
 				onClick={props.handlePlanetClick}
 			></div>
+			<button onClick={props.handleSurfaceClick}>Visit Planet</button>
 		</div>
 	);
 } 
