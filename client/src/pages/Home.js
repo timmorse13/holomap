@@ -38,18 +38,18 @@ function Home() {
 	// }
 
 	return (
-		<div className='viewport container'>
-			<div className='row border border-info rounded'>
-				<main className='One border border-info rounded col-9'>
+		<div className='viewport container mt-5'>
+			<div className='row'>
+				<main className='One border border-info rounded col-12'>
 					<LevelTwo img={planets.img} />
 				</main>
-				<div className='Two border border-info col-6'>
+				<div className='Two border border-info col-7'>
 					<Galaxy
 						handlePlanetClick={handlePlanetClick}
 						// name={planet.handlePlanetClick}
 					/>
 				</div>
-				<div className='Three border border-info overflow-auto col-4 '>
+				<div className='Three border border-info overflow-auto col-5 '>
 					<LevelTwo
 						name={planets.name}
 						diameter={planets.diameter}
