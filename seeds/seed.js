@@ -1,8 +1,8 @@
 const sequelize = require('../config/connection');
 
-const { Planets, Characters } = require('../models');
+const { User, Planets, Characters } = require('../models');
 
-// const userData = require('./userData.json');
+const userData = require('./userData.json');
 
 const planetData = require('./planetData.json');
 
@@ -13,18 +13,17 @@ const seedDatabase = async () => {
 
   await sequelize.sync({ force: false });
 
-//   const users = await User.bulkCreate(userData, {
+  const users = await User.bulkCreate(userData, {
 
-//     individualHooks: true,
+    individualHooks: true,
 
-//     returning: true,
+    returning: true,
 
-//   });
+  });
 
+  const planets = await Planets.bulkCreate(planetData);
 
-    const planets = await Planets.bulkCreate(planetData);
-
-    const characters = await Characters.bulkCreate(characterData);
+  const characters = await Characters.bulkCreate(characterData);
 
 
   
