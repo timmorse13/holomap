@@ -12,7 +12,8 @@ import LevelThree from "../components/Planet/Levelthree";
 function Home() {
 	const [planet, setPlanet] = useState([]);
 	const [planets, setPlanets] = useState([]);
-  const [characters, setCharacters] = useState([])
+  const [characters, setCharacters] = useState([]);
+  const [surface, setSurface] = useState("");
   // const [loading, setLoading] = useState(false)
 
 	useEffect(() => {
@@ -43,6 +44,10 @@ function Home() {
     })
     .catch(()=> setCharacters([])
     );
+  }
+
+  const handleSurfaceClick = () => {
+    
   }
 
   // if(loading) {
