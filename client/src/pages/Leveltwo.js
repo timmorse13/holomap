@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
-// import { useParams } from "react-router-dom";
 import API from "../utils/Api";
 import LevelTwo from "../components/Planet/Leveltwo"
 
 
 function Leveltwo() {
-    // const { name } = useParams()
     const [planet, setPlanet] = useState([])
 
         
@@ -18,7 +16,6 @@ function Leveltwo() {
     
     
     const getPlanet = () => {
-        // console.log(name)
         API.getPlanet("Tatooine")
         .then(res =>  {
             console.log(res)
@@ -45,13 +42,7 @@ function Leveltwo() {
                 planet_info={planet.planet_info}
                 
                 />
-                {/* {planet.name} <br />
-                {planet.diameter} <br/>
-                {planet.rotation_period}<br /> 
-                {planet.orbital_period}<br /> 
-                {planet.planet_info} <br />
-                {planet.img} */}
-                {/* /* {img ? (<img src={`/${img}`} />) : (<div />) } */}
+
       
 
               </div>

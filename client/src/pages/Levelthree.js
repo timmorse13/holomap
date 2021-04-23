@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
-// import { useParams } from "react-router-dom";
 import API from "../utils/Api";
 import LevelThree from "../components/Planet/Levelthree"
 
 
 function Levelthree() {
-    // const { name } = useParams()
     const [planChar, setPlanChar] = useState([])
 
         
