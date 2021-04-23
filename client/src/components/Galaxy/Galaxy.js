@@ -1,11 +1,13 @@
 import React from 'react';
 import '../Galaxy/Galaxy.css';
 
+// const props = {
 
+// }
 
 function Galaxy(props) {
 	return (
-		<div className='col-3'>
+		<div className='galaxy col-5'>
 			<div
 				className='tatooine circle glow-yell'
 				data-name='Tatooine'
@@ -26,9 +28,9 @@ function Galaxy(props) {
 				data-name='Bespin'
 				onClick={props.handlePlanetClick}
 			></div>
+			<button onClick={props.handleSurfaceClick}>Visit Planet</button>
 		</div>
 	);
 } 
-
 
 export default Galaxy;

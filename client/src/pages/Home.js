@@ -12,7 +12,8 @@ import LevelThree from "../components/Planet/Levelthree";
 function Home() {
 	const [planet, setPlanet] = useState([]);
 	const [planets, setPlanets] = useState([]);
-  const [characters, setCharacters] = useState([])
+  const [characters, setCharacters] = useState([]);
+  const [surface, setSurface] = useState("");
   // const [loading, setLoading] = useState(false)
 
 	useEffect(() => {
@@ -26,6 +27,7 @@ function Home() {
 		const planetName = e.target.getAttribute('data-name');
 		console.log(planetName);
 		setPlanet(planetName);
+    setSurface(null)
 	};
 	const getPlanet = () => {
 		// console.log(name)
@@ -45,6 +47,13 @@ function Home() {
     );
   }
 
+  const handleSurfaceClick = () => {
+    setSurface(planets.surface_img);
+
+
+    
+  }
+
   // if(loading) {
   //   return <p>Data is loading...</p>
   // }
@@ -61,12 +70,14 @@ function Home() {
 		<div className='viewport container mt-5'>
 			<div className='row'>
 				<main className='One border border-info rounded col-12'>
-					<LevelTwo img={planets.img} />
+					<LevelTwo img={planets.img}
+            surface={surface}
+          />
 				</main>
 				<div className='Two border border-info col-7'>
 					<Galaxy
 						handlePlanetClick={handlePlanetClick}
-						// name={planet.handlePlanetClick}
+						handleSurfaceClick={handleSurfaceClick}
 					/>
 				</div>
 				<div className='Three border border-info overflow-auto col-5 '>

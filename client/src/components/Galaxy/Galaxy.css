@@ -15,6 +15,10 @@
     height: 100vh;
 }
 
+.galaxy {
+	
+}
+
 .solar-system {
 	/* padding-top: 10em; */
 	/* background-image: url(../img/planet_img/rebel_base.png); */
@@ -46,10 +50,10 @@
 
 @keyframes tatooine-rotate {
 	0% {
-		transform: rotateZ(20deg) translateX(-50px);
+		transform: rotateZ(20deg) translateX(200%);
 	}
 	to {
-		transform: rotateZ(380deg) translateX(-50px);
+		transform: rotateZ(380deg) translateX(200%);
 	}
 }
 
@@ -152,25 +156,25 @@
 }
 
 .bespin {
-	background: url('../../assets/images/planet_img/Bespin_display.png');
+	background: url('../../assets/images/planet_img/DeathStar_display.png');
 	background-size: 100% 100%;
 	background-position: center center;
 	width: 50px;
 	height: 50px;
     z-index: 5;
-	animation: bespin-rotate 800s infinite linear, bespin-glow 4000ms infinite;
+	animation: death_star-rotate 800s infinite linear, death_star-glow 4000ms infinite;
 }
 
-@keyframes bespin-rotate {
+@keyframes death_star-rotate {
 	0% {
-		transform: rotateZ(90deg) translateX(-70px);
+		transform: rotateZ(90deg) translateX(-35px);
 	}
 	to {
-		transform: rotateZ(400deg) translateX(-70px);
+		transform: rotateZ(400deg) translateX(-35px);
 	}
 }
 
-@keyframes bespin-glow {
+@keyframes death_star-glow {
 	0% {
 		filter: drop-shadow(0 0 -10px #97dcf4);
 	}
