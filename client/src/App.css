@@ -8,20 +8,25 @@ body {
   color: #66cff2;
   text-shadow: 1px 1px rgb(66, 75, 84); */
   /* color: #e5b13a; */
+  /* height: 100vh; */
 }
 
 .viewport {
-  max-height: 1000px;
-  max-width: 900px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  /* height: 100vh; */
 }
 
 .One{
-  max-height: 500px;
+  height: 600px;
+  background-color: #66cff21d;
 }
 
 .Two {
-  max-height: 300px;
-  
+  height: 300px;
+  background-color: #66cff21d;
 }
 
 .Three {
@@ -33,6 +38,7 @@ body {
   font-size: 1rem;
   color: #66cff2;
   text-shadow: 1px 1px rgb(66, 75, 84);
+  background-color: #66cff21d;
 }
 
 /* FONT IMPORTS */

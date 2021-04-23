@@ -7,6 +7,7 @@ import LevelTwo from "../components/Planet/Leveltwo"
 import Planet from "../components/Planet";
 import Galaxy from "../components/Galaxy/Galaxy"
 import LevelThree from "../components/Planet/Levelthree";
+// import Surface 
 
 
 function Home() {
@@ -42,6 +43,7 @@ function Home() {
     API.getPlanet(planet)
     .then(res => {
       setCharacters(res.data.characters)
+      console.log(res.data.characters)
     })
     .catch(()=> setCharacters([])
     );
@@ -72,6 +74,7 @@ function Home() {
 				<main className='One border border-info rounded col-12'>
 					<LevelTwo img={planets.img}
             surface={surface}
+            characters={characters}
           />
 				</main>
 				<div className='Two border border-info col-7'>
