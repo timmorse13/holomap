@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import API from "../utils/Api"
 import Characters from "../components/Characters";
-import Planets from "../components/Planets";
+import Planets from "../components/Planets/";
 import LevelTwo from "../components/Planet/Leveltwo"
 import Planet from "../components/Planet";
 import Galaxy from "../components/Galaxy/Galaxy"
@@ -13,10 +13,12 @@ function Home() {
   const [planet, setPlanet] = useState([])
   const [planets, setPlanets] = useState([])
   const [characters, setCharacters] = useState([])
+  // const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     getPlanet()
     getCharacters()
+    // setLoading(true)
     // loadPlanets()
   }, [planet])
 
@@ -45,6 +47,10 @@ function Home() {
     .catch(()=> setCharacters([])
     );
   }
+  
+  // if(loading) {
+  //   return <p>Data is loading...</p>
+  // }
 
 
     // const loadPlanets = () => {
@@ -91,12 +97,12 @@ return (
 
             />
 
-            {characters.map(character => {
+            {characters ? characters.map(character => {
               return <LevelThree key={character.name}
               name={character.name}
               image={character.image}
               />
-            })}
+            }) : <div></div>}
           </div>
 
           </div>                
