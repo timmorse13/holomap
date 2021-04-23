@@ -1,11 +1,13 @@
 import React from 'react';
 import '../Galaxy/Galaxy.css';
 
+// const props = {
 
+// }
 
 function Galaxy(props) {
 	return (
-		<div className='col-3'>
+		<div className='galaxy col-5'>
 			<div
 				className='tatooine circle glow-yell'
 				data-name='Tatooine'
@@ -30,6 +32,5 @@ function Galaxy(props) {
 		</div>
 	);
 } 
-
 
 export default Galaxy;

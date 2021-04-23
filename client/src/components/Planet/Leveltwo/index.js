@@ -1,5 +1,5 @@
 import React from "react";
-import Orbit from "../../Orbit/Orbit"
+// import Orbit from "../../Orbit/Orbit"
 
 
 function LevelTwo({ name, diameter, rotation_period, orbital_period, planet_info, img, surface }) {
