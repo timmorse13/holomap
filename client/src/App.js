@@ -5,17 +5,19 @@ import Leveltwo from "./pages/Leveltwo";
 import openApp from "./pages/Open"
 import Levelthree from "./pages/Levelthree"
 import './App.css'
+import Profile from "./pages/Profile";
 
 function App() {
   return(
     <Router>
       <div>
         <Switch>
-          <Route exact path="/" component={Home} />
+          {/* <Route exact path="/" component={Home} /> */}
           <Route exact path="/open" component={openApp} />
           {/* <Route exact path="/planet/levelone/:name" component={Levelone} /> */}
           <Route exact path="/planet/leveltwo/:name" component={Leveltwo} />
           <Route exact path="/planet/levelthree/:name" component={Levelthree} />
+          <Route exact path="/profile" component={Profile} />
 
         </Switch>
       </div>
