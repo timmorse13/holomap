@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, Component } from "react";
 import API from "../utils/Api"
 import Characters from "../components/Characters";
@@ -105,6 +106,7 @@ return (
 
 
 };
+
 
 
 
