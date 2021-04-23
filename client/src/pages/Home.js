@@ -63,7 +63,7 @@ function Home() {
 				<main className='One border border-info rounded col-12'>
 					<LevelTwo img={planets.img} />
 				</main>
-				<div className='Two border border-info col-7'>
+				<div className='Two border border-info col-7 d-flex justify-content-center'>
 					<Galaxy
 						handlePlanetClick={handlePlanetClick}
 						// name={planet.handlePlanetClick}
