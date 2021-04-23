@@ -24,12 +24,31 @@ export default {
   getUser: function(id) {
     return axios.get("/api/users/" + id);
   },
-  // Deletes the post with the given id
-  deletePost: function(id) {
-    return axios.delete("/api/posts/" + id);
+
+  newUser: function() {
+    return axios.post("api/users/");
   },
-  // Saves a post to the database
-  savePost: function(postData) {
-    return axios.post("/api/posts", postData);
+
+  returningUser: function() {
+    return axios.post("api/users/login");
+  },
+
+  logoutUser: function() {
+    return axios.post("api/users/logout");
   }
+
+
+
+
+
+
+
+//   // Deletes the post with the given id
+//   deletePost: function(id) {
+//     return axios.delete("/api/posts/" + id);
+//   },
+//   // Saves a post to the database
+//   savePost: function(postData) {
+//     return axios.post("/api/posts", postData);
+//   }
 };
