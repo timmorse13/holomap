@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+
+import React, { useState, useEffect, Component } from "react";
 import API from "../utils/Api"
 import Characters from "../components/Characters";
 import Planets from "../components/Planets";
@@ -104,6 +105,7 @@ return (
 
 
 };
+
 
 
 

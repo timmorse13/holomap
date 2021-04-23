@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Leveltwo from "./pages/Leveltwo";
 import openApp from "./pages/Open"
 import Levelthree from "./pages/Levelthree"
+import './App.css'
 
 function App() {
   return(
