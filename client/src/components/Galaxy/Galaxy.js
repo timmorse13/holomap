@@ -7,7 +7,7 @@ import '../Galaxy/Galaxy.css';
 
 function Galaxy(props) {
 	return (
-		<div className='galaxy'>
+		<div className='galaxy d-flex justify-content-between'>
 			<div
 				className='tatooine'
 				data-name='Tatooine'

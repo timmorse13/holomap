@@ -1,26 +1,25 @@
+import React, { useState, useEffect } from 'react';
+import API from '../utils/Api';
+import Characters from '../components/Characters';
+import Planets from '../components/Planets/';
+import LevelTwo from '../components/Planet/Leveltwo';
+import Planet from '../components/Planet';
+import Galaxy from '../components/Galaxy/Galaxy';
+import LevelThree from '../components/Planet/Levelthree';
 
-import React, { useState, useEffect } from "react";
-import API from "../utils/Api"
-import Characters from "../components/Characters";
-import Planets from "../components/Planets/";
-import LevelTwo from "../components/Planet/Leveltwo"
-import Planet from "../components/Planet";
-import Galaxy from "../components/Galaxy/Galaxy"
-import LevelThree from "../components/Planet/Levelthree";
-// import Surface 
-
+// import Surface
 
 function Home() {
 	const [planet, setPlanet] = useState([]);
 	const [planets, setPlanets] = useState([]);
-  const [characters, setCharacters] = useState([]);
-  const [surface, setSurface] = useState("");
-  // const [loading, setLoading] = useState(false)
+	const [characters, setCharacters] = useState([]);
+	const [surface, setSurface] = useState('');
+	// const [loading, setLoading] = useState(false)
 
 	useEffect(() => {
 		getPlanet();
-    getCharacters()
-    // setLoading(true)
+		getCharacters();
+		// setLoading(true)
 		// loadPlanets()
 	}, [planet]);
 
@@ -28,7 +27,7 @@ function Home() {
 		const planetName = e.target.getAttribute('data-name');
 		console.log(planetName);
 		setPlanet(planetName);
-    setSurface(null)
+		setSurface(null);
 	};
 	const getPlanet = () => {
 		// console.log(name)
@@ -39,26 +38,22 @@ function Home() {
 			.catch(() => setPlanets([]));
 	};
 
-  const getCharacters = () => {
-    API.getPlanet(planet)
-    .then(res => {
-      setCharacters(res.data.characters)
-      console.log(res.data.characters)
-    })
-    .catch(()=> setCharacters([])
-    );
-  }
+	const getCharacters = () => {
+		API.getPlanet(planet)
+			.then((res) => {
+				setCharacters(res.data.characters);
+				console.log(res.data.characters);
+			})
+			.catch(() => setCharacters([]));
+	};
 
-  const handleSurfaceClick = () => {
-    setSurface(planets.surface_img);
+	const handleSurfaceClick = () => {
+		setSurface(planets.surface_img);
+	};
 
-
-    
-  }
-
-  // if(loading) {
-  //   return <p>Data is loading...</p>
-  // }
+	// if(loading) {
+	//   return <p>Data is loading...</p>
+	// }
 
 	// const loadPlanets = () => {
 	//   API.getPlanets()
@@ -72,10 +67,11 @@ function Home() {
 		<div className='viewport container mt-5'>
 			<div className='row'>
 				<main className='One border border-info rounded col-12'>
-					<LevelTwo img={planets.img}
-            surface={surface}
-            characters={characters}
-          />
+					<LevelTwo
+						img={planets.img}
+						surface={surface}
+						characters={characters}
+						/>
 				</main>
 				<div className='Two border border-info col-7'>
 					<Galaxy
@@ -91,17 +87,23 @@ function Home() {
 						orbital_period={planets.orbital_period}
 						planet_info={planets.planet_info}
 					/>
-          {characters ? characters.map(character => {
-              return <LevelThree key={character.name}
-              name={character.name}
-              image={character.image}
-              />
-            }) : <div></div>}
+					{characters ? (
+						characters.map((character) => {
+							return (
+								<LevelThree
+									key={character.name}
+									name={character.name}
+									image={character.image}
+								/>
+							);
+						})
+					) : (
+						<div></div>
+					)}
 				</div>
 			</div>
 		</div>
 	);
 }
-
 
 export default Home;
