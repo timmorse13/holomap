@@ -3,80 +3,73 @@ import React from 'react';
 
 function Profile(){
 return(
-
-<div>
-
     <div>
 
-    <form className="row g-3">
-        <div className="col-md-4">
-            <label for="validationServer01" className="form-label">First name</label>
-            <input type="text" className="form-control is-valid" id="validationServer01" value=" " required />
-            <div className="valid-feedback">
-            Looks good!
-            </div>
-        </div>
-        <div className="col-md-4">
-            <label for="validationServer02" className="form-label">Last name</label>
-            <input type="text" className="form-control is-valid" id="validationServer02" value=" " required />
-            <div className="valid-feedback">
-            Looks good!
-            </div>
-        </div>
-        <div className="col-md-4">
-            <label for="validationServerUsername" className="form-label">Username</label>
-            <div className="input-group has-validation">
-            <span className="input-group-text" id="inputGroupPrepend3">@</span>
-            <input type="text" className="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required />
-            <div id="validationServerUsernameFeedback" className="invalid-feedback">
-                Please choose a username.
-            </div>
-            </div>
-        </div>
-        <div className="col-md-6">
-            <label for="validationServer03" className="form-label">City</label>
-            <input type="text" className="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required />
-            <div id="validationServer03Feedback" className="invalid-feedback">
-            Please provide a valid city.
-            </div>
-        </div>
-        <div className="col-md-3">
-            <label for="validationServer04" className="form-label">State</label>
-            <select className="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required >
-            <option selected disabled value="">Choose...</option>
-            <option>...</option>
-            </select>
-            <div id="validationServer04Feedback" className="invalid-feedback">
-            Please select a valid state.
-            </div>
-        </div>
-        <div className="col-md-3">
-            <label for="validationServer05" className="form-label">Zip</label>
-            <input type="text" className="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required />
-            <div id="validationServer05Feedback" className="invalid-feedback">
-            Please provide a valid zip.
-            </div>
-        </div>
-        <div className="col-12">
-            <div className="form-check">
-            <input className="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required />
-            <label className="form-check-label" for="invalidCheck3">
-                Agree to terms and conditions
-            </label>
-            <div id="invalidCheck3Feedback" className="invalid-feedback">
-                You must agree before submitting.
-            </div>
-            </div>
-        </div>
-        <div className="col-12">
-            <button className="btn btn-primary" type="submit">Submit form</button>
-        </div>
-    </form>
-
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#">Profile Page</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Home Page</a>
+        </li>
+      </ul>
+      <form className="d-flex">
+        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button className="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
+  </div>
+</nav>
 
+<div className="card bg-dark text-white" >
+  <div className="card-body">
+  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="https://pbs.twimg.com/profile_images/1284600130168070144/dRh7O4Kj_400x400.jpg" alt="Admin" class="rounded-circle width"/>
+                    <div class="mt-3">
+                      <h4>John Doe</h4>
+                      <p class="text-secondary mb-1">Full Stack Developer</p>
+                      <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+                    </div>
+    </div>
+    <h4 className="card-title">Wookie Man 420</h4>
+    <p className="card-text">I like stars with wars.</p>
+    <a href="#" className="btn btn-primary">Edit Avatar</a>
+  </div>
 </div>
 
+
+<form action="/action_page.php" className="was-validated">
+  <div className="form-group">
+    <label for="uname">Username:</label>
+    <input type="text" className="form-control" id="uname" placeholder="Enter username" name="uname" required/>
+    <div className="valid-feedback">Valid.</div>
+    <div className="invalid-feedback">Please fill out this field.</div>
+  </div>
+  <div className="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" className="form-control" id="pwd" placeholder="Enter password" name="pswd" required/>
+    <div className="valid-feedback">Valid.</div>
+    <div className="invalid-feedback">Please fill out this field.</div>
+  </div>
+  <div className="form-group form-check">
+    <label className="form-check-label">
+      <input className="form-check-input" type="checkbox" name="remember" required/> I agree on blabla.
+      <div className="valid-feedback">Valid.</div>
+      <div className="invalid-feedback">Check this checkbox to continue.</div>
+    </label>
+  </div>
+  <button type="submit" className="btn btn-primary">Submit</button>
+</form>
+
+
+    
+
+        
+</div>
 )
 }
 
