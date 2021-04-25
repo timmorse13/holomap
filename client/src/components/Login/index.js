@@ -1,77 +1,35 @@
-const loginFormHandler = async (event) => {
+import React, { useState } from 'react';
 
-    event.preventDefault();
-  
-    // Collect values from the login form
-    const email = document.querySelector('#email-login').value.trim();
+function LoginForm({ Login, error }) {
+    const [details, setDetails] = useState({username: "", email: "", password: ""});
 
-    const password = document.querySelector('#password-login').value.trim();
-  
-    if (email && password) {
-      // Send a POST request to the API endpoint
-      const response = await fetch('/api/users/login', {
-        method: 'POST',
+    const submitHandler = e => {
+        e.preventDefault();
 
-        body: JSON.stringify({ email, password }),
-
-        headers: { 'Content-Type': 'application/json' },
-
-      });
-  
-      if (response.ok) {
-        // If successful, redirect the browser to the profile page
-
-        document.location.replace('/');
-      } else {
-
-        alert(response.statusText);
-
-      }
+        Login(details);
     }
-  };
-  
-  const signupFormHandler = async (event) => {
-    
-    event.preventDefault();
-  
-    const username = document.querySelector('#name-signup').value.trim();
 
-    const email = document.querySelector('#email-signup').value.trim();
+    return (
+        <form onSubmit={submitHandler}>
+            <div className="form-inner">
+                <h2>Login</h2>
+                {(error !== "") ? ( <div className="error">{error}</div> ) : ""}
+                <div className="form-group">
+                    <label htmlFor="username">UserName: </label>
+                    <input type="text" name="username" id="username" onChange={e => setDetails({...details, username: e.target.value})} value={details.username} />
+                </div>
+                <div className="form-group">
+                    <label htmlFor="email">Email: </label>
+                    <input type="email" name="email" id="email" onChange={e => setDetails({...details, email: e.target.value})} value={details.email} />
+                </div>
+                <div className="form-group">
+                    <label htmlFor="password">Password: </label>
+                    <input type="password" name="password" id="password" onChange={e => setDetails({...details, password: e.target.value})} value={details.password} />
+                </div>
+                <input type="submit" value="Login" />
+            </div>
+        </form>
+    )
+}
 
-    const password = document.querySelector('#password-signup').value.trim();
-  
-    if (username && email && password) {
-
-      const response = await fetch('/api/users', {
-
-        method: 'POST',
-
-        body: JSON.stringify({ username, email, password }),
-
-        headers: { 'Content-Type': 'application/json' },
-
-      });
-  
-      if (response.ok) {
-
-        document.location.replace('/');
-
-      } else {
-
-        alert(response.statusText);
-
-      }
-    }
-  };
-  
-  document
-
-    .querySelector('.login-form')
-
-    .addEventListener('submit', loginFormHandler);
-  
-  document
-  
-    .querySelector('.signup-form')
-
-    .addEventListener('submit', signupFormHandler);
+export default LoginForm;

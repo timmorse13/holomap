@@ -6,6 +6,7 @@ import openApp from "./pages/Open"
 import Levelthree from "./pages/Levelthree"
 import './App.css'
 import Profile from "./pages/Profile";
+import Login from "./pages/Login";
 
 function App() {
   return(
