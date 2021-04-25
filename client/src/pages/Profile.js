@@ -14,7 +14,7 @@ return(
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home Page</a>
+          <a className="nav-link active" aria-current="page" href="/Home.js">Home Page</a>
         </li>
       </ul>
       <form className="d-flex">
@@ -27,12 +27,18 @@ return(
 
 <div className="card bg-dark text-white" >
   <div className="card-body">
-  <div class="d-flex flex-column align-items-center text-center">
-                    <img src="https://pbs.twimg.com/profile_images/1284600130168070144/dRh7O4Kj_400x400.jpg" alt="Admin" class="rounded-circle width"/>
-                    <div class="mt-3">
+  <div className="d-flex flex-column align-items-center text-center">
+                    <img src="https://pbs.twimg.com/profile_images/1284600130168070144/dRh7O4Kj_400x400.jpg" alt="Admin" className="rounded-circle "/>
+                    <div class="file btn btn-lg btn-primary">
+                                Change Photo
+                                <input type="file" name="file"/>
+                            </div>
+
+
+                    <div className="mt-3">
                       <h4>John Doe</h4>
-                      <p class="text-secondary mb-1">Full Stack Developer</p>
-                      <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+                      <p className="text-secondary mb-1">Full Stack Developer</p>
+                      <p className="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
                     </div>
     </div>
     <h4 className="card-title">Wookie Man 420</h4>

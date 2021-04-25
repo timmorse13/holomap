@@ -1,60 +1,66 @@
+/* * {
+  box-sizing: content-box;
+} */
 
-body {
-  /* star wars crawl font */
-	/* font-family: news-gothic-std, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-  font-size: 2rem;
-  color: #66cff2;
-  text-shadow: 1px 1px rgb(66, 75, 84); */
-  /* color: #e5b13a; */
-  /* height: 100vh; */
+body{
+  background-color: black;
+  position: relative;
+  
 }
-
+canvas{
+  position:absolute;
+  height: 100vh;
+  width: 100vw;
+}
 .viewport {
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 30px;
-  /* height: 100vh; */
+	background-color: #66cff21d;
+  position: relative;
 }
 
-.One{
-  height: 600px;
-  background-color: #66cff21d;
+.One {
+	height: 600px;
+	background-color: #66cff21d;
 }
 
 .Two {
-  height: 300px;
-  background-color: #66cff21d;
+	height: 300px;
+	background-color: #66cff21d;
 }
 
+/* .grid:after {
+	background-image: linear-gradient(80deg, #66cff2 1px, transparent 0),
+		linear-gradient(180deg, #66cff2 1px, transparent 0),
+		linear-gradient(90deg, #467382 1px, transparent 0),
+		linear-gradient(180deg, #4b8295 1px, transparent 0);
+	background-size: 50px, 100% 50px, 10px, 100% 10px;
+	pointer-events: none;
+	z-index: 1;
+} */
+
 .Three {
-  max-height: 300px;
-  border: 5px;
-  font-family: news-gothic-std, sans-serif;
+	max-height: 300px;
+	font-family: news-gothic-std, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-  font-size: 1rem;
-  color: #66cff2;
-  text-shadow: 1px 1px rgb(66, 75, 84);
-  background-color: #66cff21d;
+	font-size: 1rem;
+	color: #66cff2;
+	text-shadow: 1px 1px rgb(66, 75, 84);
+	background-color: #66cff21d;
 }
 
 /* FONT IMPORTS */
 
 /* The StarWars title font, might come in handy */
 @font-face {
-  font-family: "StarJedi";
-  src: local("StarJedi"),
-    url("./fonts/Starjedi.ttf") format("truetype");
-  font-weight: normal;
+	font-family: 'StarJedi';
+	src: local('StarJedi'), url('./fonts/Starjedi.ttf') format('truetype');
+	font-weight: normal;
 }
 
 /* SPECIAL CHARACTERS --- INTENDED TO DECORATE THE BEZEL OF THE VIEWPORT... (It doesn't work at the moment so I may have to import as a graphic later) */
 @font-face {
-  font-family: "AurekBesh";
-  src: local("AurekBesh"),
-    url("./fonts/AurekBeshNarrow-xxlK.ttf") format("truetype");
-  font-weight: normal;
+	font-family: 'AurekBesh';
+	src: local('AurekBesh'),
+		url('./fonts/AurekBeshNarrow-xxlK.ttf') format('truetype');
+	font-weight: normal;
 }

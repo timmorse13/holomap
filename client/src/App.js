@@ -10,7 +10,7 @@ import Profile from "./pages/Profile";
 function App() {
   return(
     <Router>
-      <div>
+      <div className='container-fluid'>
         <Switch>
           {/* <Route exact path="/" component={Home} /> */}
           <Route exact path="/open" component={openApp} />
