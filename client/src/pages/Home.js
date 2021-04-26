@@ -63,6 +63,7 @@ function Home() {
 
 	const handleSurfaceClick = () => {
 		setSurface(planets.surface_img);
+		console.log(planets) 
 	};
 
 	// if(loading) {
@@ -83,7 +84,7 @@ function Home() {
 				// style={BUTTON_WRAPPER_STYLES}
 				onClick={() => console.log('clicked')}
 			>
-				<button onClick={() => setIsOpen(true)}>Light Speed</button>
+				<button onClick={() => setIsOpen(true)}>HOLIDEX</button>
 
 				<Modal open={isOpen} onClose={() => setIsOpen(false)}>
 

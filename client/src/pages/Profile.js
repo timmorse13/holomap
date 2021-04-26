@@ -32,7 +32,7 @@ return(
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/Home.js">Home</a>
+            <a className="nav-link active" aria-current="page" href="/">Home</a>
           </li>
         </ul>
         <form className="d-flex">
@@ -46,11 +46,11 @@ return(
   <div className="card bg-dark text-white" >
     <div className="card-body">
     <div className="d-flex flex-column align-items-center text-center">
-            <img src="" alt="Admin" className="img-fluid img-thumbnail"/>
+            {/* <img src="" alt="Admin" className="img-fluid img-thumbnail"/>
             <div className="file btn btn-lg btn-primary">
                 Change Photo
               <input type="file" name="file"/>
-            </div>
+            </div> */}
 
             <div className="mt-3">
               <h4>Wookie Man 420</h4>
