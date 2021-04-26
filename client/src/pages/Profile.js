@@ -32,9 +32,6 @@ const checkLoggedIn = () => {
   })
 } 
 
-if (checkLoggedIn === true) {
-return(
-
 
 <div>
 {/* nav bar  */}
@@ -78,6 +75,8 @@ return(
             </div>
       </div>
     </div>
+        <SignupButton></SignupButton>
+        <LoginButton></LoginButton>
   </div>
 
 {/* Form Area */}
@@ -116,15 +115,8 @@ return(
 
         
 </div>
-)
-} else {
-  return (
-      <div>
-        <SignupButton></SignupButton>
-        <LoginButton></LoginButton>
-      </div>
-  )
-}
+
+        
 
 }
 
