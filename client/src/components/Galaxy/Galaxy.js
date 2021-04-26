@@ -21,12 +21,12 @@ function Galaxy(props) {
 				></div>
 				<div
 					className='endor'
-					data-name='Endor'
+					data-name='Naboo'
 					onClick={props.handlePlanetClick}
 				></div>
 				<div
 					className='bespin'
-					data-name='Bespin'
+					data-name='Death Star'
 					onClick={props.handlePlanetClick}
 				></div>
 			</div>
