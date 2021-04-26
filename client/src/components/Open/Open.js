@@ -1,24 +1,30 @@
-import React, { Suspense } from 'react'
-import Title from './Title/Title'
+import React, { Suspense } from 'react';
+import Title from './Title/Title';
 // import ByLine from "./Byline"
 
 const ByLine = React.lazy(() => import('./Byline/ByLine'));
 
-
-
 const Open = () => {
-    return (
-        <div>
-            <Title/>
-            <Suspense fallback={<div>A long time ago, in a galaxy far, far away...</div>}>
-                <ByLine/>
-            </Suspense>
-            <div>
-            <a href="/profile"><button>Profile</button></a><br />
-            <a href="/Holodex"><button>Holodex</button></a>
-            </div>
-        </div>
-    )
-}
+	return (
+		<div className='d-flex justify-content-center'>
+			<div className=''>
+				<a href='/profile'>
+					<button className='btn btn-outline-warning'>Profile</button>
+				</a>
+				<a href='/Holodex'>
+					<button className='btn btn-outline-warning'>Holodex</button>
+				</a>
+			</div>
+			<Suspense
+				fallback={
+                    <div>A long time ago, in a galaxy far, far away...</div>
+				}
+			>
+				<ByLine />
+			</Suspense>
+            <Title />
+		</div>
+	);
+};
 
-export default Open
+export default Open;

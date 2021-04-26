@@ -83,18 +83,18 @@ function Home() {
 	// }
 
 	return (
-		<div>
-			<div
+		<div className='row justify-content-center'>
+			<div className='p-5'
 				// style={BUTTON_WRAPPER_STYLES}
 				onClick={() => console.log('clicked')}
 			>
-				<button onClick={() => setIsOpen(true)}>HOLODEX</button>
+				<button className='btn btn-outline-warning' onClick={() => setIsOpen(true)}>HOLODEX</button>
 
 				{/* <a href="/Open"><button>Open</button></a> */}
-					<a href="/profile"><button>Profile</button></a>
+					<a href="/profile"><button className='btn btn-outline-warning'>Profile</button></a>
 				<Modal open={isOpen} onClose={() => setIsOpen(false)}>
 
-				<div className='viewport container border border-5 border-info mt-4 shadow-lg'>
+				<div className='viewport container border border-5 border-info mt-3 p-2 shadow-lg'>
 					<div className='row m-3 justify-content-between'>
 						<main className='One border border-info rounded-top col-12'>
 							<LevelTwo

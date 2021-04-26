@@ -61,7 +61,7 @@ function LoginForm() {
                             <button onClick={(e) => {
                                 e.preventDefault();
                                 loginUser();
-                            }} className="mb-3 mt-2">Login</button>
+                            }} className="mb-3 mt-2 btn btn-outline-warning">Login</button>
                         </form>
                     </div>
         </div>
