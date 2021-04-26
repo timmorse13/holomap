@@ -11,7 +11,7 @@ function LevelThree({ name, image, description, birth_year }) {
         
         <img src= {`/${image}`} alt='' />
         <h3>Name: {name}</h3> <br />
-        Birth year: {birth_year} < br/><br />
+        Birth year: {birth_year} < br/>
         {/* {image} */}
 
         {description} <br />
