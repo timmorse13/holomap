@@ -14,7 +14,7 @@ function Levelthree() {
 
 	const getPlanet = () => {
 		console.log('dis tim');
-		API.getPlanet('Tatooine')
+		API.getPlanet('')
 			.then((res) => {
 				console.log(res);
 				setPlanChar(res.data.characters);
