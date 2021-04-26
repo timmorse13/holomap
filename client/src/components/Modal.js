@@ -2,10 +2,12 @@ import React from 'react'
 import ReactDom from 'react-dom'
 // import SpaceBackground from '../src/components/Space Background/SpaceBackground'
 import { debounce } from 'debounce';
+import Open from '../components/Open/Open'
 
 const MODAL_STYLES = {
-  position: 'fixed',
+  position: 'absolute',
   width: '100%',
+  HEIGHT: '100%',
 //   top: '50%',
 //   left: '50%',
 //   transform: 'translate(-50%, -50%)',
@@ -15,7 +17,7 @@ const MODAL_STYLES = {
 }
 
 const OVERLAY_STYLES = {
-  position: 'relative',
+  position: 'fixed',
   top: 2,
   left: 2,
   right: 8,
@@ -188,6 +190,7 @@ class JumpToHyperspace {
 			initiating: true,
 			initiateTimestamp: new Date().getTime(),
 		};
+		
 		TweenMax.to(this.STATE, 0.25, {
 			velocity: VELOCITY_INIT_INC,
 			bgAlpha: 0.3,
@@ -249,6 +252,7 @@ class JumpToHyperspace {
 		this.canvas.addEventListener('touchstart', this.initiate);
 		this.canvas.addEventListener('mouseup', this.enter);
 		this.canvas.addEventListener('touchend', this.enter);
+		<Open />
 	};
 	setup = () => {
 		this.context.lineCap = 'round';
@@ -262,6 +266,10 @@ class JumpToHyperspace {
 		};
 		this.setup();
 	};
+	click = (e) => {
+		this.canvas.addEventListener('click', this.initiate);
+	};
+
 }
 window.myJump = new JumpToHyperspace();
 window.addEventListener(
@@ -281,9 +289,15 @@ export default function Modal({ open, children, onClose }) {
 
   return ReactDom.createPortal(
     <>
+	
       <div style={OVERLAY_STYLES} />
       <div style={MODAL_STYLES}  >
+	
+			  {/* <Open /> */}
+		  {/* <Open 
+		/> */}
         <button onClick={onClose}>Close Holodex</button>
+		
         {children}
 
       </div>

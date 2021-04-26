@@ -1,6 +1,6 @@
 import React from "react";
 // import Orbit from "../../Orbit/Orbit"
-import Galleryspin from "../../Surface"
+import Characsel from "../../Carousel"
 
 function LevelTwo({ name, characters, diameter, rotation_period, orbital_period, planet_info, img, surface }) {
     return (
@@ -12,17 +12,20 @@ function LevelTwo({ name, characters, diameter, rotation_period, orbital_period,
             {rotation_period}<br /> 
             {orbital_period}<br /> 
             {planet_info} <br /> 
+            <br />
             </div>
             ): (<div />)}
             {img && !surface ? (<img src={`/${img}`} class='' style={{width: '600px', margin: '0 auto', textAlign: 'center', display: 'flex' }} alt=''/>) : (<img src={`/${surface}`} alt='' style={{backgroundImage: `/${surface}`, zIndex: -1}}/>) }
 
             {/* <Orbit/> */}
-            {surface ? <div style={{position: "relative"}}>
-                <Galleryspin 
+            {/* {surface ? <div>{characters[0]}</div>:<div></div>} */}
+            {/* {surface ? <div style={{position: "relative"}}>
+                <Characsel 
             characters={characters}
             
             
-            /> </div>: <div></div>}
+            />
+             </div>: <div></div>} */}
 
         </div>
     )
