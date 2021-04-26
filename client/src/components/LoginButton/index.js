@@ -2,7 +2,7 @@ import React from "react";
 
 function LoginButton() {
   return (
-    <button type="button" className="btn" data-toggle="modal" data-target=".login">Login</button>
+    <a type="button" className="btn btn-outline-warning" href="/login">Login</a>
   );
 }
 

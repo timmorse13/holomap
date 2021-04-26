@@ -74,9 +74,7 @@ function SignupForm() {
 
 
   return (
-    <div className="modal fade bd-example-modal-lg signup" tabIndex="-1" role="dialog" >
-        <div className="modal-dialog modal-lg">
-            <div className="modal-content d-flex justify-content-center align-items-center flex-column mb-1">
+            <div className="d-flex justify-content-center align-items-center flex-column mb-1">
                 <h3 className="mt-3">Sign Up</h3>
                 <form className="form d-flex justify-content-center align-items-center flex-column mb-1">
                     <input
@@ -130,8 +128,6 @@ function SignupForm() {
                     <button className="mb-3 mt-2" onClick={signupUser}>Sign Up</button>
                 </form>
             </div>
-        </div>
-    </div>
   );
 }
 

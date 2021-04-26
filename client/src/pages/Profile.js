@@ -1,4 +1,8 @@
 import React from 'react';
+import SignupButton from '../components/SignupButton';
+import LoginButton from '../components/LoginButton';
+// import SignupForm from '../components/Signup';
+// import LoginForm from '../components/Login';
 
 
 function Profile(){
@@ -18,9 +22,20 @@ function Profile(){
     });
 }
 
+const checkLoggedIn = () => {
+  fetch('/api/users/check', {
+    method: 'GET',
+    body: JSON.stringify({}),
+    headers: { 'Content-Type': 'application/json' }
+  }).then((response) => {
+    return response;
+  })
+} 
+
+if (checkLoggedIn === true) {
 return(
 
-// TERNARY OPERATOR NEEDED FOR IF USER IS LOGGED IN OR NOT!! NEED TO USE REQ.SESSION FOR THIS?
+
 <div>
 {/* nav bar  */}
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -32,7 +47,7 @@ return(
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">Home</a>
+            <a className="nav-link active" aria-current="page" href="/Home.js">Home</a>
           </li>
         </ul>
         <form className="d-flex">
@@ -43,14 +58,17 @@ return(
     </div>
   </nav>
 {/* Profile Image Card */}
+
+
+
   <div className="card bg-dark text-white" >
     <div className="card-body">
     <div className="d-flex flex-column align-items-center text-center">
-            {/* <img src="" alt="Admin" className="img-fluid img-thumbnail"/>
+            <img src="" alt="Admin" className="img-fluid img-thumbnail"/>
             <div className="file btn btn-lg btn-primary">
                 Change Photo
               <input type="file" name="file"/>
-            </div> */}
+            </div>
 
             <div className="mt-3">
               <h4>Wookie Man 420</h4>
@@ -99,6 +117,15 @@ return(
         
 </div>
 )
+} else {
+  return (
+      <div>
+        <SignupButton></SignupButton>
+        <LoginButton></LoginButton>
+      </div>
+  )
+}
+
 }
 
 export default Profile;

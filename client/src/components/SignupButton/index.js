@@ -2,7 +2,7 @@ import React from "react";
 
 function SignupButton() {
   return (
-    <button type="button" className="btn" data-toggle="modal" data-target=".signup">Sign Up</button>
+    <a role="button" className="btn btn-outline-warning" href="/signup">Sign Up</a>
   );
 }
 
