@@ -7,6 +7,7 @@ import Planet from '../components/Planet';
 import Galaxy from '../components/Galaxy/Galaxy';
 import LevelThree from '../components/Planet/Levelthree';
 import Modal from '../components/Modal';
+import Orbit from '../components/Orbit/Orbit';
 // import { debounce } from 'debounce';
 // import Surface
 
@@ -96,6 +97,7 @@ function Home() {
 								surface={surface}
 								characters={characters}
 							/>
+							{/* <Orbit/> */}
 						</main>
 						<div className='Two border border-info rounded-pill p-2 mt-3 col-6 '>
 							<Galaxy

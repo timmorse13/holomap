@@ -5,6 +5,7 @@ div#carousel {
 	font-size: 0;
 	/* margin-bottom: 3rem; */
 	/* overflow: hidden; */
+  z-index: 2000;
 }
 figure#spinner {
 	transform-style: preserve-3d;
@@ -60,3 +61,5 @@ div#carousel ~ span:hover {
 	color: #888;
 	cursor: pointer;
 }
+
+
