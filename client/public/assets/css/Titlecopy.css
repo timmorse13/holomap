@@ -86,13 +86,14 @@
 
 /* General styles and layout */
 body {
+	/* position: relative; */
 	/* background: #000; */
 }
 
 .starwars-demo {
 	height: 17em;
 	left: 50%;
-	position: absolute;
+	/* position: absolute; */
 	top: 53%;
 	transform: translate(-50%, -50%);
 	width: 34em;
@@ -129,8 +130,10 @@ img {
 	right: -2em;
 	text-align: center;
 	text-transform: uppercase;
-	top: -1.4em;
+	top: -2em;
 }
+
+
 
 /*** Media queries for adjusting to different screen sizes ***/
 

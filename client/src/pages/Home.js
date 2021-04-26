@@ -8,6 +8,9 @@ import Galaxy from '../components/Galaxy/Galaxy';
 import LevelThree from '../components/Planet/Levelthree';
 import Modal from '../components/Modal';
 import Orbit from '../components/Orbit/Orbit';
+import Characsel from '../components/Carousel'
+import Democarousel from '../components/Carousel'
+
 // import { debounce } from 'debounce';
 // import Surface
 
@@ -85,8 +88,10 @@ function Home() {
 				// style={BUTTON_WRAPPER_STYLES}
 				onClick={() => console.log('clicked')}
 			>
-				<button onClick={() => setIsOpen(true)}>HOLIDEX</button>
+				<button onClick={() => setIsOpen(true)}>HOLODEX</button>
 
+				{/* <a href="/Open"><button>Open</button></a> */}
+					<a href="/profile"><button>Profile</button></a>
 				<Modal open={isOpen} onClose={() => setIsOpen(false)}>
 
 				<div className='viewport container border border-5 border-info mt-4 shadow-lg'>
@@ -97,6 +102,7 @@ function Home() {
 								surface={surface}
 								characters={characters}
 							/>
+							{/* <Characsel /> */}
 							{/* <Orbit/> */}
 						</main>
 						<div className='Two border border-info rounded-pill p-2 mt-3 col-6 '>
@@ -121,6 +127,8 @@ function Home() {
 											key={character.name}
 											name={character.name}
 											image={character.image}
+											description={character.description}
+											birth_year={character.birth_year}
 										/>
 									);
 								})

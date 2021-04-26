@@ -13,7 +13,10 @@ const Open = () => {
             <Suspense fallback={<div>A long time ago, in a galaxy far, far away...</div>}>
                 <ByLine/>
             </Suspense>
-            
+            <div>
+            <a href="/profile"><button>Profile</button></a><br />
+            <a href="/Holodex"><button>Holodex</button></a>
+            </div>
         </div>
     )
 }

@@ -6,18 +6,21 @@ import openApp from "./pages/Open"
 import Levelthree from "./pages/Levelthree"
 import './App.css'
 import Profile from "./pages/Profile";
-
+import Search from "./pages/Archive";
+import Trials from "./pages/Trials"
 function App() {
   return(
     <Router>
       <div className='container-fluid'>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/open" component={openApp} />
+          <Route exact path="/Holodex" component={Home} />
+          <Route exact path="/" component={openApp} />
           {/* <Route exact path="/planet/levelone/:name" component={Levelone} /> */}
           <Route exact path="/planet/leveltwo/:name" component={Leveltwo} />
           <Route exact path="/planet/levelthree/:name" component={Levelthree} />
           <Route exact path="/profile" component={Profile} />
+          <Route exact path="/Archive" component={Search} />
+          <Route exact path="/Trials" component={Trials} />
 
         </Switch>
       </div>

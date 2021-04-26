@@ -1,20 +1,25 @@
 import React from "react";
+import { Carousel } from 'react-responsive-carousel';
 
-function LevelThree({ name, image }) {
+function LevelThree({ name, image, description, birth_year }) {
     return (
     <div>
+        {/* <Carousel> */}
         
         {image ? (
         <div>
         
-        {name} 
+        <img src= {`/${image}`} alt='' />
+        <h3>Name: {name}</h3> <br />
+        Birth year: {birth_year} < br/>
         {/* {image} */}
 
-        <img src= {`/${image}`} alt='' />
+        {description} <br />
+        <br />
         
         </div>
         ): (<div></div>)}
-        
+        {/* </Carousel> */}
     </div>
     )
 }

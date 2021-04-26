@@ -67,8 +67,8 @@ document.body.style.background = 'url(' + canvas.toDataURL('image/png') + ')';
     }, [])
     
     return (
-        <div>
-            <div className="starwars-demo">
+        <div style= {{position:"relative", alignItems: "center", marginTop: "27em"}}>
+            <div className="starwars-demo" >
                 <img src="//cssanimation.rocks/demo/starwars/images/star.svg" alt="Star" className="star"></img>
                     <img src="//cssanimation.rocks/demo/starwars/images/wars.svg" alt="Wars" className="wars"></img>
             </div>
