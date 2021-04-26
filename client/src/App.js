@@ -6,14 +6,13 @@ import openApp from "./pages/Open"
 import Levelthree from "./pages/Levelthree"
 import './App.css'
 import Profile from "./pages/Profile";
-import Login from "./pages/Login";
 
 function App() {
   return(
     <Router>
       <div className='container-fluid'>
         <Switch>
-          {/* <Route exact path="/" component={Home} /> */}
+          <Route exact path="/" component={Home} />
           <Route exact path="/open" component={openApp} />
           {/* <Route exact path="/planet/levelone/:name" component={Levelone} /> */}
           <Route exact path="/planet/leveltwo/:name" component={Leveltwo} />

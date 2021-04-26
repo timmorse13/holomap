@@ -1,35 +1,76 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-function LoginForm({ Login, error }) {
-    const [details, setDetails] = useState({username: "", email: "", password: ""});
+function LoginForm() {
+    const [loginState, setLoginState] = useState({
+        email: "",
+        password: "",
+    });
 
-    const submitHandler = e => {
-        e.preventDefault();
+    useEffect(() => {}, [loginState]);
 
-        Login(details);
+    function loginUser() {
+        console.log('Logging in user.');
+        console.log(loginState);
+        fetch('/api/users/login', {
+            method: "POST",
+            body: JSON.stringify(loginState),
+            headers: { 'Content-Type': 'application/json' },
+        }).then((response) => {
+            console.log(response);
+            if (response.status === 422 || response.status === 400) {
+                alert("Failed to login!");
+            } else if (response.status === 200) {
+                console.log('User logged in!');
+                document.location.replace('/profile');
+            }
+            return response;
+        }).then((data) => {
+            return data;
+        });
     }
 
     return (
-        <form onSubmit={submitHandler}>
-            <div className="form-inner">
-                <h2>Login</h2>
-                {(error !== "") ? ( <div className="error">{error}</div> ) : ""}
-                <div className="form-group">
-                    <label htmlFor="username">UserName: </label>
-                    <input type="text" name="username" id="username" onChange={e => setDetails({...details, username: e.target.value})} value={details.username} />
+        <div className="modal fade bd-example-modal-lg login" tabIndex="-1" role="dialog">
+            <div className="modal-dialog modal-lg">
+                <div className="modal-content">
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                        <h3 className="mt-3">Login</h3>
+                        <form className="form d-flex justify-content-center align-items-center flex-column mb-1">
+                            <input 
+                                name="username" 
+                                type="text" 
+                                placeholder="Email" 
+                                className="text-center"
+                                onChange={(e) => {
+                                    setLoginState({
+                                        ...loginState,
+                                        email: e.target.value
+                                    })
+                                }}
+                            />
+                            <input 
+                                name="password"
+                                type="password"
+                                placeholder="Password"
+                                className="text-center"
+                                onChange={(e) => {
+                                    setLoginState({
+                                        ...loginState,
+                                        password: e.target.value
+                                    })
+                                }}
+                            />
+                            <button onClick={(e) => {
+                                e.preventDefault();
+                                loginUser();
+                            }} className="mb-3 mt-2">Login</button>
+                        </form>
+                    </div>
                 </div>
-                <div className="form-group">
-                    <label htmlFor="email">Email: </label>
-                    <input type="email" name="email" id="email" onChange={e => setDetails({...details, email: e.target.value})} value={details.email} />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="password">Password: </label>
-                    <input type="password" name="password" id="password" onChange={e => setDetails({...details, password: e.target.value})} value={details.password} />
-                </div>
-                <input type="submit" value="Login" />
             </div>
-        </form>
-    )
+        </div>
+    );
+
 }
 
 export default LoginForm;

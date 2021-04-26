@@ -2,7 +2,25 @@ import React from 'react';
 
 
 function Profile(){
+
+  const logout = () => {
+    console.log('Logging out user!');
+    fetch('/api/users/logout',{
+        method: 'POST',
+        body: JSON.stringify({}),
+        headers: { 'Content-Type': 'application/json' }
+    }).then((response)=>{
+        
+        return response;
+    }).then((data)=>{
+        document.location.replace('/profile');
+        return data;
+    });
+}
+
 return(
+
+// TERNARY OPERATOR NEEDED FOR IF USER IS LOGGED IN OR NOT!! NEED TO USE REQ.SESSION FOR THIS?
 <div>
 {/* nav bar  */}
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -38,6 +56,7 @@ return(
               <h4>Wookie Man 420</h4>
               <p className="text-secondary mb-1">Jedi Master</p>
               <p className="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+              <button className="align-center mb-3" onClick={logout}>Log Out</button>
             </div>
       </div>
     </div>
