@@ -24,7 +24,7 @@ const ByLine = () => {
         }
     }, [])
     return (
-        <div>
+        <div >
             <div className="starwars-demo">
                 <h2 className="byline" id="byline">HOLODEX</h2>
             </div>

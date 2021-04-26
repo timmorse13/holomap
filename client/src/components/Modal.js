@@ -1,30 +1,30 @@
-import React from 'react'
-import ReactDom from 'react-dom'
+import React from 'react';
+import ReactDom from 'react-dom';
 // import SpaceBackground from '../src/components/Space Background/SpaceBackground'
 import { debounce } from 'debounce';
-import Open from '../components/Open/Open'
+import Open from '../components/Open/Open';
 
 const MODAL_STYLES = {
-  position: 'absolute',
-  width: '100%',
-  HEIGHT: '100%',
-//   top: '50%',
-//   left: '50%',
-//   transform: 'translate(-50%, -50%)',
-//   backgroundColor: '#FFF',
-//   padding: '50px',
-  zIndex: 1000
-}
+	position: 'absolute',
+	width: '100%',
+	HEIGHT: '100%',
+	//   top: '50%',
+	//   left: '50%',
+	//   transform: 'translate(-50%, -50%)',
+	//   backgroundColor: '#FFF',
+	//   padding: '50px',
+	zIndex: 1000,
+};
 
 const OVERLAY_STYLES = {
-  position: 'fixed',
-  top: 2,
-  left: 2,
-  right: 8,
-  bottom: 8,
-  backgroundColor: 'rgba(0, 0, 0, .7)',
-  zIndex: -1000
-}
+	position: 'fixed',
+	// top: 2,
+	// left: 2,
+	// right: 8,
+	// bottom: 8,
+	backgroundColor: 'rgba(0, 0, 0, .7)',
+	zIndex: -1000,
+};
 
 // **************** START - LIGHT SPEED SCRIPT ********************* //
 
@@ -190,7 +190,7 @@ class JumpToHyperspace {
 			initiating: true,
 			initiateTimestamp: new Date().getTime(),
 		};
-		
+
 		TweenMax.to(this.STATE, 0.25, {
 			velocity: VELOCITY_INIT_INC,
 			bgAlpha: 0.3,
@@ -252,7 +252,7 @@ class JumpToHyperspace {
 		this.canvas.addEventListener('touchstart', this.initiate);
 		this.canvas.addEventListener('mouseup', this.enter);
 		this.canvas.addEventListener('touchend', this.enter);
-		<Open />
+		<Open />;
 	};
 	setup = () => {
 		this.context.lineCap = 'round';
@@ -269,7 +269,6 @@ class JumpToHyperspace {
 	click = (e) => {
 		this.canvas.addEventListener('click', this.initiate);
 	};
-
 }
 window.myJump = new JumpToHyperspace();
 window.addEventListener(
@@ -281,27 +280,23 @@ window.addEventListener(
 
 // **************** END - LIGHT SPEED SCRIPT ********************* //
 
-
-
-
 export default function Modal({ open, children, onClose }) {
-  if (!open) return null
+	if (!open) return null;
 
-  return ReactDom.createPortal(
-    <>
-	
-      <div style={OVERLAY_STYLES} />
-      <div style={MODAL_STYLES}  >
-	
-			  {/* <Open /> */}
-		  {/* <Open 
+	return ReactDom.createPortal(
+		<div className='row p-5'>
+			<div className='' style={OVERLAY_STYLES} />
+			<div className='' style={MODAL_STYLES}>
+				{/* <Open /> */}
+				{/* <Open 
 		/> */}
-        <button onClick={onClose}>Close Holodex</button>
-		
-        {children}
+				<button className='btn btn-outline-warning' onClick={onClose}>
+					Close Holodex
+				</button>
 
-      </div>
-    </>,
-    document.getElementById('portal')
-  )
+				{children}
+			</div>
+		</div>,
+		document.getElementById('portal')
+	);
 }

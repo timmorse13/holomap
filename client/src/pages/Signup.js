@@ -125,7 +125,7 @@ function SignupForm() {
                             })
                         }}
                     />
-                    <button className="mb-3 mt-2" onClick={signupUser}>Sign Up</button>
+                    <button className="mb-3 mt-2 btn btn-outline-warning" onClick={signupUser}>Sign Up</button>
                 </form>
             </div>
   );

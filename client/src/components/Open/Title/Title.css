@@ -90,17 +90,17 @@ body {
 }
 
 .starwars-demo {
-	height: 17em;
+	/* height: 17em; */
 	left: 50%;
 	position: absolute;
-	top: 53%;
+	top: 100%;
 	transform: translate(-50%, -50%);
 	width: 34em;
 }
 
 .byline span {
 	display: inline-block;
-	padding-top: 10rem;
+	padding-top: 11.5rem;
 }
 
 img {
