@@ -8,9 +8,9 @@ function LevelTwo({ name, characters, diameter, rotation_period, orbital_period,
             {!surface ? (
                 <div>
             <h3>{name}</h3> <br />
-            <h5>Diameter: {diameter} km</h5><br/>
-            <h5>Rotation period: {rotation_period}</h5> days<br /> 
-            <h5>Orbital period: {orbital_period} yrs</h5><br /><br />  
+            Diameter: {diameter} km<br/>
+            Rotation period: {rotation_period} days<br /> 
+            Orbital period: {orbital_period} yrs<br/><br />  
             {planet_info} <br /> 
             <br />
             </div>
