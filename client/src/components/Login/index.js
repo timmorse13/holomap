@@ -1,77 +1,76 @@
-const loginFormHandler = async (event) => {
+import React, { useState, useEffect } from 'react';
 
-    event.preventDefault();
-  
-    // Collect values from the login form
-    const email = document.querySelector('#email-login').value.trim();
+function LoginForm() {
+    const [loginState, setLoginState] = useState({
+        email: "",
+        password: "",
+    });
 
-    const password = document.querySelector('#password-login').value.trim();
-  
-    if (email && password) {
-      // Send a POST request to the API endpoint
-      const response = await fetch('/api/users/login', {
-        method: 'POST',
+    useEffect(() => {}, [loginState]);
 
-        body: JSON.stringify({ email, password }),
-
-        headers: { 'Content-Type': 'application/json' },
-
-      });
-  
-      if (response.ok) {
-        // If successful, redirect the browser to the profile page
-
-        document.location.replace('/');
-      } else {
-
-        alert(response.statusText);
-
-      }
+    function loginUser() {
+        console.log('Logging in user.');
+        console.log(loginState);
+        fetch('/api/users/login', {
+            method: "POST",
+            body: JSON.stringify(loginState),
+            headers: { 'Content-Type': 'application/json' },
+        }).then((response) => {
+            console.log(response);
+            if (response.status === 422 || response.status === 400) {
+                alert("Failed to login!");
+            } else if (response.status === 200) {
+                console.log('User logged in!');
+                document.location.replace('/profile');
+            }
+            return response;
+        }).then((data) => {
+            return data;
+        });
     }
-  };
-  
-  const signupFormHandler = async (event) => {
-    
-    event.preventDefault();
-  
-    const username = document.querySelector('#name-signup').value.trim();
 
-    const email = document.querySelector('#email-signup').value.trim();
+    return (
+        <div className="modal fade bd-example-modal-lg login" tabIndex="-1" role="dialog">
+            <div className="modal-dialog modal-lg">
+                <div className="modal-content">
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                        <h3 className="mt-3">Login</h3>
+                        <form className="form d-flex justify-content-center align-items-center flex-column mb-1">
+                            <input 
+                                name="username" 
+                                type="text" 
+                                placeholder="Email" 
+                                className="text-center"
+                                onChange={(e) => {
+                                    setLoginState({
+                                        ...loginState,
+                                        email: e.target.value
+                                    })
+                                }}
+                            />
+                            <input 
+                                name="password"
+                                type="password"
+                                placeholder="Password"
+                                className="text-center"
+                                onChange={(e) => {
+                                    setLoginState({
+                                        ...loginState,
+                                        password: e.target.value
+                                    })
+                                }}
+                            />
+                            <button onClick={(e) => {
+                                e.preventDefault();
+                                loginUser();
+                            }} className="mb-3 mt-2">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
 
-    const password = document.querySelector('#password-signup').value.trim();
-  
-    if (username && email && password) {
+}
 
-      const response = await fetch('/api/users', {
-
-        method: 'POST',
-
-        body: JSON.stringify({ username, email, password }),
-
-        headers: { 'Content-Type': 'application/json' },
-
-      });
-  
-      if (response.ok) {
-
-        document.location.replace('/');
-
-      } else {
-
-        alert(response.statusText);
-
-      }
-    }
-  };
-  
-  document
-
-    .querySelector('.login-form')
-
-    .addEventListener('submit', loginFormHandler);
-  
-  document
-  
-    .querySelector('.signup-form')
-
-    .addEventListener('submit', signupFormHandler);
+export default LoginForm;

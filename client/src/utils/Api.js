@@ -25,17 +25,6 @@ export default {
     return axios.get("/api/users/" + id);
   },
 
-  newUser: function() {
-    return axios.post("api/users/");
-  },
-
-  returningUser: function() {
-    return axios.post("api/users/login");
-  },
-
-  logoutUser: function() {
-    return axios.post("api/users/logout");
-  }
 
 
 
