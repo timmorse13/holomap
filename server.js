@@ -21,6 +21,10 @@ const sess = {
 };
 app.use(session(sess));
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+
 app.use(routes);
 
 // Connect to the database before starting the Express.js server
