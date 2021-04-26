@@ -27,9 +27,9 @@ function Leveltwo() {
 			<LevelTwo img={planet.img} />
 			<LevelTwo
 				name={planet.name}
-				diameter={planet.diameter}
-				rotation_period={planet.rotation_period}
-				orbital_period={planet.orbital_period}
+				// diameter={planet.diameter}
+				// rotation_period={planet.rotation_period}
+				// orbital_period={planet.orbital_period}
 				planet_info={planet.planet_info}
 			/>
 			{/* {planet.name} <br />

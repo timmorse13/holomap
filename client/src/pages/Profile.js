@@ -22,17 +22,17 @@ function Profile(){
     });
 }
 
-const checkLoggedIn = () => {
-  fetch('/api/users/check', {
-    method: 'GET',
-    body: JSON.stringify({}),
-    headers: { 'Content-Type': 'application/json' }
-  }).then((response) => {
-    return response;
-  })
-} 
+// const checkLoggedIn = () => {
+//   fetch('/api/users/check', {
+//     method: 'GET',
+//     body: JSON.stringify({}),
+//     headers: { 'Content-Type': 'application/json' }
+//   }).then((response) => {
+//     return response;
+//   })
+// } 
 
-
+return (
 <div>
 {/* nav bar  */}
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -44,7 +44,7 @@ const checkLoggedIn = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/Home.js">Home</a>
+            <a className="nav-link active" aria-current="page" href="/">Home</a>
           </li>
         </ul>
         <form className="d-flex">
@@ -118,6 +118,6 @@ const checkLoggedIn = () => {
 
         
 
-}
+)}
 
 export default Profile;
