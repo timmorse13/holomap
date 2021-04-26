@@ -22,17 +22,17 @@ function Profile(){
     });
 }
 
-const checkLoggedIn = () => {
-  fetch('/api/users/check', {
-    method: 'GET',
-    body: JSON.stringify({}),
-    headers: { 'Content-Type': 'application/json' }
-  }).then((response) => {
-    return response;
-  })
-} 
+// const checkLoggedIn = () => {
+//   fetch('/api/users/check', {
+//     method: 'GET',
+//     body: JSON.stringify({}),
+//     headers: { 'Content-Type': 'application/json' }
+//   }).then((response) => {
+//     return response;
+//   })
+// } 
 
-
+return (
 <div>
 {/* nav bar  */}
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -118,6 +118,6 @@ const checkLoggedIn = () => {
 
         
 
-}
+)}
 
 export default Profile;
