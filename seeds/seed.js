@@ -9,7 +9,7 @@ const planetData = require('./planetData.json');
 const characterData = require('./characterData.json');
 
 const seedDatabase = async () => {
-  await sequelize.sync({ force: false });
+  await sequelize.sync({ force: true });
 
   const users = await User.bulkCreate(userData, {
     individualHooks: true,
