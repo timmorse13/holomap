@@ -11,6 +11,7 @@ router.route("/:id")
 
 router.post('/login', userController.login);
 router.post('/logout', userController.logout);
+router.get('/check', userController.checkLoggedIn);
 
 
 module.exports = router;

@@ -1,3 +1,4 @@
+const { Session } = require("express-session");
 const { User } = require("../models")
 
 module.exports = {
@@ -36,6 +37,13 @@ module.exports = {
             }
         })
         .catch(err => res.status(422).json(err));
+    },
+    checkLoggedIn: function(req, res) {
+        if (Session.logged_in) {
+            return true;
+        } else {
+            return false;
+        }
     },
     logout: function(req, res) {
         console.log('Session Destroyed.');
