@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/holomap/static/css/main.4e789afa.chunk.css",
+    "main.js": "/holomap/static/js/main.323cdf3c.chunk.js",
+    "main.js.map": "/holomap/static/js/main.323cdf3c.chunk.js.map",
+    "runtime-main.js": "/holomap/static/js/runtime-main.89b72a4c.js",
+    "runtime-main.js.map": "/holomap/static/js/runtime-main.89b72a4c.js.map",
+    "static/css/2.bc1c69b2.chunk.css": "/holomap/static/css/2.bc1c69b2.chunk.css",
+    "static/js/2.7a3ee81e.chunk.js": "/holomap/static/js/2.7a3ee81e.chunk.js",
+    "static/js/2.7a3ee81e.chunk.js.map": "/holomap/static/js/2.7a3ee81e.chunk.js.map",
+    "static/js/3.585191a4.chunk.js": "/holomap/static/js/3.585191a4.chunk.js",
+    "static/js/3.585191a4.chunk.js.map": "/holomap/static/js/3.585191a4.chunk.js.map",
+    "index.html": "/holomap/index.html",
+    "static/css/2.bc1c69b2.chunk.css.map": "/holomap/static/css/2.bc1c69b2.chunk.css.map",
+    "static/css/main.4e789afa.chunk.css.map": "/holomap/static/css/main.4e789afa.chunk.css.map",
+    "static/js/2.7a3ee81e.chunk.js.LICENSE.txt": "/holomap/static/js/2.7a3ee81e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/holomap/static/media/Starjedi.8d577dc1.ttf",
+    "static/media/Galaxy.css": "/holomap/static/media/Tatooine_display.8cbedb32.png",
+    "static/media/Orbit.css": "/holomap/static/media/clouds.e2fa9357.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89b72a4c.js",
+    "static/css/2.bc1c69b2.chunk.css",
+    "static/js/2.7a3ee81e.chunk.js",
+    "static/css/main.4e789afa.chunk.css",
+    "static/js/main.323cdf3c.chunk.js"
+  ]
+}
