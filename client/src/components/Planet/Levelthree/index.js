@@ -1,5 +1,4 @@
 import React from "react";
-import { Carousel } from 'react-responsive-carousel';
 
 function LevelThree({ name, image, description, birth_year }) {
     return (

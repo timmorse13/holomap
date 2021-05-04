@@ -14,6 +14,9 @@ const Open = () => {
 				<a href='/Holodex'>
 					<button className='btn btn-outline-warning'>Holodex</button>
 				</a>
+				<a href='/Archive'>
+					<button className='btn btn-outline-warning'>Archives</button>
+				</a>
 			</div>
 			<Suspense
 				fallback={
