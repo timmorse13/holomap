@@ -9,7 +9,7 @@ import LevelThree from '../components/Planet/Levelthree';
 import Modal from '../components/Modal';
 import Charchive from '../components/Archive';
 import Planetarchive from '../components/PlanetArchive'
-
+import Search from '../components/Search'
 
 const BUTTON_WRAPPER_STYLES = {
 	// position: 'relative',
@@ -69,7 +69,7 @@ function Archive() {
 				<div className='viewport container border border-5 border-info mt-3 p-2 shadow-lg'>
 					<div className='row m-3 justify-content-between'>
 						<main className='One border border-info rounded-top col-12' style={{color: "white", textAlign: "center"}}>
-
+                        
 							{characters ? (
 								characters.map((character) => {
 									return (
@@ -91,6 +91,7 @@ function Archive() {
 							) : (
 								<div></div>
 							)}
+                            
                                 {planets ? (
                                     planets.map((plan) => {
                                         return (
