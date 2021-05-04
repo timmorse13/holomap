@@ -128,7 +128,6 @@ function Home() {
 											key={character.name}
 											name={character.name}
 											image={character.image}
-											description={character.description}
 											birth_year={character.birth_year}
 										/>
 									);
