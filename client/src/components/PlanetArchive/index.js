@@ -3,7 +3,7 @@ import React from "react";
 function Planetarchive({ name, description, rotation_period, orbital_period, diameter, climate, gravity, terrain, surface_water, population, planet_info, img }) {
     return (
     <div>
-        Name: {name}<br />
+        <h3>Planet Name: {name}</h3><br />
         Rotation Period: {rotation_period}<br />
         Orbital Period: {orbital_period}<br />
         Diameter: {diameter}<br />
@@ -14,9 +14,8 @@ function Planetarchive({ name, description, rotation_period, orbital_period, dia
         Population: {population}<br />
         Description: {description}<br />
         Planet Info: {planet_info}<br />
-        <img src={`/${img}`} alt='' /><br />
-        
-        
+        <img src={`/${img}`} alt='' /><br />< br />
+    
     </div>
     )
 }

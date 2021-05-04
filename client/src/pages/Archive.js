@@ -9,8 +9,7 @@ import LevelThree from '../components/Planet/Levelthree';
 import Modal from '../components/Modal';
 import Charchive from '../components/Archive';
 import Planetarchive from '../components/PlanetArchive'
-// import { debounce } from 'debounce';
-// import Surface
+
 
 const BUTTON_WRAPPER_STYLES = {
 	// position: 'relative',
@@ -59,18 +58,6 @@ function Archive() {
 	};
 
 
-	// if(loading) {
-	//   return <p>Data is loading...</p>
-	// }
-
-	// const loadPlanets = () => {
-	//   API.getPlanets()
-	//   .then(res => {
-	//     setPlanets(res.data)
-	//   })
-	//   .catch(() => setPlanets([]))
-	// }
-
 	return (
 		<div className='row justify-content-center'>
 			<div className='p-5'
@@ -85,29 +72,8 @@ function Archive() {
 
 				<div className='viewport container border border-5 border-info mt-3 p-2 shadow-lg'>
 					<div className='row m-3 justify-content-between'>
-						<main className='One border border-info rounded-top col-12'>
-							<LevelTwo
-								img={planets.img}
-								surface={surface}
-								characters={characters}
-							/>
-							{/* <Characsel /> */}
-							{/* <Orbit/> */}
-						</main>
-						<div className='Two border border-info rounded-pill p-2 mt-3 col-6 '>
+						<main className='One border border-info rounded-top col-12' style={{color: "white", textAlign: "center"}}>
 
-						</div>
-						<div className='Three border border-info overflow-auto p-3 mt-3  col-5'>
-							<LevelTwo
-								name={planets.name}
-								diameter={planets.diameter}
-								rotation_period={planets.rotation_period}
-								orbital_period={planets.orbital_period}
-								planet_info={planets.planet_info}
-							/>
-
-						</div>
-                        <div>
 							{characters ? (
 								characters.map((character) => {
 									return (
@@ -129,8 +95,6 @@ function Archive() {
 							) : (
 								<div></div>
 							)}
-                            </div>
-                            <div>
                                 {planets ? (
                                     planets.map((plan) => {
                                         return (
@@ -152,6 +116,12 @@ function Archive() {
                                         );
                                     })
                                 ) : (<div></div>)}
+						</main>
+
+
+                        <div>
+                            </div>
+                            <div>
                             </div>
 					</div>
 				</div>

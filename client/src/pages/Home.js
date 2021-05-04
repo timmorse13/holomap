@@ -92,6 +92,7 @@ function Home() {
 
 				{/* <a href="/Open"><button>Open</button></a> */}
 					<a href="/profile"><button className='btn btn-outline-warning'>Profile</button></a>
+					<a href="/archive"><button className='btn btn-outline-warning'>Archives</button></a>
 				<Modal open={isOpen} onClose={() => setIsOpen(false)}>
 
 				<div className='viewport container border border-5 border-info mt-3 p-2 shadow-lg'>
