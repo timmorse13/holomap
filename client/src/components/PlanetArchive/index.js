@@ -4,6 +4,7 @@ function Planetarchive({ name, description, rotation_period, orbital_period, dia
     return (
     <div>
         <h3>Planet Name: {name}</h3><br />
+        {img ? (<img src={`/${img}`}  style={{height:"200px", width: "200px"}} alt=''/>) : (<div />) }<br />< br />
         Rotation Period: {rotation_period}<br />
         Orbital Period: {orbital_period}<br />
         Diameter: {diameter}<br />
@@ -13,8 +14,7 @@ function Planetarchive({ name, description, rotation_period, orbital_period, dia
         Surface Water: {surface_water}<br />
         Population: {population}<br />
         Description: {description}<br />
-        Planet Info: {planet_info}<br />
-        <img src={`/${img}`} alt='' /><br />< br />
+        Planet Info: {planet_info}<br /><br />
     
     </div>
     )

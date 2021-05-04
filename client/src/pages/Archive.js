@@ -27,15 +27,11 @@ function Archive() {
 	const [planet, setPlanet] = useState([]);
 	const [planets, setPlanets] = useState([]);
 	const [characters, setCharacters] = useState([]);
-	const [surface, setSurface] = useState('');
-	// const [loading, setLoading] = useState(false)
 	const [isOpen, setIsOpen] = useState(false);
 
 	useEffect(() => {
 		getPlanets();
 		getCharacters();
-		// setLoading(true)
-		// loadPlanets()
 	}, [planet]);
 
 	const getPlanets = () => {
