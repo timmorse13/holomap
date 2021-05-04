@@ -6,12 +6,10 @@ import openApp from "./pages/Open"
 import Levelthree from "./pages/Levelthree"
 import './App.css'
 import Profile from "./pages/Profile";
-import Search from "./pages/Archive";
 import Trials from "./pages/Trials"
-
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
-
+import Archive from "./pages/Archive"
 
 function App() {
   return(
@@ -24,18 +22,12 @@ function App() {
           <Route exact path="/planet/leveltwo/:name" component={Leveltwo} />
           <Route exact path="/planet/levelthree/:name" component={Levelthree} />
           <Route exact path="/profile" component={Profile} />
-          <Route exact path="/Archive" component={Search} />
+          <Route exact path="/Archive" component={Archive} />
           <Route exact path="/Trials" component={Trials} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/Signup" component={Signup} />
 
         </Switch>
-      </div>
-      <div>
-
-      </div>
-      <div>
-
       </div>
 
     </Router>
