@@ -9,7 +9,7 @@ function Charchive({ name, image, description, birth_year, mass, height, planet_
         Birth year: {birth_year} < br/>
         {description} <br />
         Mass: {mass}<br />
-        Planet Name: {planet_name} <br />
+        Tracked Location: {planet_name} <br />
         Height: {height} <br />
         Eye Color: {eye_color}<br />
         Skin Color: {skin_color}<br />

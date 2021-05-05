@@ -2,7 +2,7 @@ import React from "react";
 
 function LevelThree({ name, image, description, birth_year }) {
     return (
-    <div>
+    <div className="" style={{textAlign:"center"}}>
         {/* <Carousel> */}
         
         {image ? (
@@ -13,7 +13,6 @@ function LevelThree({ name, image, description, birth_year }) {
         Birth year: {birth_year} < br/>
         {/* {image} */}
 
-        {description} <br />
         <br />
         
         </div>
